@@ -36,34 +36,34 @@ Gain a foundational understanding of operating systems and cybersecurity, includ
 **Windows CLI (Command Prompt / PowerShell)**  
 | Category                     | Command      | Description                  |
 |------------------------------|--------------|------------------------------|
-| Navigation & File Inspection | `cd`         | Change directory             |
-| Navigation & File Inspection | `dir`        | List files and directories   |
-| Navigation & File Inspection | `dir /s`     | List all files recursively   |
-| Navigation & File Inspection | `type`       | Display file contents        |
-| System Identification        | `whoami`     | Display current user         |
-| System Identification        | `hostname`   | Show system name             |
-| File Operations              | `copy`       | Copy files                   |
-| File Operations              | `move`       | Move/rename files            |
-| File Operations              | `del`        | Delete files                 |
-| System & Network Information | `ipconfig`   | View network configuration   |
-| System & Network Information | `tasklist`   | View running processes       |
-| System & Network Information | `systeminfo` | Detailed system information  | 
+| Navigation & File Inspection | cd           | Change directory             |
+| Navigation & File Inspection | dir          | List files and directories   |
+| Navigation & File Inspection | dir /s       | List all files recursively   |
+| Navigation & File Inspection | type         | Display file contents        |
+| System Identification        | whoami       | Display current user         |
+| System Identification        | hostname     | Show system name             |
+| File Operations              | copy         | Copy files                   |
+| File Operations              | move         | Move/rename files            |
+| File Operations              | del          | Delete files                 |
+| System & Network Information | ipconfig     | View network configuration   |
+| System & Network Information | tasklist     | View running processes       |
+| System & Network Information | systeminfo   | Detailed system information  |
 
 **Linux CLI**   
-| Category                     | Command  | Description                          |
-|------------------------------|----------|--------------------------------------|
-| Navigation & File Inspection | `cd`     | Change directory                     |
-| Navigation & File Inspection | `ls`     | List files and directories           |
-| Navigation & File Inspection | `pwd`    | Show current directory               |
-| Navigation & File Inspection | `cat`    | Display file contents                |
-| Navigation & File Inspection | `find`   | Search for files and directories     |
-| System Investigation         | `whoami` | Display current user                 |
-| System Investigation         | `uname`  | System/kernel information            |
-| System Investigation         | `df -h`  | Disk usage (human-readable)          |
-| File Operations              | `cp`     | Copy files                           |
-| File Operations              | `mv`     | Move/rename files                    |
-| File Operations              | `rm`     | Remove files                         |
-| File Operations              | `touch`  | Create files                         |
+| Category                     | Command | Description                          |
+|------------------------------|---------|--------------------------------------|
+| Navigation & File Inspection | cd      | Change directory                     |
+| Navigation & File Inspection | ls      | List files and directories           |
+| Navigation & File Inspection | pwd     | Show current directory               |
+| Navigation & File Inspection | cat     | Display file contents                |
+| Navigation & File Inspection | find    | Search for files and directories     |
+| System Investigation         | whoami  | Display current user                 |
+| System Investigation         | uname   | System/kernel information            |
+| System Investigation         | df -h   | Disk usage (human-readable)          |
+| File Operations              | cp      | Copy files                           |
+| File Operations              | mv      | Move/rename files                    |
+| File Operations              | rm      | Remove files                         |
+| File Operations              | touch   | Create files                         |
 
 5. Operating System Security  
 - **CIA Triad**:
