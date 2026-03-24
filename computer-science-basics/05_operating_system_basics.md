@@ -6,7 +6,6 @@ Skill Level: Beginner / Foundation
 Focus Area: Cybersecurity Fundamentals
 
 ## Objective
-
 Gain a foundational understanding of operating systems and cybersecurity, including:
 
 - Core functions of operating systems (process, memory, and file management)
@@ -33,42 +32,43 @@ Gain a foundational understanding of operating systems and cybersecurity, includ
 - File system hierarchy (/, /home, /etc, /var, /bin, /tmp)
 - Permissions model (read, write, execute)
 
-4. Command Line Interface (CLI)
-**Windows CLI (Command Prompt / PowerShell)**
-- Navigation & File Inspection:
-cd – change directory
-dir – list files and directories
-dir /s – list all files recursively
-type – display file contents
-- System Identification:
-whoami – display current user
-hostname – show system name
-- File Operations:
-copy – copy files
-move – move/rename files
-del – delete files
-- System & Network Information:
-ipconfig – view network configuration
-tasklist – view running processes
-systeminfo – detailed system information
-**Linux CLI**
-- Navigation & File Inspection:
-cd – change directory
-ls – list files and directories
-pwd – show current directory
-cat – display file contents
-find – search for files and directories
-- System Investigation:
-whoami – display current user
-uname – system/kernel information
-df -h – disk usage in human-readable format
-- File Operations:
-cp – copy files
-mv – move/rename files
-rm – remove files
-touch – create files
+4. Command Line Interface (CLI)  
+**Windows CLI (Command Prompt / PowerShell)**  
+- Navigation & File Inspection:  
+cd – change directory  
+dir – list files and directories  
+dir /s – list all files recursively  
+type – display file contents  
+- System Identification:  
+whoami – display current user  
+hostname – show system name  
+- File Operations:  
+copy – copy files  
+move – move/rename files  
+del – delete files  
+- System & Network Information:  
+ipconfig – view network configuration  
+tasklist – view running processes  
+systeminfo – detailed system information    
 
-5. Operating System Security
+**Linux CLI**   
+- Navigation & File Inspection:  
+cd – change directory  
+ls – list files and directories  
+pwd – show current directory  
+cat – display file contents  
+find – search for files and directories  
+- System Investigation:  
+whoami – display current user  
+uname – system/kernel information  
+df -h – disk usage in human-readable format  
+- File Operations:  
+cp – copy files  
+mv – move/rename files  
+rm – remove files  
+touch – create files  
+
+5. Operating System Security  
 - **CIA Triad**:
     - Confidentiality: Protecting sensitive information from unauthorized access
     - Integrity: Ensuring data is accurate and unmodified
