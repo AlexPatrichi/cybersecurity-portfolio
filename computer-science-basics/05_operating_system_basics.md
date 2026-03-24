@@ -34,39 +34,36 @@ Gain a foundational understanding of operating systems and cybersecurity, includ
 
 4. Command Line Interface (CLI)  
 **Windows CLI (Command Prompt / PowerShell)**  
-- Navigation & File Inspection:  
-cd – change directory  
-dir – list files and directories  
-dir /s – list all files recursively  
-type – display file contents  
-- System Identification:  
-whoami – display current user  
-hostname – show system name  
-- File Operations:  
-copy – copy files  
-move – move/rename files  
-del – delete files  
-- System & Network Information:  
-ipconfig – view network configuration  
-tasklist – view running processes  
-systeminfo – detailed system information    
+| Category                         | Command      | Description                          |  
+|----------------------------------|--------------|--------------------------------------|  
+| Navigation & File Inspection     | `cd`         | Change directory                     |  
+| Navigation & File Inspection     | `dir`        | List files and directories           |  
+| Navigation & File Inspection     | `dir /s`     | List all files recursively           |  
+| Navigation & File Inspection     | `type`       | Display file contents                |  
+| System Identification            | `whoami`     | Display current user                 |  
+| System Identification            | `hostname`   | Show system name                     |  
+| File Operations                  | `copy`       | Copy files                           |  
+| File Operations                  | `move`       | Move/rename files                    |  
+| File Operations                  | `del`        | Delete files                         |  
+| System & Network Information     | `ipconfig`   | View network configuration           |  
+| System & Network Information     | `tasklist`   | View running processes               |  
+| System & Network Information     | `systeminfo` | Detailed system information          |    
 
 **Linux CLI**   
-- Navigation & File Inspection:  
-cd – change directory  
-ls – list files and directories  
-pwd – show current directory  
-cat – display file contents  
-find – search for files and directories  
-- System Investigation:  
-whoami – display current user  
-uname – system/kernel information  
-df -h – disk usage in human-readable format  
-- File Operations:  
-cp – copy files  
-mv – move/rename files  
-rm – remove files  
-touch – create files  
+| Category                     | Command   | Description                         |  
+|------------------------------|----------|--------------------------------------|  
+| Navigation & File Inspection | `cd`     | Change directory                     |  
+| Navigation & File Inspection | `ls`     | List files and directories           |  
+| Navigation & File Inspection | `pwd`    | Show current directory               |  
+| Navigation & File Inspection | `cat`    | Display file contents                |  
+| Navigation & File Inspection | `find`   | Search for files and directories     |  
+| System Investigation         | `whoami` | Display current user                 |  
+| System Investigation         | `uname`  | System/kernel information            |  
+| System Investigation         | `df -h`  | Disk usage (human-readable)          |  
+| File Operations              | `cp`     | Copy files                           |  
+| File Operations              | `mv`     | Move/rename files                    |  
+| File Operations              | `rm`     | Remove files                         |  
+| File Operations              | `touch`  | Create files                         |  
 
 5. Operating System Security  
 - **CIA Triad**:
