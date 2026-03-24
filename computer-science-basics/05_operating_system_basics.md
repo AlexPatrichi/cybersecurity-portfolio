@@ -34,23 +34,23 @@ Gain a foundational understanding of operating systems and cybersecurity, includ
 
 4. Command Line Interface (CLI)  
 **Windows CLI (Command Prompt / PowerShell)**  
-| Category                         | Command      | Description                          |  
-|----------------------------------|--------------|--------------------------------------|  
-| Navigation & File Inspection     | `cd`         | Change directory                     |  
-| Navigation & File Inspection     | `dir`        | List files and directories           |  
-| Navigation & File Inspection     | `dir /s`     | List all files recursively           |  
-| Navigation & File Inspection     | `type`       | Display file contents                |  
-| System Identification            | `whoami`     | Display current user                 |  
-| System Identification            | `hostname`   | Show system name                     |  
-| File Operations                  | `copy`       | Copy files                           |  
-| File Operations                  | `move`       | Move/rename files                    |  
-| File Operations                  | `del`        | Delete files                         |  
-| System & Network Information     | `ipconfig`   | View network configuration           |  
-| System & Network Information     | `tasklist`   | View running processes               |  
-| System & Network Information     | `systeminfo` | Detailed system information          |    
+| Category                         | Command      | Description                  |  
+|----------------------------------|--------------|------------------------------|  
+| Navigation & File Inspection     | `cd`         | Change directory             |  
+| Navigation & File Inspection     | `dir`        | List files and directories   |  
+| Navigation & File Inspection     | `dir /s`     | List all files recursively   |  
+| Navigation & File Inspection     | `type`       | Display file contents        |  
+| System Identification            | `whoami`     | Display current user         |  
+| System Identification            | `hostname`   | Show system name             |  
+| File Operations                  | `copy`       | Copy files                   |  
+| File Operations                  | `move`       | Move/rename files            |  
+| File Operations                  | `del`        | Delete files                 |  
+| System & Network Information     | `ipconfig`   | View network configuration   |  
+| System & Network Information     | `tasklist`   | View running processes       |  
+| System & Network Information     | `systeminfo` | Detailed system information  |    
 
 **Linux CLI**   
-| Category                     | Command   | Description                         |  
+| Category                     | Command  | Description                          |  
 |------------------------------|----------|--------------------------------------|  
 | Navigation & File Inspection | `cd`     | Change directory                     |  
 | Navigation & File Inspection | `ls`     | List files and directories           |  
