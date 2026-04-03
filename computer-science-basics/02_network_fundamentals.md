@@ -62,7 +62,7 @@ Example: Phone → PC → Router → Internet
 - Can be used to identify a host on a network for a period of time.
 
 <p align="center">
-<strong>IP Address</strong><br><br>
+<strong>IP Address</strong><br>
 
 <table align="center">
   <tr>
@@ -94,16 +94,16 @@ Example: Phone → PC → Router → Internet
 
 --- 
 
-#### **Public vs Private IP Addresses**
+### **Public vs Private IP Addresses**
 Devices can be on both private and public networks, so they can get a public or a private IP Address.
 
-- Public IP Address
+#### Public IP Address
  - Assigned by your Internet Service Provider (ISP)
  - The router has the Public IP Address of the network
  - Used to identify your network on the internet
  - Must be unique globally
 
-- Private IP Address
+#### Private IP Address
  - Used inside local networks to identify devices
  - Not directly accessible from the internet
  - Can be reused across different networks
