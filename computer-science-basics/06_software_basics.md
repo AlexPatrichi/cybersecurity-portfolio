@@ -12,7 +12,7 @@ Focus Area: Cybersecurity Fundamentals
 - Understand Unicode and UTF encodings (UTF-8, UTF-16, UTF-32)
 - Understand how text and emojis are encoded
 
-## Key Concepts
+## Core Concepts Learned
 ### Data Representation 
 ### 🎨 1. Representing Colors    
 **Basic RGB (8-Color System)**
@@ -100,8 +100,6 @@ Convert 2F
 Hexadecimal is base-16, which means each position represents a power of 16.  
 (2 x 16¹) + (F x 16⁰) = 32 + F(15) = 47 (decimal)  
 
----
-
 ### Data Encoding   
 <p align="center">
 <strong>Evolution of Text Encoding</strong><br><br> 
@@ -185,13 +183,11 @@ UTF Encoding Formats
 - Rarely used in practice.
 - Every Unicode code point uses exactly 4 bytes (fixed length). 
 
----
 
 ### Python: Simple Demo 
 ### Java Script: Simple Demo
 ### Database SQL Basics
 
---- 
 
 ## Actions Taken
 - Learned how data is represented in binary, decimal, and hexadecimal
@@ -202,6 +198,7 @@ UTF Encoding Formats
 ## Tools Used
 - TryHackMe platform
 - Manual calculations and conversions
+- Phyton, Java Script and SQL lab virtual machines 
 
 ## Security Relevance
 ### Data Representation 
