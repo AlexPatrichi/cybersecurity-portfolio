@@ -14,8 +14,8 @@ Focus Area: Cybersecurity Fundamentals
 
 ## Key Concepts
 ### Data Representation 
-1. Representing Colors  
-**🎨Basic RGB (8-Color System)**
+### 🎨 1. Representing Colors    
+**Basic RGB (8-Color System)**
 - Computers represent colors using RGB system (Red, Green, Blue).
 - Uses 3 bits total (1 bit per channel: Red, Green, Blue).
 - Each color channel can be: 0 (off) or 1 (on). 
@@ -25,13 +25,13 @@ Focus Area: Cybersecurity Fundamentals
     - 100 → Red (only Red on)
     - 000 → Black (all off)
 
-**🎨Modern Color System:**
+**Modern Color System:**
 - Instead of on/off for every RGB, we have now 3 channels with 256 possible values (0–255).
 - Total colors:
     256 (Red) × 256 (Green) × 256 (Blue) = 16,777,216 colors
 - From 8 to 16 Million Colors (covers more than human needs).
 
-Hex and Colors:
+**Hex and Colors**
 - Colors are often written in hexadecimal format: #RRGGBB
 - Each pair is a hex value (00–FF):
     - 00 = 0 (no intensity)
@@ -43,7 +43,7 @@ Hex and Colors:
 
 Used to measure memory, files, and network data.
 
-2. Numeric Representation 
+### 🔢 2. Numeric Representation 
 - Decimal (Base-10) → Human system (0–9)
 - Binary (Base-2) → Computer system (0,1)
 - Hexadecimal (Base-16) → Short form of binary (0–9, A–F)
@@ -68,7 +68,7 @@ Hexadecimal Reference Table:
 | 14 | 1110 | E |
 | 15 | 1111 | F |
 
-3. Number Transformations  
+### 🔄 3. Number Transformations  
 **Decimal → Binary**  
 Convert 10 (decimal)  
 
@@ -103,7 +103,7 @@ Hexadecimal is base-16, which means each position represents a power of 16.
 ---
 
 ### Data Encoding   
-🔗 Evolution of Text Encoding  
+**Evolution of Text Encoding**  
 ASCII (1963)  
    ↓  
 Extended ASCII (8-bit)  
@@ -114,7 +114,7 @@ Unicode (Universal Standard)
    ↓  
 UTF Encodings (UTF-8, UTF-16, UTF-32)  
 
-1. ASCII (American Standard Code for Information Interchange)
+### 🔤 ASCII (American Standard Code for Information Interchange)
 - Is an early character encoding (1963) that uses 7 bits to represent numbers 0-127 for English only letters, digits, punctuation, and some control characters. 
 - Acts as a small dictionary between text and numeric codes, allowing computer systems to store text in a standardised way.
 
@@ -141,7 +141,7 @@ O = 79 → 01001111
  - Central/Eastern Europe  
  - Examples: ł, č, ș  
 
-2.  Unicode Standard
+### 🌐 Unicode Standard
 - A universal standard for representing all characters from all languages.
 - Includes letters from all languages, symbols and emojis.
 - Supports over 100,000 characters, including letters, symbols, and emojis.
@@ -172,6 +172,8 @@ UTF Encoding Formats
 ### Python: Simple Demo 
 ### Java Script: Simple Demo
 ### Database SQL Basics
+
+--- 
 
 ## Actions Taken
 - Learned how data is represented in binary, decimal, and hexadecimal
