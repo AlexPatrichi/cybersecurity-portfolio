@@ -340,7 +340,7 @@ Different topologies affect network performance, reliability, and fault toleranc
 - Most common topology in modern networks because of its reliability and scalability
 
 <div align="center">
-  <img src="images/star-topology.png" alt="Star Topology" width="400"/>
+  <img src="..images/star-topology.png" alt="Star Topology" width="400"/>
 </div>
 
 **Advantages:**
