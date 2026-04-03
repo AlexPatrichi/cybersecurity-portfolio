@@ -170,13 +170,13 @@ Devices can be on both private and public networks, so they can get a public or 
 
 ---
 
-#### **NAT (Network Address Translation)**
+### **NAT (Network Address Translation)**
 - It is a mechanism that allows multiple devices to share one public IP Addresses.
 - It made modern home internet possible as we know it; without it, the IPv4 internet would have collapsed long time ago.
 - Works very well with IPv4 because allows multiple private devices to share one single public IP by translating internal addresses to external ones. 
 - It hides devices, creating a false sense of security, but is not real protection.
 
-**Types of NAT** 
+#### **Types of NAT** 
 1. SNAT (Source NAT) 
  - Internal → External  
  - Changes the **source IP** of outgoing traffic 
@@ -191,7 +191,7 @@ Devices can be on both private and public networks, so they can get a public or 
  - Used by most home routers  
  - Allows multiple devices to share one public IP Address using **different ports**  
 
-**How they work together?**  
+#### **How they work together?**  
 Your home router typically uses:
 
 - **SNAT** → when traffic goes out to the internet  
@@ -204,14 +204,34 @@ Example:
 3. Response comes back to router  
 4. Router uses the port to send data back to the correct device 
 
-**How PAT works?**
+#### **How PAT works?**
 - Each device is assigned a **unique port number** when sending traffic  
 - Router keeps a **translation table**:
 
-| Private IP | Private Port | Public IP | Public Port |
-|-----------|-------------|-----------|-------------|
-| 192.168.1.10 | 1234 | 203.0.113.1 | 50001 |
-| 192.168.1.11 | 5678 | 203.0.113.1 | 50002 |
+<div align="center">
+
+<table>
+  <tr>
+    <th>Private IP</th>
+    <th>Private Port</th>
+    <th>Public IP</th>
+    <th>Public Port</th>
+  </tr>
+  <tr>
+    <td>192.168.1.10</td>
+    <td>1234</td>
+    <td>203.0.113.1</td>
+    <td>50001</td>
+  </tr>
+  <tr>
+    <td>192.168.1.11</td>
+    <td>5678</td>
+    <td>203.0.113.1</td>
+    <td>50002</td>
+  </tr>
+</table>
+
+</div>
 
 This allows:
 - Many devices → one public IP  
@@ -236,10 +256,11 @@ This allows:
  - Once traffic hits the router, MAC Adreesses are replaced.
 - Operates at **Layer 2 (Data Link layer)** of the OSI model
 
-<p align="center">
-<strong>MAC Address</strong><br><br>
+<div align="center">
 
-<table>
+<strong>MAC Address</strong><br>
+
+<table align="center">
   <tr>
     <td colspan="3" align="center"><strong>Part A (OUI)</strong></td>
     <td colspan="3" align="center"><strong>Part B (Device ID)</strong></td>
@@ -254,7 +275,7 @@ This allows:
   </tr>
 </table>
 
-</p>
+</div>
 
 #### Important Notes
 ⚠️ MAC Addresses can be facked or "spoofed" in a proccess known as **SPOOFING**.
