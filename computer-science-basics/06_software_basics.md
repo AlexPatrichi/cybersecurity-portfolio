@@ -14,7 +14,7 @@ Focus Area: Cybersecurity Fundamentals
 
 ## Key Concepts
 ### Data Representation 
-1. Representing Colors
+1. Representing Colors  
 **🎨Basic RGB (8-Color System)**
 - Computers represent colors using RGB system (Red, Green, Blue).
 - Uses 3 bits total (1 bit per channel: Red, Green, Blue).
@@ -26,7 +26,7 @@ Focus Area: Cybersecurity Fundamentals
     - 000 → Black (all off)
 
 **🎨Modern Color System:**
-- Instead of on/off for every RGB, we have now 3 channels with 256 possible values (0–255)
+- Instead of on/off for every RGB, we have now 3 channels with 256 possible values (0–255).
 - Total colors:
     256 (Red) × 256 (Green) × 256 (Blue) = 16,777,216 colors
 - From 8 to 16 Million Colors (covers more than human needs).
@@ -34,8 +34,8 @@ Focus Area: Cybersecurity Fundamentals
 Hex and Colors:
 - Colors are often written in hexadecimal format: #RRGGBB
 - Each pair is a hex value (00–FF):
-    00 = 0 (no intensity)
-    FF = 255 (maximum intensity)
+    - 00 = 0 (no intensity)
+    - FF = 255 (maximum intensity)
 
 **Bit and Byte (Fundamental)** 
 - Bit = 1 binary value (0 or 1)    
@@ -68,83 +68,85 @@ Hexadecimal Reference Table:
 | 14 | 1110 | E |
 | 15 | 1111 | F |
 
-3. Number Transformations
-**Decimal → Binary**
-Convert 10 (decimal)
+3. Number Transformations  
+**Decimal → Binary**  
+Convert 10 (decimal)  
 
-10 ÷ 2 = 5 remainder 0
-5 ÷ 2 = 2 remainder 1
-2 ÷ 2 = 1 remainder 0
-1 ÷ 2 = 0 remainder 1
+10 ÷ 2 = 5 remainder 0  
+5 ÷ 2 = 2 remainder 1  
+2 ÷ 2 = 1 remainder 0  
+1 ÷ 2 = 0 remainder 1  
 
-Read remainder bottom → top:
-10 (decimal) = 1010 (binary)
+Read remainder bottom → top:  
+10 (decimal) = 1010 (binary)  
 
-**Binary → Decimal**
-Convert 1010 (binary)
+**Binary → Decimal**  
+Convert 1010 (binary)  
 
-(1 × 2³) + (0 × 2²) + (1 × 2¹) + (0 × 2⁰)
-= 8 + 0 + 2 + 0
-= 10 (decimal)
+(1 × 2³) + (0 × 2²) + (1 × 2¹) + (0 × 2⁰)  
+= 8 + 0 + 2 + 0  
+= 10 (decimal)  
 
-**Binary → Hexadecimal**
-Convert 1010
+**Binary → Hexadecimal**  
+Convert 1010  
 
-Group 4 bits for 1 hex digit
-1   0   1  0 
-2³  2²  2¹  2⁰ = 2³ + 2¹ = 8 + 2 = 10 = A (hex)
+Group 4 bits for 1 hex digit  
+1   0   1  0   
+2³  2²  2¹  2⁰ = 2³ + 2¹ = 8 + 2 = 10 = A (hex)  
 
-**Hexadecimal → Decimal**
-Convert 2F
+**Hexadecimal → Decimal**  
+Convert 2F  
 
-Hexadecimal is base-16, which means each position represents a power of 16.
-(2 x 16¹) + (F x 16⁰) = 32 + F(15) = 47 (decimal)
+Hexadecimal is base-16, which means each position represents a power of 16.  
+(2 x 16¹) + (F x 16⁰) = 32 + F(15) = 47 (decimal)  
 
-### Data Encoding 
-🔗 Evolution of Text Encoding
-ASCII (1963)
-   ↓
-Extended ASCII (8-bit)
-   ↓
-ISO-8859 (Regional Standards)
-   ↓
-Unicode (Universal Standard)
-   ↓
-UTF Encodings (UTF-8, UTF-16, UTF-32)
+---
+
+### Data Encoding   
+🔗 Evolution of Text Encoding  
+ASCII (1963)  
+   ↓  
+Extended ASCII (8-bit)  
+   ↓  
+ISO-8859 (Regional Standards)  
+   ↓  
+Unicode (Universal Standard)  
+   ↓  
+UTF Encodings (UTF-8, UTF-16, UTF-32)  
 
 1. ASCII (American Standard Code for Information Interchange)
 - Is an early character encoding (1963) that uses 7 bits to represent numbers 0-127 for English only letters, digits, punctuation, and some control characters. 
 - Acts as a small dictionary between text and numeric codes, allowing computer systems to store text in a standardised way.
 
-**ASCII values** 
-"HELLO" is actually: 72 69 76 76 79 
+**ASCII values**  
+"HELLO" is actually: 72 69 76 76 79   
 
-**Each ASCII value is stored in binary**
-H = 72 → 01001000 
-E = 69 → 01000101
-L = 76 → 01001100
-L = 76 → 01001100
-O = 79 → 01001111
+**Each ASCII value is stored in binary:**  
+H = 72 → 01001000   
+E = 69 → 01000101  
+L = 76 → 01001100  
+L = 76 → 01001100  
+O = 79 → 01001111  
 
 **ASCII Limitations & European Languages**
 - Using 8 bits allows up to 256 characters, but this was still not enough to support all European languages.
 - Extending ASCII solved some problems, but created compatibility issues between different regions.
 
-- ISO-8859 Standards: 
-**ISO-8859-1 (Latin-1)**
-Western Europe
-Examples: ñ, ü, é, ç
+- ISO-8859 Standards:  
+**ISO-8859-1 (Latin-1)**  
+ - Western Europe  
+ - Examples: ñ, ü, é, ç  
 
-**ISO-8859-2 (Latin-2)**
-Central/Eastern Europe
-Examples: ł, č, ș
+**ISO-8859-2 (Latin-2)**  
+ - Central/Eastern Europe  
+ - Examples: ł, č, ș  
 
 2.  Unicode Standard
 - A universal standard for representing all characters from all languages.
 - Includes letters from all languages, symbols and emojis.
 - Supports over 100,000 characters, including letters, symbols, and emojis.
 
-UTF Encoding Formats
+UTF Encoding Formats  
 **UTF-8** 
 - Most common encoding on the modern web and a default in most systems.
 - Backward compatibility with ASCII.
@@ -164,6 +166,8 @@ UTF Encoding Formats
 - Is the simplest but also the most wasteful.
 - Rarely used in practice.
 - Every Unicode code point uses exactly 4 bytes (fixed length). 
+
+---
 
 ### Python: Simple Demo 
 ### Java Script: Simple Demo
