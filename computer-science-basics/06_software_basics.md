@@ -103,16 +103,18 @@ Hexadecimal is base-16, which means each position represents a power of 16.
 ---
 
 ### Data Encoding   
-**Evolution of Text Encoding**  
-ASCII (1963)  
-   ↓  
-Extended ASCII (8-bit)  
-   ↓  
-ISO-8859 (Regional Standards)  
-   ↓  
-Unicode (Universal Standard)  
-   ↓  
-UTF Encodings (UTF-8, UTF-16, UTF-32)  
+<p align="center">
+<strong>Evolution of Text Encoding</strong><br><br> 
+ASCII (1963)<br>
+↓<br>
+Extended ASCII (8-bit)<br>
+↓<br>
+ISO-8859 (Regional Standards)<br>
+↓<br>
+Unicode (Universal Standard)<br>
+↓<br>
+UTF Encodings (UTF-8, UTF-16, UTF-32)
+</p>  
 
 ### 🔤 ASCII (American Standard Code for Information Interchange)
 - Is an early character encoding (1963) that uses 7 bits to represent numbers 0-127 for English only letters, digits, punctuation, and some control characters. 
@@ -132,14 +134,25 @@ O = 79 → 01001111
 - Using 8 bits allows up to 256 characters, but this was still not enough to support all European languages.
 - Extending ASCII solved some problems, but created compatibility issues between different regions.
 
-- ISO-8859 Standards:  
+**ISO-8859 Standards**  
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+
 **ISO-8859-1 (Latin-1)**  
- - Western Europe  
- - Examples: ñ, ü, é, ç  
+- Western Europe  
+- Examples: ñ, ü, é, ç  
+
+    </td>
+    <td width="50%" valign="top">
 
 **ISO-8859-2 (Latin-2)**  
- - Central/Eastern Europe  
- - Examples: ł, č, ș  
+- Central/Eastern Europe  
+- Examples: ł, č, ș  
+
+    </td>
+  </tr>
+</table>  
 
 ### 🌐 Unicode Standard
 - A universal standard for representing all characters from all languages.
