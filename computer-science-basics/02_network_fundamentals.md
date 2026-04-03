@@ -110,19 +110,63 @@ Devices can be on both private and public networks, so they can get a public or 
 
 ---
 
-#### **IPv4 and Ipv6** 
+### **IPv4 and Ipv6** 
 
-| Feature | IPv4 | IPv6 |
-|--------|------|------|
-| Address Size | 32-bit | 128-bit |
-| Format | Decimal (e.g. 192.168.1.1) | Hexadecimal (e.g. 2001:0db8::1) |
-| Total Addresses | ~4.3 billion | ~340 undecillion |
-| Structure | 4 octets | 8 groups |
-| Usage | Most common today | Growing adoption |
-| Security | Optional | Built-in (IPSec support) |
-| Limitation | Running out of addresses | Designed for scalability |
-| Efficiency | Less efficient routing | More efficient routing |
-| NAT | Yes | No |
+<div align="center">
+<table>
+  <tr>
+    <th>Feature</th>
+    <th>IPv4</th>
+    <th>IPv6</th>
+  </tr>
+  <tr>
+    <td>Address Size</td>
+    <td>32-bit</td>
+    <td>128-bit</td>
+  </tr>
+  <tr>
+    <td>Format</td>
+    <td>Decimal (e.g. 192.168.1.1)</td>
+    <td>Hexadecimal (e.g. 2001:0db8::1)</td>
+  </tr>
+  <tr>
+    <td>Total Addresses</td>
+    <td>~4.3 billion</td>
+    <td>~340 undecillion</td>
+  </tr>
+  <tr>
+    <td>Structure</td>
+    <td>4 octets</td>
+    <td>8 groups</td>
+  </tr>
+  <tr>
+    <td>Usage</td>
+    <td>Most common today</td>
+    <td>Growing adoption</td>
+  </tr>
+  <tr>
+    <td>Security</td>
+    <td>Optional</td>
+    <td>Built-in (IPSec support)</td>
+  </tr>
+  <tr>
+    <td>Limitation</td>
+    <td>Limited address space</td>
+    <td>Designed for scalability</td>
+  </tr>
+  <tr>
+    <td>Routing</td>
+    <td>Less efficient</td>
+    <td>More efficient</td>
+  </tr>
+  <tr>
+    <td>NAT</td>
+    <td>Yes</td>
+    <td>No</td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
