@@ -134,17 +134,20 @@ O = 79 → 01001111
 - Using 8 bits allows up to 256 characters, but this was still not enough to support all European languages.
 - Extending ASCII solved some problems, but created compatibility issues between different regions.
 
-**ISO-8859 Standards**  
-<table width="100%">
+<div align="center">
+
+<strong>ISO-8859 Standards</strong><br><br>
+
+<table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="300px" valign="top">
 
 **ISO-8859-1 (Latin-1)**  
 - Western Europe  
 - Examples: ñ, ü, é, ç  
 
     </td>
-    <td width="50%" valign="top">
+    <td width="300px" valign="top">
 
 **ISO-8859-2 (Latin-2)**  
 - Central/Eastern Europe  
@@ -152,7 +155,9 @@ O = 79 → 01001111
 
     </td>
   </tr>
-</table>  
+</table>
+
+</div>
 
 ### 🌐 Unicode Standard
 - A universal standard for representing all characters from all languages.
