@@ -15,7 +15,7 @@ Build a strong foundation in networking concepts required for cybersecurity, inc
 
 ## Core Concepts Learned  
 ### 🌐 Network Fundamentals 
-A network is **two or more devices connected** so they can share data. 
+A network is **two or more devices connected** so they can share data.    
 Example: Phone → PC → Router → Internet  
 
 ---
@@ -54,7 +54,7 @@ Example: Phone → PC → Router → Internet
 
 ---
 
-#### IP Address (Internet Protocol Address)
+### IP Address (Internet Protocol Address)
 - Every device gets an IP Address so data knows where to go.  
     Example:   
     - Device (PC): 192.168.1.10
@@ -62,10 +62,9 @@ Example: Phone → PC → Router → Internet
 - Can be used to identify a host on a network for a period of time.
 
 <p align="center">
-<strong>IP Address</strong><br><br> 
-192.168.1.1<br><br>
+<strong>IP Address</strong><br><br>
 
-<table>
+<table align="center">
   <tr>
     <td align="center"><strong>192</strong></td>
     <td align="center"><strong>168</strong></td>
