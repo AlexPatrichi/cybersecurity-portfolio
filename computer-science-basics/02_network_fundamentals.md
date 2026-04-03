@@ -367,8 +367,8 @@ Different topologies affect network performance, reliability, and fault toleranc
 [PC]   [PC]   [PC]
   |      |      | 
   ———————————————
-      |     |
-     [PC]  [PC]
+     |     |
+    [PC]  [PC]
 </pre>
 </div>
 
