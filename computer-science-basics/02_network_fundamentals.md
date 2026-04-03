@@ -340,35 +340,7 @@ Different topologies affect network performance, reliability, and fault toleranc
 - Most common topology in modern networks because of its reliability and scalability
 
 <div align="center">
-
-<table>
-  <tr>
-    <td></td>
-    <td align="center">[PC]</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td align="center">|</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td align="center">[PC]</td>
-    <td align="center">[Switch]</td>
-    <td align="center">[PC]</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td align="center">|</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td align="center">[PC]</td>
-    <td></td>
-  </tr>
-</table>
-
+  <img src="images/star-topology.png" alt="Star Topology" width="400"/>
 </div>
 
 **Advantages:**
@@ -385,19 +357,7 @@ Different topologies affect network performance, reliability, and fault toleranc
 - All devices share a **single communication line (bus)**  
 
 <div align="center">
-
-<table>
-  <tr>
-    <td align="center">[PC]</td>
-    <td align="center">[PC]</td>
-    <td align="center">[PC]</td>
-    <td align="center">[PC]</td>
-  </tr>
-  <tr>
-    <td colspan="4" align="center">───────────────</td>
-  </tr>
-</table>
-
+  <img src="images/bus-topology.png" alt="Bus Topology" width="400"/>
 </div>
 
 **Advantages:**
@@ -415,25 +375,7 @@ Different topologies affect network performance, reliability, and fault toleranc
 - Every device will prioritise its data first and will send other information after
 
 <div align="center">
-
-<table>
-  <tr>
-    <td></td>
-    <td align="center">[PC]</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td align="center">[PC]</td>
-    <td></td>
-    <td align="center">[PC]</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td align="center">[PC]</td>
-    <td></td>
-  </tr>
-</table>
-
+  <img src="images/ring-topology.png" alt="Ring Topology" width="400"/>
 </div>
 
 **Advantages:**
