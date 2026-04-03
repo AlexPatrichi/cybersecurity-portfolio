@@ -20,7 +20,7 @@ Example: Phone → PC → Router → Internet
 
 ---
 
-### 🔌 Network Devices and Their Attributes
+### Network Devices and Their Attributes
 - **Devices (PC, Phone, Server)**  
   - Send and receive data  
 
@@ -45,7 +45,7 @@ Example: Phone → PC → Router → Internet
 
 ---
 
-### 🌍 The Internet
+### The Internet
 - It is one large public network made up of many smaller private networks.
 - To communicate and maintain order, devices must be both identifying and identifiable on a network. 
 - Exactly like humans (name and fingerprint), devices are identified using:
@@ -238,7 +238,7 @@ This allows:
 - Router to know exactly where to send responses  
 
 #### Important Notes
-⚠️ Most home and small-business routers use **PAT + SNAT by default**. 
+⚠️ Most home and small-business routers use **PAT + SNAT by default**.    
 ⚠️ **DNAT** is used to allow external users to access internal network services. 
 (Example: CCTV system when you are on vacation)
 
@@ -247,13 +247,11 @@ This allows:
 ### MAC Address (Media Access Control Address)
 - A MAC address is assigned to a network interface card (NIC), which is typically built into the device motherboard. 
 - It is a 12-character hexadecimal value (48 bits), written as 6 pairs separated by colons.
-
- - **Part A (first 3 bytes)** → Organizationally Unique Identifier (OUI), identifies the manufacturer (Intel).
- - **Part B (last 3 bytes)** → Unique identifier assigned to the specific device.
-
+   - **Part A (first 3 bytes)** → Organizationally Unique Identifier (OUI), identifies the manufacturer (Intel).
+   - **Part B (last 3 bytes)** → Unique identifier assigned to the specific device.
 - MAC Addresses are used for LAN communication and do not travel across the internet.
- - They only exist inside the local network. 
- - Once traffic hits the router, MAC Adreesses are replaced.
+   - They only exist inside the local network. 
+   - Once traffic hits the router, MAC Adreesses are replaced.
 - Operates at **Layer 2 (Data Link layer)** of the OSI model
 
 <div align="center">
@@ -282,6 +280,57 @@ This allows:
 It occurs when a network device pretends to identify as another using its MAC Address.
 
 --- 
+### 📡 Internet Control Message Protocol (ICMP)
+
+- A protocol used by network devices to send **error messages and operational information**
+- Helps diagnose network issues and check connectivity
+- Works alongside IP, but does not carry user data
+- ICMP operates at Layer 3 (Network layer) of the OSI model
+- Common ICMP messages include "Echo Request" and "Echo Reply" (used by ping)
+
+#### Network Diagnostic Tools
+**ping** 
+- One of the most fundamental network tools available
+- Uses ICMP packets to check if a device is reachable and how reliable the connection is
+- Measures latency (response time)
+- Can indicate packet loss (network instability)
+- It works on devices on the network, or resources like websites
+
+⚠️ May be blocked by firewalls, so failure does not always mean the host is down  
+
+**ipconfig (Windows) / ifconfig (Linux or macOs)**
+- Shows your network configuration (IP address, subnet mask, gateway)  
+- Helps identify network misconfigurations  
+- Useful for troubleshooting connectivity issues 
+
+**tracert (Windows) / traceroute (Linux or macOs)** 
+- Shows the path packets take through the network  
+- Helps identify where delays or failures occur  
+- Useful for diagnosing routing problems  
+
+⚠️ Uses ICMP (or UDP depending on implementation)  
+
+**nslookup**
+- Queries DNS servers to resolve domain names to IP addresses  
+- Helps detect DNS issues or misconfigurations  
+- Useful for identifying suspicious or malicious domains  
+- Very useful for security investigations
+
+**netstat**
+- Shows active network connections and listening ports  
+- Helps identify unusual or suspicious connections  
+
+⚠️ Useful for detecting malware communication, backdoors, and exposed services
+
+**arp**
+- Displays the mapping between IP addresses and MAC addresses  
+- Used to identify devices on the local network  
+
+⚠️ Useful for detecting ARP spoofing attacks and identifying unknown devices 
+
+---
+
+
 
 ## Practical Skills Developed   
 1. Understanding traffic flow between systems  
