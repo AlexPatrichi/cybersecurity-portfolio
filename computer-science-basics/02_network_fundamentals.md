@@ -288,7 +288,7 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 - ICMP operates at Layer 3 (Network layer) of the OSI model
 - Common ICMP messages include "Echo Request" and "Echo Reply" (used by ping)
 
-#### Network Diagnostic Tools
+#### Network Diagnostic Tools:
 **ping** 
 - One of the most fundamental network tools available
 - Uses ICMP packets to check if a device is reachable and how reliable the connection is
@@ -330,6 +330,80 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 
 ---
 
+### 🖧 Local Area Network (LAN) Topologies
+
+A network topology defines how devices are **connected and communicate** within a network.
+Different topologies affect network performance, reliability, and fault tolerance
+
+#### Star Topology
+- All devices are connected to a **central device** (usually a switch or hub)
+- Most common topology in modern networks because of its reliability and scalability
+
+<div align="center">
+<pre>
+         [PC]
+          |
+[PC] — [Switch] — [PC]
+          |
+         [PC]
+</pre>
+</div>
+
+**Advantages:**
+- Easy to manage and troubleshoot  
+- Failure of one device does not affect others  
+- Easy to add more devices if the demand for the network increases  
+
+**Disadvantages:**
+- If the central device fails, the whole network goes down  
+- Requires more cabling, which makes the cost higher
+- Larger networks require more maintenance  
+
+#### Bus Topology
+- All devices share a **single communication line (bus)**  
+
+<div align="center">
+<pre>
+[PC]   [PC]   [PC]
+  |      |      | 
+  ———————————————
+      |     |
+     [PC]  [PC]
+</pre>
+</div>
+
+**Advantages:**
+- Simple to connect and low cost  
+- Requires less cabling 
+
+**Disadvantages:**
+- If the backbone cable fails, the entire network fails  
+- Performance decreases as more devices are added  
+- Difficult to troubleshoot  
+
+#### Ring Topology
+- Devices are connected to each other in a **closed loop (circle)**  
+- Data travels in one direction around the ring from device to device
+- Every device will prioritise its data first and will send other information after
+
+<div align="center">
+<pre>
+[PC] — [PC]
+ |       |
+[PC] — [PC]
+</pre>
+</div>
+
+**Advantages:**
+- No data collisions  
+- Predictable performance  
+- Cost-efficient 
+
+**Disadvantages:**
+- If one device or connection fails, the entire network is affected  
+- Harder to maintain and scale  
+ 
+---
 
 
 ## Practical Skills Developed   
