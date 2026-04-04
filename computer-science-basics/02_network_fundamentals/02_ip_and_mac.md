@@ -5,14 +5,10 @@ Date Started: 31.01.2026
 Level:  Beginner / Foundation  
 Focus Area: Networking Addressing 
 
----
-
 ## 🎯 Objective
 - Understand how devices are identified on a network  
 - Learn the difference between IP and MAC addresses  
 - Understand how devices communicate within a local network 
-
----
 
 ## 🧠 Core Concepts Learned  
 
@@ -263,8 +259,6 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 - MAC addresses do not travel across networks  
 ⚠️ ARP can be **spoofed (ARP poisoning)**  
 - Attackers can redirect traffic (Man-in-the-Middle attack)
-  
----
 
 ## 🛠️ Practical Skills Developed  
 - Understanding how devices are identified on a network  
@@ -273,14 +267,10 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 - Understanding how devices find each other (ARP) 
 - Understanding how private networks communicate with the internet (NAT)    
 
----
-
 ## 🧰 Tools Used  
 - Solent University Cybersecurity Coursework
 - TryHackMe Platform  
 - Basic system commands (arp, ipconfig)  
-
----
 
 ## 🔐 Security Relevance  
 - IP addresses can be tracked and analysed in network logs  
@@ -288,8 +278,6 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 - ARP can be exploited using **ARP spoofing (poisoning)**  
 - Understanding how private networks communicate with the internet (NAT)
 - Understanding addressing helps detect suspicious network activity   
-  
----
 
 ## 🧠 Lessons Learned  
 ⚠️ IP addresses can be tracked and analysed in network logs  

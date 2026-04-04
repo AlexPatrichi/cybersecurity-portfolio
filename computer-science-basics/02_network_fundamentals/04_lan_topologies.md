@@ -5,14 +5,10 @@ Date Started: 05.02.2026
 Level:  Beginner / Foundation  
 Focus Area: Network Topologies
 
----
-
 ## 🎯 Objective
 - Understand how devices are physically and logically arranged in a network  
 - Learn how different topologies affect performance and reliability  
 - Identify strengths and weaknesses of common network designs
-
----
 
 ## 🧠 Core Concepts Learned 
 ## Local Area Network (LAN) Topologies
@@ -24,7 +20,7 @@ Focus Area: Network Topologies
 - Most common topology in modern networks because of its reliability and scalability
 
 <div align="center">
-  <img src="../images/star-topology.png" alt="Star Topology" width="400"/>
+  <img src="../../images/star-topology.png" alt="Star Topology" width="400"/>
 </div>
 
 **Advantages:**
@@ -35,13 +31,15 @@ Focus Area: Network Topologies
 **Disadvantages:**
 - If the central device fails, the whole network goes down  
 - Requires more cabling, which makes the cost higher
-- Larger networks require more maintenance  
+- Larger networks require more maintenance 
+
+---
 
 ## Bus Topology
 - All devices share a **single communication line (bus)**  
 
 <div align="center">
-  <img src="../images/bus-topology.png" alt="Bus Topology" width="400"/>
+  <img src="../../images/bus-topology.png" alt="Bus Topology" width="400"/>
 </div>
 
 **Advantages:**
@@ -51,7 +49,9 @@ Focus Area: Network Topologies
 **Disadvantages:**
 - If the backbone cable fails, the entire network fails  
 - Performance decreases as more devices are added  
-- Difficult to troubleshoot  
+- Difficult to troubleshoot
+
+---
 
 ## Ring Topology
 - Devices are connected to each other in a **closed loop (circle)**  
@@ -59,7 +59,7 @@ Focus Area: Network Topologies
 - Every device will prioritise its data first and will send other information after
 
 <div align="center">
-  <img src="../images/ring-topology.png" alt="Ring Topology" width="400"/>
+  <img src="../../images/ring-topology.png" alt="Ring Topology" width="400"/>
 </div>
 
 **Advantages:**
@@ -70,8 +70,6 @@ Focus Area: Network Topologies
 **Disadvantages:**
 - If one device or connection fails, the entire network is affected  
 - Harder to maintain and scale  
- 
----
 
 ## 🛠️ Practical Skills Developed
 - Identifying different network topologies  
@@ -79,21 +77,15 @@ Focus Area: Network Topologies
 - Reading and interpreting network diagrams  
 - Recognising advantages and limitations of each topology  
 
----
-
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework  
 - TryHackMe Platform  
-
----
 
 ## 🔐 Security Relevance
 - Network topology affects how attacks spread within a network  
 - Centralised topologies (Star) create critical points of failure  
 - Poor network design can increase attack surface  
 - Understanding topology helps identify weak points in infrastructure  
-
----
 
 ## 🧠 Lessons Learned  
 ⚠️ Network design directly impacts performance and security  

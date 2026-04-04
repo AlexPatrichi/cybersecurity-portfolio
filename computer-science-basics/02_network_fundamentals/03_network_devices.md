@@ -5,14 +5,10 @@ Date Started: 03.02.2026
 Level:  Beginner / Foundation  
 Focus Area: Network Devices and Infrastructure
 
----
-
 ## 🎯 Objective
 - Understand the role of key network devices  
 - Learn how devices communicate within and across networks  
 - Build a foundation for analysing network traffic in cybersecurity
-
----
 
 ## 🧠 Core Concepts Learned
 
@@ -66,8 +62,6 @@ Focus Area: Network Devices and Infrastructure
   - Extends a wired network into a wireless network  
   - Common in homes, offices, and public networks  
 
----
-
 ## 🛠️ Practical Skills Developed
 - Identifying different network devices and their roles  
 - Understanding how traffic flows within a network (LAN)  
@@ -75,13 +69,9 @@ Focus Area: Network Devices and Infrastructure
 - Recognising how devices interact (switch ↔ router)  
 - Reading and interpreting basic network diagrams
 
----
-
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework  
 - TryHackMe Platform  
-
----
 
 ## 🔐 Security Relevance
 - Network devices control how traffic flows and where it goes  
@@ -89,8 +79,6 @@ Focus Area: Network Devices and Infrastructure
 - IDS/IPS systems detect and prevent attacks in real time  
 - Misconfigured devices can create security vulnerabilities  
 - Understanding device roles helps identify weak points in a network  
-
----
 
 ## 🧠 Lessons Learned 
 ⚠️ Different devices have specific roles in a network  
