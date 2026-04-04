@@ -438,6 +438,8 @@ But:
   <br><br>
 </div>
 
+<br>
+
 <div align="center">
 <strong>CIDR Subnet Reference Table</strong><br>
 <table>
@@ -485,6 +487,8 @@ But:
 
 </div>
 ⚠️ Every time CIDR increases by 1, the number of available IP addresses is halved  
+
+<br>
 
 **Common Subnet Sizes and Use Cases**
 - /24 → one large network (254 usable devices)
