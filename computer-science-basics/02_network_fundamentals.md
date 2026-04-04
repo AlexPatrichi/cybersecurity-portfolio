@@ -433,14 +433,13 @@ But:
  - Result: 254 usable devices  
 
 <div align="center">
-  <strong>Subnet Mask Example</strong><br><br>
+  <strong>Subnet Mask Example</strong><br>
   <img src="../images/subnet-mask-example.png" alt="Subnet Mask Example" width="400"/>
+  <br><br>
 </div>
 
 <div align="center">
-
-<strong>CIDR Subnet Reference Table</strong><br><br>
-
+<strong>CIDR Subnet Reference Table</strong><br>
 <table>
   <tr>
     <th>CIDR</th>
@@ -485,12 +484,9 @@ But:
 </table>
 
 </div>
-⚠️ Every time CIDR increases by 1, the number of available IP addresses is halved
-
-<br>
+⚠️ Every time CIDR increases by 1, the number of available IP addresses is halved  
 
 **Common Subnet Sizes and Use Cases**
-
 - /24 → one large network (254 usable devices)
 - /26 → divides a /24 network into 4 smaller networks (62 hosts each)
 - /30 → used for point-to-point links (only 2 usable IPs)
