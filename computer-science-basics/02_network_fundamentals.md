@@ -414,17 +414,7 @@ Why we use Subnetting?
 
 <div align="center">
   <strong>Subnetting Example</strong><br><br>
-  <pre>
-                Internet
-                   |
-               [ Router ]
-             192.168.1.1/24
-                   |
-               [ Switch ]
-     ┌─────────────┼─────────────┐                          
-[Accounting]     [HR]        [Finance]
-192.168.1.10  192.168.1.20  192.168.1.30
-  </pre>
+  <img src="../images/subnetting-example.png" alt="Subnetting Example" width="400"/>
 </div>
 
 **Subnet Mask**
@@ -444,14 +434,7 @@ But:
 
 <div align="center">
   <strong>Subnet Mask Example</strong><br><br>
-  <pre>
-        192.168.1.0/24
-
-    Binary:
-    11111111.11111111.11111111.00000000
-    ^^^^^^^^ ^^^^^^^^ ^^^^^^^^ --------
-    network   network   network   host
-  </pre>
+  <img src="../images/subnet-mask-example.png" alt="Subnet Mask Example" width="400"/>
 </div>
 
 <div align="center">
