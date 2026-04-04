@@ -25,11 +25,22 @@ Example: Phone → PC → Router → Internet
   - Send and receive data  
 
 - **Switch**  
-  - Connects devices within the same network  
+  - Connects devices (computers, printers, servers) within the same network  
+  - Can support multiple devices depending on the number of ports (e.g. 4–64+)  
+  - Keeps track of which device is connected to which port  
+  - Uses **MAC addresses** to forward traffic  
 
 - **Router**  
   - Routes traffic between different networks (e.g. home → internet)  
+  - **Routing** is the process of data travelling across networks  
+    - Determines the best path for data to reach its destination  
+    - Efficient when multiple paths exist between networks  
 
+⚠️ **Switches and routers work efficiently together:**
+- The **switch** handles communication inside the local network (LAN)  
+- The **router** connects the network to other networks (e.g. the internet)  
+- Switches operate at **Layer 2 (Data Link)**, routers operate at **Layer 3 (Network)**  
+ 
 - **Modem**  
   - Connects the router to the Internet Service Provider (ISP)  
 
@@ -335,7 +346,7 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 A network topology defines how devices are **connected and communicate** within a network.
 Different topologies affect network performance, reliability, and fault tolerance
 
-#### Star Topology
+### Star Topology
 - All devices are connected to a **central device** (usually a switch or hub)
 - Most common topology in modern networks because of its reliability and scalability
 
@@ -343,33 +354,33 @@ Different topologies affect network performance, reliability, and fault toleranc
   <img src="../images/star-topology.png" alt="Star Topology" width="400"/>
 </div>
 
-**Advantages:**
+Advantages:
 - Easy to manage and troubleshoot  
 - Failure of one device does not affect others  
 - Easy to add more devices if the demand for the network increases  
 
-**Disadvantages:**
+Disadvantages:
 - If the central device fails, the whole network goes down  
 - Requires more cabling, which makes the cost higher
 - Larger networks require more maintenance  
 
-#### Bus Topology
+### Bus Topology
 - All devices share a **single communication line (bus)**  
 
 <div align="center">
   <img src="../images/bus-tolopogy .png" alt="Bus Topology" width="400"/>
 </div>
 
-**Advantages:**
+Advantages:
 - Simple to connect and low cost  
 - Requires less cabling 
 
-**Disadvantages:**
+Disadvantages:
 - If the backbone cable fails, the entire network fails  
 - Performance decreases as more devices are added  
 - Difficult to troubleshoot  
 
-#### Ring Topology
+### Ring Topology
 - Devices are connected to each other in a **closed loop (circle)**  
 - Data travels in one direction around the ring from device to device
 - Every device will prioritise its data first and will send other information after
@@ -378,18 +389,134 @@ Different topologies affect network performance, reliability, and fault toleranc
   <img src="../images/ring-topology.png" alt="Ring Topology" width="400"/>
 </div>
 
-**Advantages:**
+Advantages:
 - No data collisions  
 - Predictable performance  
 - Cost-efficient 
 
-**Disadvantages:**
+Disadvantages:
 - If one device or connection fails, the entire network is affected  
 - Harder to maintain and scale  
  
 ---
 
+### Subnetting 
+**Subnetting** is the process of dividing a network into smaller sub-networks.
 
+Why we use Subnetting? 
+- Control network traffic  
+- Improve security  
+- Organise network structure  
+- Improve performance  
+- Isolate systems  
+- Manage access  
+- Scale networks  
+
+<div align="center">
+  <strong>Subnetting Example</strong><br><br>
+  <pre>
+                Internet
+                   |
+               [ Router ]
+             192.168.1.1/24
+                   |
+               [ Switch ]
+     ┌─────────────┼─────────────┐                          
+[Accounting]     [HR]        [Finance]
+192.168.1.10  192.168.1.20  192.168.1.30
+  </pre>
+</div>
+
+**Subnet Mask**
+- Determines how many hosts can exist in a network
+- Tells a device which part of the IP Address is the network and which is the device
+- Using the Subnet Mask the device knows if the information needs to go local or proceed further to the router 
+
+**CIDR notation (Classless Inter-Domain Routing)**
+- An IP address has 32 bits in total.  
+/24 means the first 24 bits are used for the network, and the remaining 8 bits are used for hosts.  
+
+- 8 bits for hosts → 2⁸ = 256 total addresses  
+But:     
+ - 192.168.1.0   = network address  
+ - 192.168.1.255 = broadcast address    
+ - Result: 254 usable devices  
+
+<div align="center">
+  <strong>Subnet Mask Example</strong><br><br>
+  <pre>
+        192.168.1.0/24
+
+    Binary:
+    11111111.11111111.11111111.00000000
+    ^^^^^^^^ ^^^^^^^^ ^^^^^^^^ --------
+    network   network   network   host
+  </pre>
+</div>
+
+<div align="center">
+
+<strong>CIDR Subnet Reference Table</strong><br><br>
+
+<table>
+  <tr>
+    <th>CIDR</th>
+    <th>Total IPs</th>
+    <th>Usable Hosts</th>
+  </tr>
+  <tr>
+    <td>/24</td>
+    <td>256</td>
+    <td>254</td>
+  </tr>
+  <tr>
+    <td>/25</td>
+    <td>128</td>
+    <td>126</td>
+  </tr>
+  <tr>
+    <td>/26</td>
+    <td>64</td>
+    <td>62</td>
+  </tr>
+  <tr>
+    <td>/27</td>
+    <td>32</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>/28</td>
+    <td>16</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>/29</td>
+    <td>8</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>/30</td>
+    <td>4</td>
+    <td>2</td>
+  </tr>
+</table>
+
+</div>
+⚠️ Every time CIDR increases by 1, the number of available IP addresses is halved
+
+<br>
+
+**Common Subnet Sizes and Use Cases**
+
+- /24 → one large network (254 usable devices)
+- /26 → divides a /24 network into 4 smaller networks (62 hosts each)
+- /30 → used for point-to-point links (only 2 usable IPs)
+
+---
+
+### ARP (Address Resolution Protocol)
+
+---
 ## Practical Skills Developed   
 1. Understanding traffic flow between systems  
 2. Reading basic network diagrams  
