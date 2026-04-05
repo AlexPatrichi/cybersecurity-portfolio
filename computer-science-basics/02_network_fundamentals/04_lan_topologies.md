@@ -11,11 +11,11 @@ Focus Area: Network Topologies
 - Identify strengths and weaknesses of common network designs
 
 ## 🧠 Core Concepts Learned 
-## Local Area Network (LAN) Topologies
+### Local Area Network (LAN) Topologies
 - A network topology defines how devices are **connected and communicate** within a network.
 - Different topologies affect network performance, reliability, and fault tolerance
 
-## Star Topology
+#### Star Topology
 - All devices are connected to a **central device** (usually a switch or hub)
 - Most common topology in modern networks because of its reliability and scalability
 
@@ -35,7 +35,7 @@ Focus Area: Network Topologies
 
 ---
 
-## Bus Topology
+#### Bus Topology
 - All devices share a **single communication line (bus)**  
 
 <div align="center">
@@ -53,7 +53,7 @@ Focus Area: Network Topologies
 
 ---
 
-## Ring Topology
+#### Ring Topology
 - Devices are connected to each other in a **closed loop (circle)**  
 - Data travels in one direction around the ring from device to device
 - Every device will prioritise its data first and will send other information after

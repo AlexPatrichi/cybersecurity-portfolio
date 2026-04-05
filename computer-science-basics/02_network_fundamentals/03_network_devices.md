@@ -17,7 +17,9 @@ Focus Area: Network Devices and Infrastructure
 - Understanding these devices is essential for analysing network behaviour and detecting threats
 
 - **Devices (PC, Phone, Server)**  
-  - Send and receive data  
+  - Send and receive data
+
+<br>
 
 - **Switch**  
   - Connects devices (computers, printers, servers) within the same network  
@@ -33,21 +35,27 @@ Focus Area: Network Devices and Infrastructure
 
 <br>
 
-⚠️ **Switches and routers work efficiently together:**
+⚠️ **Switches and Routers work efficiently together:**
 - The **switch** handles communication inside the local network (LAN)  
 - The **router** connects the network to other networks (e.g. the internet)  
 - Switches operate at **Layer 2 (Data Link)**, routers operate at **Layer 3 (Network)**  
  
+<br>
+
 - **Modem**  
   - Connects the router to the Internet Service Provider (ISP)  
   - Converts digital signals into a format suitable for transmission over the internet  
   - Acts as the entry point to the internet for a home network   
+
+<br>
 
 - **Firewall**  
   - Filters incoming and outgoing traffic based on rules  
   - Often the first line of defense in network security  
   - Allows or blocks traffic depending on security policies   
   - Can be hardware (router/firewall device) or software-based   
+
+<br>
 
 - **IDS (Intrusion Detection System)**  
   - Monitors network traffic for suspicious activity  
@@ -56,6 +64,8 @@ Focus Area: Network Devices and Infrastructure
 - **IPS (Intrusion Prevention System)**  
   - Monitors and actively blocks malicious traffic  
   - Can stop attacks in real time   
+
+<br>
 
 - **Access Point**  
   - Provides wireless (Wi-Fi) connectivity to devices  
