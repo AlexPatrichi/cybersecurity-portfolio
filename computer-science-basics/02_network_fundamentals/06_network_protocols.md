@@ -64,10 +64,10 @@ Continuing the process:
    - Client: I acknowledge your ISN = 5000, here is my data ISN + 1 (0 + 1)
    - Server: I acknowledge your ISN = 0, here is my data ISN + 1 (5000 + 1)
 
-⚠️ The random number sequence sent through these messages is reconstructed using the initial number + incrementing by 1
+⚠️ The random number sequence sent through these messages is reconstructed using the initial number + incrementing by 1  
 ⚠️ Reliability comes from agreement and tracking
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <strong>TCP Opening (3-Way Handshake)</strong><br><br>
