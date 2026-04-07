@@ -1,7 +1,7 @@
 # Network Fundamentals – TryHackMe and Solent University Cybersecurity Coursework 
 
 Platform: TryHackMe   
-Date Started: 15.02.2026  
+Date Started: 11.02.2026  
 Level: Beginner / Foundation  
 Focus Area: Network Protocols 
 
@@ -44,7 +44,7 @@ Focus Area: Network Protocols
 **ACK** - "Confirmed. Let's go!"
   - Now client side acknowledge server's **SYN** and responds with **ACK** and data transfer can begin
 
-Continuing the process: 
+Continuing the process:   
 **DATA** 
   - After the successful connection has been established, information (as bytes of a file) can be sent via the "Data message"
 

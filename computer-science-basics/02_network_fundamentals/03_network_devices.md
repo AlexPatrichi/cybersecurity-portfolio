@@ -1,7 +1,7 @@
 # Network Fundamentals – TryHackMe and Solent University Cybersecurity Coursework
 
 Platform: TryHackMe   
-Date Started: 03.02.2026  
+Date Started: 04.02.2026  
 Level:  Beginner / Foundation  
 Focus Area: Network Devices and Infrastructure
 
