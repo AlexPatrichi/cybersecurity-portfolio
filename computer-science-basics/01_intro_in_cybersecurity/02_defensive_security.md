@@ -74,9 +74,9 @@ Develop an understanding of defensive security, including:
 - Critical for maintaining business continuity and data protection
 
 ## 📌 Lessons Learned 
-⚠️ Defensive roles (SOC, malware analysis, threat intel) require strong monitoring and analytical skills  
-⚠️ Most real-world work is monitoring, analysing, and responding — not hacking
-⚠️ Small anomalies can indicate major security incidents
-⚠️ Speed and accuracy are critical in incident response
-⚠️ Strong fundamentals (networking, logs, systems) matter more than flashy tools
+⚠️ Defensive roles (SOC, malware analysis, threat intel) require strong monitoring and analytical skills   
+⚠️ Most real-world work is monitoring, analysing, and responding — not hacking  
+⚠️ Small anomalies can indicate major security incidents   
+⚠️ Speed and accuracy are critical in incident response  
+⚠️ Strong fundamentals (networking, logs, systems) matter more than flashy tools  
   

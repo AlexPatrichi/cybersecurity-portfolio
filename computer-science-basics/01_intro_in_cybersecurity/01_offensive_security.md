@@ -74,11 +74,11 @@ Gain a foundational understanding of offensive security, including:
 - Learning career paths helps focus your learning trajectory and skill development    
 
 ## 📌 Lessons Learned 
-⚠️ Thinking like an attacker improves defensive skills massively
-⚠️ Exploitation is rarely one-step — it’s usually a chain of small weaknesses
-⚠️ Cybersecurity requires a balance between **attacking and defending skills**
-⚠️ Offensive exercises teach how vulnerabilities are exploited, which informs better defense
-⚠️ Legal boundaries are critical — hacking without permission is illegal
-⚠️ Offensive security requires patience, creativity, and persistence
-⚠️ Early career exploration is important to set goals and learning paths  
+⚠️ Thinking like an attacker improves defensive skills massively  
+⚠️ Exploitation is rarely one-step — it’s usually a chain of small weaknesses   
+⚠️ Cybersecurity requires a balance between **attacking and defending skills**   
+⚠️ Offensive exercises teach how vulnerabilities are exploited, which informs better defense   
+⚠️ Legal boundaries are critical — hacking without permission is illegal   
+⚠️ Offensive security requires patience, creativity, and persistence   
+⚠️ Early career exploration is important to set goals and learning paths    
   
