@@ -12,7 +12,7 @@ Focus Area: Packets and Frames
 
 ## 🧠 Core Concepts Learned 
 
-## Packets 
+### Packets 
 - Is a unit of data that contains control information (header) and payload
 - Used to route data across different networks (Internet communication)
 - Is part of the Network Layer (3)
@@ -33,7 +33,7 @@ Focus Area: Packets and Frames
 - Used to detect errors in the packet header  
 - If data is corrupted, the packet may be discarded  
 
-## Frames
+### Frames
 - A frame is a unit of data at the Data Link Layer (2)  
 - Encapsulate the packet and adds additional information like the MAC address, and moves data inside a local network (LAN)
 - Handled by switches
@@ -44,21 +44,17 @@ Focus Area: Packets and Frames
 - Payload (the packet)
 - Frame Check Sequence (FCS) for error detection
 
-## Key Difference: Packet vs Frame
+#### Key Difference: Packet vs Frame
 ⚠️ Packet → used for communication across networks (Layer 3)  
 ⚠️ Frame → used for communication within a local network (Layer 2)  
 ⚠️ Packets use IP addresses, while frames use MAC addresses  
 
----
-
-### Encapsulation Relationship
+#### Encapsulation Relationship
 - Data is created → becomes a **packet** → part of Layer 3  
 - Packet is encapsulated into a **frame** → part of Layer 2  
 - Frame is transmitted as **bits** to Layer 1  
 
----
-
-### TCP vs UDP Packets
+#### TCP vs UDP Packets
 **TCP Packet:**
 - Connection-oriented  
 - Reliable (acknowledgements, retransmissions)  
@@ -68,7 +64,6 @@ Focus Area: Packets and Frames
 - Connectionless  
 - No guarantee of delivery  
 - Faster with less overhead  
-
 
 ## 🛠️ Practical Skills Developed
 - Understanding how data is structured and transmitted across networks  
@@ -85,7 +80,7 @@ Focus Area: Packets and Frames
 - TTL and packet structure are useful in network scanning and analysis  
 - Understanding packets is essential for tools like Wireshark  
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ Data is not sent as one continuous stream, but broken into structured units  
 ⚠️ Different OSI layers handle data in different formats (frames, packets, bits)  
 ⚠️ Understanding packet structure is key to analyzing and securing networks  

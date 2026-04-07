@@ -90,7 +90,7 @@ Focus Area: Network Devices and Infrastructure
 - Misconfigured devices can create security vulnerabilities  
 - Understanding device roles helps identify weak points in a network  
 
-## 🧠 Lessons Learned 
+## 📌 Lessons Learned 
 ⚠️ Different devices have specific roles in a network  
 ⚠️ Switches operate inside networks, routers connect networks together  
 ⚠️ Network security depends on correct device configuration  

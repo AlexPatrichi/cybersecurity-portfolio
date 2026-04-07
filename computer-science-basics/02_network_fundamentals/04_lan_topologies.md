@@ -87,7 +87,7 @@ Focus Area: Network Topologies
 - Poor network design can increase attack surface  
 - Understanding topology helps identify weak points in infrastructure  
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ Network design directly impacts performance and security  
 ⚠️ Centralised devices can become single points of failure  
 ⚠️ Different topologies have trade-offs between cost, reliability, and scalability  

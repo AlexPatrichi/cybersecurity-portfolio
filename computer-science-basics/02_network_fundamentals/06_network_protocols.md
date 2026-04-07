@@ -190,7 +190,7 @@ Continuing the process:
 - Monitoring tools help detect abnormal behaviour  
 - Understanding protocols is essential for traffic analysis  
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ Protocols work together, not individually  
 - Understanding the interaction between IP, TCP, and UDP is essential  
 

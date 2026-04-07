@@ -39,7 +39,7 @@ Phone → PC → Router → Internet
 - Most cyber attacks rely on network communication  
 - Understanding networks helps identify how attacks move between systems  
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ Every device in a network must have an **identity**  
 ⚠️ Communication follows structured rules (protocols)  
 ⚠️ Networking is the foundation of cybersecurity  

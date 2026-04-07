@@ -161,7 +161,7 @@ Usable host range:
   - Monitoring & detection → Easier to identify suspicious activity within segmented networks
   - Containment → If one subnet is compromised, others remain isolated
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ Subnetting is not just math — it’s logic
 - At first it looks like calculations, but it’s really about understanding how networks are structured.
 

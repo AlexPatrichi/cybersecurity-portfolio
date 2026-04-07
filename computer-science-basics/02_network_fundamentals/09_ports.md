@@ -31,8 +31,8 @@ Focus Area: Ports
 
 ⚠️ There are 65,536 TCP ports and 65,536 UDP ports available
 
-### Port Number Use
-**0 to 1023**
+#### Port Number Use
+**// 0 to 1023**
 - Reserved for knwon services 
 - Assigned by **IANA (Internet Assigned Numbers Authority)** 
 - These ports are **public**, any application can use them  
@@ -43,7 +43,7 @@ Examples:
 - FTP → 21  
 - SSH → 22  
 
-**1024 to 49,151**
+**// 1024 to 49,151**
 - Reserved for specific applications or services that need a consistent port (businesses or government)
 - They need to be registered officialy   
 
@@ -51,11 +51,11 @@ Examples:
 - 3306 for MySQL
 - 25565 for Minecraft
 
-**49,152 to 65,535**
+**// 49,152 to 65,535**
 - Temporary ports used by clients
 - When session ends, the port is released for future use
 
-### How Ports Work (Client–Server Model)
+#### How Ports Work (Client–Server Model)
 - A server listens on a specific port (443 for HTTPS)  
 - A client connects using a temporary port  
 - Communication happens between:
@@ -64,7 +64,7 @@ Examples:
 
 - This combination is called a **socket**
 
-### TCP vs UDP Ports
+#### TCP vs UDP Ports
 
 **TCP Ports:**
 - Reliable, connection-oriented  
@@ -91,7 +91,7 @@ Examples:
 - Misconfigured services can lead to exploitation  
 - Common tools: Nmap (port scanning)  
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ Ports allow multiple services to run on a single device  
 ⚠️ Each service is identified by a unique port number  
 ⚠️ Open ports can represent potential security risks  

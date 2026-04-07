@@ -279,7 +279,7 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 - Understanding how private networks communicate with the internet (NAT)
 - Understanding addressing helps detect suspicious network activity   
 
-## 🧠 Lessons Learned  
+## 📌 Lessons Learned  
 ⚠️ IP addresses can be tracked and analysed in network logs  
 ⚠️ MAC addresses can be spoofed to impersonate devices  
 ⚠️ ARP can be exploited using **ARP spoofing (poisoning)**  
