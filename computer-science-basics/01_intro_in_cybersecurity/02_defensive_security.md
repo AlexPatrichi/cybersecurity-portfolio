@@ -1,7 +1,6 @@
 # Introduction to Cyber Security – TryHackMe and Solent University Cybersecurity Coursework 
 
-Platform: TryHackMe  
-Date Completed: 15.01.2026  
+Platform: TryHackMe    
 Skill Level: Beginner / Foundation  
 Focus Area: Defensive Security (Blue Team)
 
