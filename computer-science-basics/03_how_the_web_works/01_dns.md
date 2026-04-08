@@ -13,8 +13,8 @@ Focus Area: DNS in detail
 
 ## Domain Name System (DNS)
 DNS is a system that translates human-readable domain names into IP addresses.  
-- Humans prefer to use: www.google.com
-- Computers use IP addresses: 142.250.74.206
+- Humans prefer to use: `www.google.com`
+- Computers use IP addresses: `142.250.74.206`
 
 ### How DNS Works 
 1. You type `www.google.com` into your browser  
@@ -43,16 +43,16 @@ Controlled by **ICANN (Internet Corporation for Assigned Names and Numbers)**, w
 **gTLD - Generic Top Level Domain**  
 - Shows the domain name's purpose:  
     - `.com` - commercial use
-    - `.org` - for organisations
-    - `.edu` - for education 
-    - `.gov` - for government
+    - `.org` - for organisations use
+    - `.edu` - for education use
+    - `.gov` - for government use
 
 ⚠️  Due to high demand, there is an influx of new gTLDs (`.online` , `.club`, `.website`, `.biz`) 
 
 **ccTLD - Country-Code Top Level Domain**
 - Used for geographical purposes: 
-    - .co.uk - for sites based in the United Kingdom
-    - .ca - for sites based in Canada   
+    - `.co.uk` - for sites based in the United Kingdom
+    - `.ca` - for sites based in Canada   
 
 ⚠️ Note: Some countries use structured domains such as `.co.uk`, where `.co` is a second-level domain under `.uk`.  
 
@@ -78,7 +78,7 @@ They remain part of the main domain and can be created freely by the domain owne
 
 <div align="center">
   <strong>Domain Hierarchy</strong><br><br>
-  <img src="../../domain-hierarchy.png" alt="Domain Hierarchy" width="400"/>
+  <img src="../../images/domain-hierarchy.png" alt="Domain Hierarchy" width="400"/>
 </div>
 
 
