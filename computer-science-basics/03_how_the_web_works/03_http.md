@@ -84,6 +84,6 @@ Focus Area: HTTP in detail
 - Fragments (#) are handled client-side and not transmitted to the server
 
 ## 📌 Lessons Learned  
-⚠️ Understanding URL structure is essential for analysing web traffic
-⚠️ Secure communication (HTTPS) is critical for protecting user data
+⚠️ Understanding URL structure is essential for analysing web traffic   
+⚠️ Secure communication (HTTPS) is critical for protecting user data   
 ⚠️ Even small components of a URL can have security implications      
