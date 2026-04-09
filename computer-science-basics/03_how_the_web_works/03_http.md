@@ -11,6 +11,7 @@ Focus Area: HTTP in detail
 - Recognise the differences between HTTP protocol versions and their impact on performance  
 - Understand the security implications of web communication, including encryption and data exposure
 
+## 🧠 Core Concepts Learned 
 ### HyperText Transfer Protocol (HTTP)
 - Defines the rules used for communication between a client (browser) and a web server
 - Used to transfer web resources such as HTML, images, and videos
@@ -30,12 +31,12 @@ Focus Area: HTTP in detail
 
 <div align="center">
   <strong>URL Structure</strong><br><br>
-  <img src="../../images/url-structure.png" alt="URL Structure" width="400"/>
+  <img src="../../images/url-structure.png" alt="URL Structure" width="1000"/>
 </div>
 
 <div align="center">
   <strong>Full URL Structure</strong><br><br>
-  <img src="../../images/url-full-structure.png" alt="Full URL Structure" width="400"/>
+  <img src="../../images/url-full-structure.png" alt="Full URL Structure" width="1000"/>
 </div>
 
 - Scheme / Protocol:
@@ -61,14 +62,8 @@ Focus Area: HTTP in detail
     - Widely supported and stable version of HTTP
     - Replaced **HTTP/1.0** to fix limitations like faster loading, more connections, more features
 
-⚠️ **HTTP/2** and **HTTP/3** are widely used and provide significant performance improvements over **HTTP/1.1**, including faster data transfer and reduced latency.  
-⚠️ However, **HTTP/1.1** remains widely supported for compatibility with older systems and infrastructure.
-
-## 🧠 Core Concepts Learned 
-- How HTTP and HTTPS enable communication between clients and servers
-- The structure and purpose of URLs
-- Differences between HTTP protocol versions
-- The role of requests and responses in web communication
+⚠️ **HTTP/2** and **HTTP/3** are widely used and provide significant performance improvements over **HTTP/1.1**, including faster data transfer and reduced latency.    
+⚠️ However, **HTTP/1.1** remains widely supported for compatibility with older systems and infrastructure.  
 
 ## 🛠️ Practical Skills Developed
 - Identifying and analysing URL components
