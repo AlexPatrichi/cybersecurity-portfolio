@@ -11,29 +11,29 @@ Focus Area: DNS Record Types
 
 ## 🧠 Core Concepts Learned 
 ## DNS Record Types
-DNS records are standardized instructions stored in DNS servers that tell the system how to handle requests for a domain   
-Each record type defines how traffic should be routed for services such as websites, email, and verification systems  
+- DNS records are standardized instructions stored in DNS servers that tell the system how to handle requests for a domain   
+- Each record type defines how traffic should be routed for services such as websites, email, and verification systems  
 
 ### DNS Record Types
 1. **A Record**  
-Maps a domain to an IPv4 address  
-Example: `example.com` → `93.184.216.34`  
+- Maps a domain to an IPv4 address  
+- Example: `example.com` → `93.184.216.34`  
 
 2. **AAAA Record**  
-Maps a domain to an IPv6 address   
-Example: `example.com` → `2606:28000:220:1:248:1893:25c8:1946`   
+- Maps a domain to an IPv6 address   
+- Example: `example.com` → `2606:28000:220:1:248:1893:25c8:1946`   
 
 3. **CNAME (CANONICAL NAME)**  
-Creates an alias from one domain to another  
-Example: `www.example.com` → `example.com`  
+- Creates an alias from one domain to another  
+- Example: `www.example.com` → `example.com`  
 
 4. **MX (Mail Exchange) Record**
-Specifies the mail servers responsible for receiving emails for a domain  
-Example: `example.com` → `mail.example.com`  
+- Specifies the mail servers responsible for receiving emails for a domain  
+- Example: `example.com` → `mail.example.com`  
 
 5. **TXT Record**  
-Stores text-based (notes) information used for verification and security     
-Just hold information which other systems can read and trust your domain for specific purposes, like email or domain ownership verification  
+- Stores text-based (notes) information used for verification and security     
+- Just hold information which other systems can read and trust your domain for specific purposes, like email or domain ownership verification  
 
 ## 🛠️ Practical Skills Developed
 - Identified common DNS record types and their functions  

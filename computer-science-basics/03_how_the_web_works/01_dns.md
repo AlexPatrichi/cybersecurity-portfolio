@@ -49,6 +49,11 @@ When a domain is requested, the following steps occur behind the scenes:
 - Example: TTL = 300 seconds (5 minutes)
 - After the TTL expires, the request is deleted and we need to search again
 
+<div align="center">
+  <strong>DNS Resolution Process</strong><br><br>
+  <img src="../../images/dns-resolution.png" alt="DNS Resolution Process" width="400"/>
+</div>
+
 ### Domain Hierarchy
 DNS is hierarchical, meaning each level can delegate authority to the level below it.  
 
@@ -60,8 +65,8 @@ DNS is hierarchical, meaning each level can delegate authority to the level belo
 </div>
 
 #### TLD (Top-Level Domain)
-The TLD is the highest level in the DNS hierarchy (just below the root domain ".").   
-Controlled by **ICANN (Internet Corporation for Assigned Names and Numbers)**, which manages global domain name systems.   
+- The TLD is the highest level in the DNS hierarchy (just below the root domain ".").   
+- Controlled by **ICANN (Internet Corporation for Assigned Names and Numbers)**, which manages global domain name systems.   
 
 **Types of TLD:**   
 **gTLD - Generic Top Level Domain**  
@@ -81,10 +86,10 @@ Controlled by **ICANN (Internet Corporation for Assigned Names and Numbers)**, w
 ⚠️ Note: Some countries use structured domains such as `.co.uk`, where `.co` is a second-level domain under `.uk`.  
 
 #### SLD (Second-Level Domain)   
-The second-level domain is the part directly to the left of the TLD.  
-When registering a domain name, the second-level domain is limited to:
-- Up to 63 characters  
-- Allowed characters: a–z, 0–9, and hyphens (-)
+- The second-level domain is the part directly to the left of the TLD.  
+- When registering a domain name, the second-level domain is limited to:
+   - Up to 63 characters  
+   - Allowed characters: a–z, 0–9, and hyphens (-)
 
 **Example:**  
 In `example.com` → `example` is the SLD  
