@@ -31,8 +31,10 @@ Focus Area: HTTP in detail
 
 <div align="center">
   <strong>URL Structure</strong><br><br>
-  <img src="../../images/url-structure.png" alt="URL Structure" width="1000"/>
+  <img src="../../images/url-structure.png" alt="URL Structure" width="900"/>
 </div>
+
+<br>
 
 <div align="center">
   <strong>Full URL Structure</strong><br><br>
