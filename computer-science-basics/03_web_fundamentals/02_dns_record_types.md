@@ -1,4 +1,4 @@
-# How the Web Works – TryHackMe and Solent University Cybersecurity Coursework 
+# Web Fundamentals – TryHackMe and Solent University Cybersecurity Coursework 
 
 Platform: TryHackMe   
 Level: Beginner / Foundation  
