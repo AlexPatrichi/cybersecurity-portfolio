@@ -28,10 +28,9 @@ Focus Area: Internal Components
 - **Threads**
     - A virtual execution path inside a CPU core
     - Allows a single core to handle multiple tasks
+    - Typically 2 threads per core using technologies like Simultaneous Multithreading (SMT - AMD) or Hyper-Threading (Intel)
 
  💡While a task is waiting to be completed, the same core can run another task   
-    
-    - Typically 2 threads per core using technologies like Simultaneous Multithreading (SMT - AMD) or Hyper-Threading (Intel)
 
 - **Clock speed (GHz)**
     - Number of cycles the CPU can perform per second  
@@ -191,8 +190,6 @@ Focus Area: Internal Components
         - Air cooling (fans and heat sinks)  
         - Liquid cooling (more efficient, used in high-performance systems)
 
----
-
 ## How Components Work Together
 - A simple data flow inside a system:
 
@@ -225,8 +222,8 @@ Focus Area: Internal Components
 💡 Understanding internal components helps identify where attacks can occur within a system
 
 ## 📌 Lessons Learned
-⚠️ A computer system is not a single unit — it is a collection of components working together
-⚠️ Performance depends not only on individual components, but on how efficiently they interact
-⚠️ Understanding internal architecture is essential for analysing system behaviour and security risks
-⚠️ Heat is one of the biggest enemies of a computer system, affecting performance, stability, and hardware lifespan
+⚠️ A computer system is not a single unit — it is a collection of components working together  
+⚠️ Performance depends not only on individual components, but on how efficiently they interact  
+⚠️ Understanding internal architecture is essential for analysing system behaviour and security risks  
+⚠️ Heat is one of the biggest enemies of a computer system, affecting performance, stability, and hardware lifespan  
 

@@ -11,7 +11,7 @@ Focus Area: Computer Types & Usage Models
 
 ## 🧠 Core Concepts Learned 
 
-## Computer Types & Usage Models
+## Computer Types 
 - Computers come in different forms depending on their purpose, performance requirements, and environment of use
 
 ⚠️ No system is perfect — improving one aspect often reduces another
@@ -57,7 +57,6 @@ Focus Area: Computer Types & Usage Models
 - Systems can scale dynamically based on demand
 - Example: using online storage or web applications
 
-
 ## 🛠️ Practical Skills Developed
 - Identified different computer types and their roles
 - Understood how systems are used in real-world environments
@@ -75,6 +74,6 @@ Focus Area: Computer Types & Usage Models
 - Cloud systems introduce shared responsibility and new risks
 
 ## 📌 Lessons Learned 
-⚠️ These systems often work together in modern environments 
-⚠️ Not all computers are designed the same — their purpose defines their architecture, performance, and security risks
-⚠️ Understanding where and how a system is used helps identify its potential vulnerabilities and attack vectors
+⚠️ These systems often work together in modern environments   
+⚠️ Not all computers are designed the same — their purpose defines their architecture, performance, and security risks  
+⚠️ Understanding where and how a system is used helps identify its potential vulnerabilities and attack vectors  
