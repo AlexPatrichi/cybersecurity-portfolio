@@ -1,8 +1,8 @@
 # Computer Fundamentals - TryHackMe and Solent University Cybersecurity Coursework 
 
-Platform: TryHackMe
-Skill Level: Beginner / Foundation
-Focus Area: Peripherals & Input/Output Devices
+Platform: TryHackMe  
+Skill Level: Beginner / Foundation  
+Focus Area: Peripherals & Input/Output Devices  
 
 ## 🎯 Objective
 - Understand the role of peripheral devices in a computer system
@@ -76,7 +76,7 @@ Focus Area: Peripherals & Input/Output Devices
 - **Router**   
     - Directs data packets between different networks
 
-- **Modems**
+- **Modem**
     - Converts digital signals for transmission over the internet
     - Connects a local network to an Internet Service Provider (ISP)
 
@@ -89,11 +89,7 @@ Focus Area: Peripherals & Input/Output Devices
 ## Peripheral Connection
 ### Wired connections
 - **Universal Serial Bus (USB)**
-    - The most common interface for connecting peripherals
-    - USB versions offer different speeds:
-        - USB 2.0 → up to 480 Mbps
-        - USB 3.0 → up to 5 Gbps
-        - USB-C / USB 3.1+ → up to 10–40 Gbps 
+    - The most common interface for connecting peripherals 
 
 - **HDMI and DisplayPort**
     - Used for connecting display devices
@@ -114,6 +110,16 @@ Focus Area: Peripherals & Input/Output Devices
 
 💡 Different connection types affect speed, reliability, and security 
 
+## Device Drivers
+- Software that allows the operating system to communicate with hardware devices
+- Without drivers, peripherals may not function correctly
+
+💡 Drivers act as translators between hardware and the operating system
+
+## Plug and Play
+- Ability of a system to automatically detect and configure new hardware
+- Simplifies the process of connecting peripherals
+
 ## Troubleshooting Peripherals and Ports
 **Common Issues & Solutions**
 - **Driver Issues:** Missing or outdated drivers can prevent devices from functioning
@@ -132,16 +138,6 @@ Focus Area: Peripherals & Input/Output Devices
 - Dust and debris can affect performance and airflow
 - Regular driver updates ensure compatibility and performance
 - Disconnecting unused devices can improve system efficiency
-
-## Device Drivers
-- Software that allows the operating system to communicate with hardware devices
-- Without drivers, peripherals may not function correctly
-
-💡 Drivers act as translators between hardware and the operating system
-
-## Plug and Play
-- Ability of a system to automatically detect and configure new hardware
-- Simplifies the process of connecting peripherals
 
 ## 🛠️ Practical Skills Developed
 - Identified different types of peripheral devices
@@ -162,6 +158,6 @@ Focus Area: Peripherals & Input/Output Devices
 💡 External devices are common entry points for attackers and should not be trusted by default
 
 ## 📌 Lessons Learned
-⚠️ Peripheral devices extend system functionality but also increase the attack surface
-⚠️ Not all external devices are safe. Connecting unknown hardware can introduce security risks
-⚠️ Understanding how devices interact with the system is essential for both usability and security
+⚠️ Peripheral devices extend system functionality but also increase the attack surface  
+⚠️ Not all external devices are safe. Connecting unknown hardware can introduce security risks  
+⚠️ Understanding how devices interact with the system is essential for both usability and security  
