@@ -24,36 +24,20 @@ Focus Area: Peripherals & Input/Output Devices
 - Convert user actions into digital signals 
 
 #### Devices:
-- **Keyboard**
-    - Used for typing text and commands
-
-- **Mouse** 
-    - Pointing device used for navigation and interaction
-
-- **Microphone** 
-    - Captures audio input
-
-- **Scanner**
-    - Converts physical documents into digital formats 
-
-- **Camera** 
-    - Captures video input
+- **Keyboard** → Used for typing text and commands
+- **Mouse** → Pointing device used for navigation and interaction
+- **Microphone** → Captures audio input
+- **Scanner** → Converts physical documents into digital formats 
+- **Camera** → Captures video input
 
 ### 2. Output Devices (Information Display)
 - Used to present data from the computer in a human-readable format
 
 #### Devices:
-- **Monitor**
-    - Displays visual information
-
-- **Printer** 
-    - Produce physical copies of digital documents
-
-- **Speakers/ Headphones**
-    - Produce audio output
-
-- **Projector**
-    - Displays computer output on a larger surface
+- **Monitor** → Displays visual information
+- **Printer** → Produce physical copies of digital documents
+- **Speakers/ Headphones** → Produce audio output
+- **Projector** → Displays computer output on a larger surface
 
 ### 3. Storage Peripherals
 - External devices used for data storage, transfer, and backup
@@ -70,21 +54,11 @@ Focus Area: Peripherals & Input/Output Devices
 - Devices that enable communication between systems
 
 #### Devices:
-- **Network Interface Card (NIC)**
-    - Allows a device to connect to a network (wired or wireless)
-
-- **Router**   
-    - Directs data packets between different networks
-
-- **Modem**
-    - Converts digital signals for transmission over the internet
-    - Connects a local network to an Internet Service Provider (ISP)
-
-- **Wi-fi** 
-    - Enables wireless communication between devices over a network
-
-- **Bluethoot**
-    - Short-range wireless technology used for low-power devices
+- **Network Interface Card (NIC)** → Allows a device to connect to a network (wired or wireless)
+- **Router** → Directs data packets between different networks
+- **Modem** → Connects a local network to an Internet Service Provider (ISP)
+- **Wi-fi** → Enables wireless communication between devices over a network
+- **Bluethoot** → Short-range wireless technology used for low-power devices
 
 ## Peripheral Connection
 ### Wired connections
