@@ -75,6 +75,19 @@ Examples:
 - Used where speed is more important than reliability  
 - Examples: DNS, VoIP, streaming  
 
+## 🧪 TryHackMe Lab Example
+- Connected to a remote service using a non-standard port  
+
+### Tasks Performed:
+- Accessed an external IP address (8.8.8.8) using a custom port (1234)  
+- Retrieved a flag by successfully connecting to the service  
+
+### Key Observations:
+- Services can run on non-standard ports  
+- Accessing these services requires specifying the port number manually   
+
+💡 Network communication depends on both IP address and port number   
+
 ## 🛠️ Practical Skills Developed
 - Understanding how services communicate using ports  
 - Identifying common ports and their associated protocols  
@@ -83,6 +96,9 @@ Examples:
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework 
 - TryHackMe platform  
+- Command Line Interface (CLI)
+  - Windows Command Prompt (cmd)
+  - Linux Terminal (bash)
 
 ## 🔐 Security Relevance
 - Open ports can expose services to attackers  

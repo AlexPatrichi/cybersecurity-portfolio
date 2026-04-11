@@ -171,17 +171,36 @@ Continuing the process:
 - Displays the mapping between IP addresses and MAC addresses  
 - Used to identify devices on the local network  
 
-⚠️ Useful for detecting ARP spoofing attacks and identifying unknown devices 
+⚠️ Useful for detecting ARP spoofing attacks and identifying unknown devices   
+
+## 🧪 TryHackMe Lab Example
+- Used the ping command to test network connectivity using ICMP protocol  
+
+### Tasks Performed:
+- Sent ICMP echo requests to a local device (192.168.1.254)  
+- Observed successful responses with low latency  
+- Sent ICMP requests to a public IP address (8.8.8.8) to test external connectivity  
+
+### Key Observations:
+- Local IP addresses (private) are used within internal networks  
+- Public IP addresses allow communication over the internet  
+- Successful replies confirmed that packets were transmitted and received correctly  
+
+💡 Ping is a simple but powerful tool used to test connectivity and measure network latency  
+💡 This demonstrates how network connectivity can be verified and helps identify potential network issues or blocking mechanisms  
 
 ## 🛠️ Practical Skills Developed
 - Tested connectivity using ping  
 - Analysed network paths using traceroute  
 - Checked system configuration with ipconfig  
-- Observed protocol behaviour in TryHackMe labs  
+- Observed protocol behaviour in TryHackMe labs
 
-## 🧰 Tools Used 
+## 🧰 Tools Used
 - Solent University Cybersecurity Coursework  
-- TryHackMe Platform  
+- TryHackMe platform  
+- Command Line Interface (CLI)
+  - Windows Command Prompt (cmd)
+  - Linux Terminal (bash)
 
 ## 🔐 Security Relevance
 - Protocols define how data moves across networks  
@@ -190,13 +209,10 @@ Continuing the process:
 - Understanding protocols is essential for traffic analysis  
 
 ## 📌 Lessons Learned  
-⚠️ Protocols work together, not individually  
-- Understanding the interaction between IP, TCP, and UDP is essential  
-
-⚠️ Not all network failures mean the system is down  
-- Tools like ping can be blocked by firewalls  
-
-⚠️ Simplicity vs reliability trade-off  
-- UDP is fast but unreliable, TCP is slower but reliable  
-
-⚠️ These concepts are directly used in real-world cybersecurity roles  
+⚠️ Protocols work together, not individually    
+- Understanding the interaction between IP, TCP, and UDP is essential    
+⚠️ Not all network failures mean the system is down    
+- Tools like ping can be blocked by firewalls    
+⚠️ Simplicity vs reliability trade-off    
+- UDP is fast but unreliable, TCP is slower but reliable    
+⚠️ These concepts are directly used in real-world cybersecurity roles    

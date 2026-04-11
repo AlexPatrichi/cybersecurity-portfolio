@@ -259,12 +259,29 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 ⚠️ ARP can be **spoofed (ARP poisoning)**  
 - Attackers can redirect traffic (Man-in-the-Middle attack)
 
+---
+
+## 🧪 TryHackMe Lab Example
+- Simulated a hotel Wi-Fi network where access control was enforced based on MAC addresses  
+
+### Tasks Performed:
+- Observed how network traffic was filtered based on device identity (MAC address)  
+- Identified that Bob’s device traffic was blocked, while Alice’s was allowed  
+- Modified (spoofed) Bob’s MAC address to match Alice’s  
+
+### Key Observations:
+- After changing the MAC address, Bob’s traffic was allowed through the network  
+- The router treated Bob’s device as a trusted device because it matched Alice’s MAC address  
+
+💡 This demonstrates how network access control based only on MAC addresses can be bypassed  
+💡 This scenario highlights a security weakness where attackers can impersonate authorised devices using MAC spoofing 
+
 ## 🛠️ Practical Skills Developed  
 - Understanding how devices are identified on a network  
 - Differentiating between IP and MAC addressing  
 - Reading IP address structures  
 - Understanding how devices find each other (ARP) 
-- Understanding how private networks communicate with the internet (NAT)    
+- Understanding how private networks communicate with the internet (NAT)     
 
 ## 🧰 Tools Used  
 - Solent University Cybersecurity Coursework

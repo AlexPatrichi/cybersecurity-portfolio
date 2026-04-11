@@ -64,6 +64,30 @@ Focus Area: Packets and Frames
 - No guarantee of delivery  
 - Faster with less overhead  
 
+## 🧪 TryHackMe Lab Example (TCP / UDP Network Simulation)
+- Used a network simulator to visualise how packets travel across a network from source to destination  
+
+### Tasks Performed:
+- Sent a **TCP packet** from Computer1 to Computer3  
+- Observed the **TCP handshake process** before data transmission  
+- Sent a **UDP packet** between devices to compare behaviour  
+- Tracked how packets moved through **switches and a router**  
+- Retrieved a flag after successful packet delivery  
+
+### Key Observations:
+- TCP establishes a connection before sending data, ensuring reliable delivery  
+- UDP sends packets without establishing a connection, making it faster but less reliable  
+- Packets are forwarded through multiple devices (switch → router → switch) before reaching the destination  
+- Each network device makes forwarding decisions based on addressing information  
+
+💡 Network communication is a multi-step process involving multiple devices, not a direct connection between two computers  
+💡 Understanding how TCP and UDP behave helps identify unusual traffic patterns and detect potential network-based attacks    
+
+<div align="center">
+  <strong>Network Packet Flow Simulation</strong><br><br>
+  <img src="../../images/network-simulator.png" width="600"/>
+</div>
+
 ## 🛠️ Practical Skills Developed
 - Understanding how data is structured and transmitted across networks  
 - Differentiating between packets and frames  

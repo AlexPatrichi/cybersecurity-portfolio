@@ -41,12 +41,34 @@ Focus Area: Firewalls
 **Stateless firewall**
   - Inspect the header of each packet and comperes them to static rules to determine if are eligible
   - If a device sends a bad packet will not get blocket entirely
-  - This firewall is considered simple and fast, but less aware of context
+  - This firewall is considered simple and fast, but less aware of context 
+
+## 🧪 TryHackMe Lab Example
+- Configured firewall rules to control network traffic based on port and destination  
+
+### Tasks Performed:
+- Identified malicious traffic targeting a web server (203.0.110.1)  
+- Created a firewall rule to block traffic on port 80 (HTTP)  
+- Applied the rule to prevent malicious packets from reaching the server  
+
+### Key Observations:
+- Port 80 is commonly used for HTTP traffic  
+- Blocking a specific port can stop certain types of attacks  
+- Firewall rules apply to all traffic matching the criteria, not just malicious packets  
+
+💡 Firewalls filter traffic based on rules such as IP address, port, and protocol  
+💡 This demonstrates how network security controls can be used to prevent unauthorised or harmful traffic from reaching systems  
+
+<div align="center">
+  <strong>Firewall Rules</strong><br>
+  <img src="../../images/firewall_rules.png" alt="Firewall Rules" width="400"/>
+  <br>
+</div>
 
 ## 🛠️ Practical Skills Developed
 - Understanding how firewall rules control network traffic  
 - Recognising how traffic is filtered based on ports and protocols  
-- Differentiating between firewall types and behaviours  
+- Differentiating between firewall types and behaviours 
 
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework 

@@ -70,6 +70,23 @@ Focus Area: Network Topologies
 - If one device or connection fails, the entire network is affected  
 - Harder to maintain and scale  
 
+## 🧪 TryHackMe Lab Example
+- Explored different LAN topologies and tested their weaknesses in a simulated environment  
+
+### Tasks Performed:
+- Analysed various network topologies (star, bus, ring)  
+- Identified single points of failure in each topology  
+- Simulated failures to observe how networks break and stop functioning  
+- Retrieved a flag by successfully disrupting the network  
+
+### Key Observations:
+- Some topologies rely heavily on a single device (central hub or switch)  
+- Failure of a critical component can disrupt the entire network  
+- Network design directly impacts reliability and fault tolerance  
+
+💡 Different network topologies have unique strengths and weaknesses that affect performance and resilience  
+💡 Understanding these weaknesses helps identify potential attack points and improve network security design  
+
 ## 🛠️ Practical Skills Developed
 - Identifying different network topologies  
 - Understanding how topology affects performance and reliability  
