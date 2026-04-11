@@ -78,9 +78,9 @@ Focus Area: The OSI Model
   - Used where speed is more important than reliability  
   - Examples: DNS, VoIP, Streaming
   
-⚠️ TCP can be targeted by SYN flood attacks  
-⚠️ UDP can be abused in amplification attacks (e.g., DDoS) 
-⚠️ Port scanning can be used to identify open services
+⚠️ TCP can be targeted by SYN flood attacks   
+⚠️ UDP can be abused in amplification attacks (e.g., DDoS)   
+⚠️ Port scanning can be used to identify open services  
 
 #### 3. Network Layer 
 - Responsible for logical addressing and routing of data between networks
