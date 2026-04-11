@@ -18,10 +18,10 @@ Focus Area: System Boot Process
 ### Main Stages of the Boot Process
 
 #### 1. Power On
-- A signal is sent to the PSU, allowing power to flow to the motherboar and all connected components  
+- A signal is sent to the PSU, allowing power to flow to the motherboard and all connected components  
 
 #### 2. Firmware Initialisation
-- The system firmare starts running, takes control and begin the startup process
+- The system firmware starts running, takes control and begins the startup process
     - **BIOS (Basic Input/Output System)** - legacy firmware
     - **UEFI (Unified Extensible Firmware Interface)** - modern firmware  
 - Prepares hardware components such as the CPU, memory, keyboard, and storage devices  
@@ -32,14 +32,14 @@ Focus Area: System Boot Process
 - Initializes CPU, memory, and basic system devices required for booting
 
 #### 4. Boot Device Selection
-- The firmware follows its boot order list and looks to locate a valid **bootloader** on the configured storage device (SSD, HDD, USB)
-- The bootloader is loaded and is responsible for starting the operating system  
+- The firmware follows its boot order list and looks to locate a valid **bootloader** on the configured storage device (SSD, HDD, USB) 
+- It locates and loads the bootloader, which is responsible for starting the operating system
 
 #### 5. Bootloader Execution
 - The bootloader is loaded into memory 
 - It loads the operating system kernel from the storage device into RAM
 
-💡Bootloader is a small startup program that loads the OS kernel into RAM memory and starts its execution  
+💡Bootloader is a small startup program that loads the OS kernel into RAM and starts its execution
 
 #### 6. Operating System Handover
 - Control of the system is transferred from firmware to the operating system
@@ -96,6 +96,8 @@ Focus Area: System Boot Process
 </table>
 
 </div>
+
+💡 Modern systems use UEFI due to better performance, improved security (Secure Boot), and support for larger storage devices
 
 ## 🛠️ Practical Skills Developed
 - Identifying the stages of the computer boot process  
