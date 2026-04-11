@@ -61,7 +61,7 @@ Focus Area: Firewalls
 
 <div align="center">
   <strong>Firewall Rules</strong><br>
-  <img src="../../images/firewall_rules.png" alt="Firewall Rules" width="400"/>
+  <img src="../../images/firewall-rules.png" alt="Firewall Rules" width="400"/>
   <br>
 </div>
 
