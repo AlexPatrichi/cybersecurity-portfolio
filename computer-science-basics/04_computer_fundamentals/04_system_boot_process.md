@@ -49,8 +49,9 @@ Focus Area: System Boot Process
 - Once startup is complete, the OS loads the graphical user interface (GUI)
 - The system is ready for user interaction 
 
-### BIOS vs UEFI Comparison
 <div align="center">
+
+### BIOS vs UEFI Comparison
 
 <table>
   <tr>
