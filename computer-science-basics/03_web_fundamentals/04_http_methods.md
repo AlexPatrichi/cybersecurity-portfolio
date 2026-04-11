@@ -52,6 +52,12 @@ Focus Area: HTTP Methods
 
 💡 HTTP emulators are useful for visualising how web requests are built and processed  
 
+<div align="center">
+  <strong>Inspecting HTTP requests </strong><br><br>
+  <img src="../../images/http-requests-emulator.png" width="700"/>
+</div>
+
+
 ## 🛠️ Practical Skills Developed
 - Identifying HTTP methods in web traffic  
 - Understanding how different requests interact with server resources  

@@ -81,11 +81,6 @@ Focus Area: HTTP Status Codes
 
 💡 Understanding status codes helps identify abnormal behaviour, such as repeated errors or failed requests during attacks  
 
-<div align="center">
-  <strong>Inspecting HTTP Response Headers and Cookies in Developer Tools</strong><br><br>
-  <img src="../../images/http-requests-emulator.png" width="700"/>
-</div>
-
 ## 🛠️ Practical Skills Developed
 - Interpreting HTTP status codes during web browsing and testing  
 - Analysing server responses to identify issues  
