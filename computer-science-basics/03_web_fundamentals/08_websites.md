@@ -16,10 +16,16 @@ Focus Area: How Websites Operate
 - The web server responds with data that your browser uses to render the page  
 
 ### Client–Server Model
-- **Client (Browser):** Sends requests  
+- **Client (Browser):** Sends requests to access resources  
 - **Server (Web Server):** Processes requests and returns responses  
 
-⚠️ A **web server** is a system that hosts websites and delivers content to users over the internet  
+**Client → Request → Server**  
+**Server → Response → Client**  
+
+💡 Web browsers use this model automatically every time you access a website  
+💡 Developer tools allow you to view raw HTTP communication between client and server  
+
+⚠️ A web server is a system that hosts websites, processes requests, and delivers content to users over the internet  
 
 ## Website Structure
 ### **Frontend (Client-side):**
@@ -48,6 +54,7 @@ Focus Area: How Websites Operate
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework 
 - TryHackMe platform  
+- Developer tools
 
 ## 🔐 Security Relevance
 - Understanding how websites operate is essential for identifying vulnerabilities  
