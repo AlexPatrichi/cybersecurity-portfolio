@@ -57,7 +57,6 @@ Focus Area: HTTP Methods
   <img src="../../images/http-requests-emulator.png" width="700"/>
 </div>
 
-
 ## 🛠️ Practical Skills Developed
 - Identifying HTTP methods in web traffic  
 - Understanding how different requests interact with server resources  
