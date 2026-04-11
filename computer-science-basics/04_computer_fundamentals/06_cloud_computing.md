@@ -101,6 +101,28 @@ Focus Area: Cloud Computing Fundamentals
 - Understanding the shared responsibility model in cloud security  
 - Identifying how cloud services support modern applications and organisations  
 
+## 🧪 TryHackMe Lab Example
+- Used a cloud-based platform similar to AWS to deploy and manage virtual infrastructure  
+
+### Tasks Performed:
+- Created multiple virtual machines (EC2 instances) to simulate a cybersecurity training environment  
+- Selected appropriate instance types based on performance and cost requirements  
+- Chose a geographic region to deploy cloud resources  
+- Managed the state of instances (running / stopped) to control resource usage  
+
+### Environment Setup:
+- **application-interface** → t3.micro (lightweight, low cost)  
+- **study-machine-1** → m5.large (high performance)  
+- **study-machine-2** → m5.large (high performance)  
+
+### Key Observations:
+- Larger instance types provide more CPU and memory but increase cost  
+- Cloud resources can be created and configured quickly without physical hardware  
+- Stopping unused machines significantly reduces operational costs  
+
+💡 This lab demonstrates how cloud environments provide flexibility, scalability, and cost control in real-world applications  
+💡 This scenario reflects real-world cloud usage, where engineers must balance performance and cost while maintaining system availability  
+
 ## 🧰 Tools Used
 - Solent University Cybersecurity Coursework
 - TryHackMe platform
