@@ -31,6 +31,24 @@ Focus Area: Cookies
 - **Tracking:**
   - Used for analytics, advertising, and user behaviour monitoring  
 
+## 🧪 TryHackMe Lab Example (Cookies & Developer Tools)
+- Used browser developer tools to inspect cookies and HTTP requests  
+
+### Tasks Performed:
+- Opened browser developer tools and navigated to the **Network** tab  
+- Monitored requests made by the browser when accessing a website  
+- Selected individual requests to analyse their details  
+- Viewed cookies sent by the browser in the **Cookies** section  
+
+### Key Observations:
+- Cookies are sent automatically by the browser with HTTP requests  
+- Developer tools allow detailed inspection of request and response data  
+
+<div align="center">
+  <strong>Inspecting HTTP Response Headers and Cookies in Developer Tools</strong><br><br>
+  <img src="../../images/set-cookie.png" width="700"/>
+</div>
+
 ## 🛠️ Practical Skills Developed
 - Identifying cookies in browser developer tools  
 - Understanding how cookies are sent and received via HTTP headers  
@@ -38,7 +56,8 @@ Focus Area: Cookies
 
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework 
-- TryHackMe platform  
+- TryHackMe platform
+- Developer Tools  
 
 ## 🔐 Security Relevance
 - Cookies are often used to store **session identifiers**, making them a target for attackers  

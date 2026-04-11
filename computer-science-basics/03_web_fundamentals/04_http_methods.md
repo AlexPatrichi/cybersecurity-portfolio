@@ -36,6 +36,22 @@ Focus Area: HTTP Methods
 - Used to remove a resource from the server  
 - Example: Deleting a user account 
 
+## 🧪 TryHackMe Lab Example (HTTP Request Emulator)
+- Used an HTTP request emulator to build and test demo web requests  
+
+### Tasks Performed:
+- Created HTTP requests using the emulator interface  
+- Observed how different request methods interact with a web server  
+- Analysed the request and response structure  
+- Applied knowledge of HTTP learned from previous tasks to complete practical challenges  
+
+### Key Observations: 
+- Requests can include methods, headers, and other data depending on their purpose  
+- Servers respond with status codes and content based on the request received  
+- Understanding the structure of requests helps explain how websites and APIs communicate  
+
+💡 HTTP emulators are useful for visualising how web requests are built and processed  
+
 ## 🛠️ Practical Skills Developed
 - Identifying HTTP methods in web traffic  
 - Understanding how different requests interact with server resources  

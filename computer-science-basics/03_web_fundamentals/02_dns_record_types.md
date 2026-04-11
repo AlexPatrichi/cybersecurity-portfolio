@@ -35,6 +35,24 @@ Focus Area: DNS Record Types
 - Stores text-based (notes) information used for verification and security     
 - Just hold information which other systems can read and trust your domain for specific purposes, like email or domain ownership verification  
 
+## 🧪 TryHackMe Lab Example (DNS Queries)
+- Used an online tool to build and analyse DNS queries and responses  
+
+### Tasks Performed:
+- Created DNS requests to resolve domain names into IP addresses  
+- Observed how DNS servers respond with different record types  
+- Analysed query results and the returned data  
+- Reviewed equivalent commands that can be used on a local machine  
+
+### Key Observations:
+- Observed how tools such as `nslookup` or `dig` can be used to perform DNS queries from the command line  
+- Different DNS record types provide different information (A, AAAA, MX)  
+- DNS queries follow a structured request-response model  
+- Tools can generate equivalent command-line queries for real-world usage  
+
+💡 DNS is a fundamental service that enables communication across the internet  
+💡 DNS traffic can be monitored to detect suspicious activity, such as malicious domains or data exfiltration  
+
 ## 🛠️ Practical Skills Developed
 - Identified common DNS record types and their functions  
 - Understood how domains are connected to web and email services  
@@ -43,6 +61,9 @@ Focus Area: DNS Record Types
 ## 🧰 Tools Used 
 - Solent University Cybersecurity Coursework 
 - TryHackMe platform  
+- Command Line Interface (CLI)
+  - Windows Command Prompt (cmd)
+  - Linux Terminal (bash)
 
 ## 🔐 Security Relevance
 DNS records play a critical role in security and are often targeted or misconfigured.

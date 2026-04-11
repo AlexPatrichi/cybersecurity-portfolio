@@ -67,6 +67,25 @@ Focus Area: HTTP Status Codes
 - **503 Service Unavailable**
   - Server temporarily unavailable (down for maintenance or overloaded)
 
+## 🧪 TryHackMe Lab Example (HTTP Status Codes)
+- Explored HTTP response status codes using an interactive website  
+
+### Tasks Performed:
+- Viewed different HTTP status codes in a browser  
+- Observed how servers respond to requests with specific codes  
+- Used a visual tool (http.cat) to understand status code meanings  
+
+### Key Observations:
+- Status codes help diagnose issues in web communication  
+- HTTP status codes provide quick insight into whether a request was successful or failed  
+
+💡 Understanding status codes helps identify abnormal behaviour, such as repeated errors or failed requests during attacks  
+
+<div align="center">
+  <strong>Inspecting HTTP Response Headers and Cookies in Developer Tools</strong><br><br>
+  <img src="../../images/http-requests-emulator.png" width="700"/>
+</div>
+
 ## 🛠️ Practical Skills Developed
 - Interpreting HTTP status codes during web browsing and testing  
 - Analysing server responses to identify issues  
