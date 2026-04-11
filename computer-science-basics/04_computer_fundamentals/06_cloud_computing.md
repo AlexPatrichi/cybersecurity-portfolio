@@ -39,7 +39,7 @@ Focus Area: Cloud Computing Fundamentals
 ## Types of Cloud
 - Cloud computing offers different deployment and usage models to match different needs for control, security, and scalability
 
-### Deployment Types (the environment)
+### Deployment Types (The Environment)
 - **Public Cloud**
     - Services are provided over the internet 
     - Commonly used by startups, websites, and global applications
@@ -55,7 +55,7 @@ Focus Area: Cloud Computing Fundamentals
     - Allows organisations to keep sensitive systems private while still using public cloud resources when needed  
     - Common in businesses that need both security and scalability 
 
-### Main Cloud Service Models (level of control)
+### Main Cloud Service Models (Level of Control)
 - Cloud services also differ in how much control the customer keeps over the system and how much is managed by the provider
 
 💡 Cloud computing follows a **shared responsibility model**, where the provider secures the infrastructure, while the user is responsible for configuring and securing their own services correctly  
