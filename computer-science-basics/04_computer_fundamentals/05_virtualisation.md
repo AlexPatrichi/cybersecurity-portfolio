@@ -70,7 +70,7 @@ Focus Area: Virtualisation Basics
 - Recognising differences between bare-metal and hosted hypervisors  
 - Understanding the difference between virtual machines and containers
 
-## 🧪 TryHackMe Lab Example
+## 🧪 TryHackMe Lab Example (Virtualisation Management)
 - Used a virtualisation management platform to monitor and manage virtual machines in a simulated company environment  
 
 ### Tasks Performed:
@@ -79,13 +79,10 @@ Focus Area: Virtualisation Basics
 - Created a new virtual machine (**Marketing-VM**) with allocated resources (CPU, RAM, storage)  
 - Analysed physical host usage and identified capacity and performance issues  
 
-### Key Observations:
-- One host (**HV-PROD-02**) was operating near full capacity  
-- Another host (**HV-BACKUP-01**) was disconnected and not in use  
-- Resource management is critical to maintaining system performance and availability  
-
-💡 This lab demonstrates how virtualisation is used in real environments to manage services, troubleshoot issues, and allocate resources efficiently  
-💡 This scenario reflects real-world situations where service outages may be caused by virtual machine failures or resource limitations
+### Key Insight:
+- Virtual machines can fail and require management actions to restore services  
+- Resource allocation and monitoring are critical for performance and availability  
+- Host capacity directly impacts the ability to run and scale virtual machines  
 
 ## 🧰 Tools Used
 - Solent University Cybersecurity Coursework
