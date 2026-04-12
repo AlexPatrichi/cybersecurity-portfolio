@@ -42,7 +42,14 @@ Focus Area: Cookies
 
 ### Key Observations:
 - Cookies are sent automatically by the browser with HTTP requests  
+- HTTP responses can include **Set-Cookie** headers to store data in the browser  
 - Developer tools allow detailed inspection of request and response data  
+- Cookies can contain session or user-related data 
+
+### What I Learned:
+- Browser developer tools can be used to inspect real web traffic  
+- Cookies play a key role in maintaining sessions between client and server  
+- Analysing request and response data helps identify how websites handle user information  
 
 <div align="center">
   <strong>Inspecting HTTP Response Headers and Cookies in Developer Tools</strong><br><br>

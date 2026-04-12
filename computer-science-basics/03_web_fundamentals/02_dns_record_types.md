@@ -44,14 +44,15 @@ Focus Area: DNS Record Types
 - Analysed query results and the returned data  
 - Reviewed equivalent commands that can be used on a local machine  
 
-### Key Observations:
-- Observed how tools such as `nslookup` or `dig` can be used to perform DNS queries from the command line  
+### Key Observations: 
 - Different DNS record types provide different information (A, AAAA, MX)  
 - DNS queries follow a structured request-response model  
-- Tools can generate equivalent command-line queries for real-world usage  
+- Tools such as `nslookup` or `dig` can be used to perform DNS queries from the command line 
 
-💡 DNS is a fundamental service that enables communication across the internet  
-💡 DNS traffic can be monitored to detect suspicious activity, such as malicious domains or data exfiltration  
+### What I Learned:
+- DNS queries can be analysed to understand how domain resolution works in real time  
+- Command-line tools allow the same queries to be performed outside of web interfaces  
+- Observing real DNS responses helps connect theory with actual network behaviour 
 
 ## 🛠️ Practical Skills Developed
 - Identified common DNS record types and their functions  

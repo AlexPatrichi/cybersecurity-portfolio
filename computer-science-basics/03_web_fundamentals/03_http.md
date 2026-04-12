@@ -41,21 +41,21 @@ Focus Area: HTTP in detail
   <img src="../../images/url-full-structure.png" alt="Full URL Structure" width="800"/>
 </div>
 
-- Scheme / Protocol:
+- **Scheme / Protocol:**
     - Instructs on what protocol to use for accessing the resources such as HTTP/s or FTP 
-- User Info / Authentication: 
+- **User Info / Authentication:** 
     - Optional credentials included in the URL  
     ⚠️ Rare and insecure in modern systems
-- Host:
+- **Host:**
     - The domain name or Ip address of the server you wish to log in
-- Port: 
+- **Port:** 
     - Specifies the communication endpoint, usally 80 (HTTP) or 443 (HTTPS)
-- Path: 
+- **Path:** 
     - File name or location of the requested resource on the server
-- Querry String:
+- **Querry String:**
     - Extra bits of information that can be sent to the requested path
     - Additional parameters sent to the server (e.g., search filters or IDs)
-- Fragment: 
+- **Fragment:** 
     - Refers to a specific section within the requested page
     - This process happens on client side
 

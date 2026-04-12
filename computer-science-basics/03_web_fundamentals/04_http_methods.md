@@ -43,14 +43,17 @@ Focus Area: HTTP Methods
 - Created HTTP requests using the emulator interface  
 - Observed how different request methods interact with a web server  
 - Analysed the request and response structure  
-- Applied knowledge of HTTP learned from previous tasks to complete practical challenges  
+- Applied previous knowledge to complete practical challenges 
 
 ### Key Observations: 
 - Requests can include methods, headers, and other data depending on their purpose  
 - Servers respond with status codes and content based on the request received  
-- Understanding the structure of requests helps explain how websites and APIs communicate  
+- Changing request details affects how the server responds  
 
-💡 HTTP emulators are useful for visualising how web requests are built and processed  
+### What I Learned:
+- HTTP requests can be manually crafted and modified to test server behaviour  
+- Understanding request structure is essential for analysing web communication  
+- Small changes in requests can lead to different responses from the server  
 
 <div align="center">
   <strong>Inspecting HTTP requests </strong><br><br>
