@@ -44,15 +44,10 @@ Focus Area: DNS Record Types
 - Analysed query results and the returned data  
 - Reviewed equivalent commands that can be used on a local machine  
 
-### Key Observations: 
-- Different DNS record types provide different information (A, AAAA, MX)  
-- DNS queries follow a structured request-response model  
+### Key Insight:
+- Different DNS record types return different types of information (A, AAAA, MX)  
+- DNS queries follow a structured request-response model 
 - Tools such as `nslookup` or `dig` can be used to perform DNS queries from the command line 
-
-### What I Learned:
-- DNS queries can be analysed to understand how domain resolution works in real time  
-- Command-line tools allow the same queries to be performed outside of web interfaces  
-- Observing real DNS responses helps connect theory with actual network behaviour 
 
 ## 🛠️ Practical Skills Developed
 - Identified common DNS record types and their functions  

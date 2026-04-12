@@ -46,9 +46,10 @@ Focus Area: Cookies
 - Developer tools allow detailed inspection of request and response data  
 - Cookies can contain session or user-related data 
 
-### What I Learned:
-- Browser developer tools can be used to inspect real web traffic  
-- Cookies play a key role in maintaining sessions between client and server  
+### Key Insight:
+- Cookies are automatically included in HTTP requests  
+- Servers use **Set-Cookie** headers to store data in the browser  
+- Developer tools provide visibility into request and response data     
 - Analysing request and response data helps identify how websites handle user information  
 
 <div align="center">

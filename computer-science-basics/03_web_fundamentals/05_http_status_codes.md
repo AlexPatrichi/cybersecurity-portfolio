@@ -73,17 +73,12 @@ Focus Area: HTTP Status Codes
 ### Tasks Performed:
 - Viewed different HTTP status codes in a browser  
 - Observed how servers respond to requests with specific codes  
-- Used a visual tool (http.cat) to understand status code meanings  
+- Used a visual tool to understand status code meanings  
 
-### Key Observations: 
-- HTTP status codes provide quick insight into whether a request was successful or failed 
-- The browser displays these codes as part of the server response 
+### Key Insight:
+- HTTP status codes indicate the outcome of a request (success, redirection, or error)  
+- The browser displays these codes as part of the server response  
 - Unusual or repeated status codes can indicate communication issues   
-
-### What I Learned:
-- HTTP status codes help quickly identify problems in web communication  
-- Analysing status codes is useful for troubleshooting and monitoring applications  
-- Patterns in responses can indicate abnormal or suspicious behaviour  
 
 ## 🛠️ Practical Skills Developed
 - Interpreting HTTP status codes during web browsing and testing  
