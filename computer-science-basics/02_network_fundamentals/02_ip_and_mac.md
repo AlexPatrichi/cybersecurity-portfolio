@@ -261,20 +261,18 @@ It occurs when a network device pretends to identify as another using its MAC Ad
 
 ---
 
-## 🧪 TryHackMe Lab Example
+## 🧪 TryHackMe Lab Example (MAC Spoofing)
 - Simulated a hotel Wi-Fi network where access control was enforced based on MAC addresses  
 
 ### Tasks Performed:
 - Observed how network traffic was filtered based on device identity (MAC address)  
 - Identified that Bob’s device traffic was blocked, while Alice’s was allowed  
-- Modified (spoofed) Bob’s MAC address to match Alice’s  
+- Modified (spoofed) Bob’s MAC address to match Alice’s and bypass restrictions   
 
-### Key Observations:
-- After changing the MAC address, Bob’s traffic was allowed through the network  
-- The router treated Bob’s device as a trusted device because it matched Alice’s MAC address  
-
-💡 This demonstrates how network access control based only on MAC addresses can be bypassed  
-💡 This scenario highlights a security weakness where attackers can impersonate authorised devices using MAC spoofing 
+###  Key Insight:
+- MAC address filtering is not a secure method of access control  
+- Devices can impersonate others by spoofing MAC addresses  
+- Weak network controls can be bypassed if they rely only on device identity  
 
 ## 🛠️ Practical Skills Developed  
 - Understanding how devices are identified on a network  

@@ -71,17 +71,12 @@ Focus Area: Packets and Frames
 - Sent a **TCP packet** from Computer1 to Computer3  
 - Observed the **TCP handshake process** before data transmission  
 - Sent a **UDP packet** between devices to compare behaviour  
-- Tracked how packets moved through **switches and a router**  
-- Retrieved a flag after successful packet delivery  
+- Tracked how packets moved through **switches and a router**   
 
-### Key Observations:
-- TCP establishes a connection before sending data, ensuring reliable delivery  
-- UDP sends packets without establishing a connection, making it faster but less reliable  
-- Packets are forwarded through multiple devices (switch → router → switch) before reaching the destination  
-- Each network device makes forwarding decisions based on addressing information  
-
-💡 Network communication is a multi-step process involving multiple devices, not a direct connection between two computers  
-💡 Understanding how TCP and UDP behave helps identify unusual traffic patterns and detect potential network-based attacks    
+### Key Insight:
+- Understanding how TCP and UDP behave helps identify unusual traffic patterns and detect potential network-based attacks  
+- Network communication involves multiple devices, not a direct connection between two systems  
+- Packet forwarding depends on addressing and network device decisions      
 
 <div align="center">
   <strong>Network Packet Flow Simulation</strong><br><br>

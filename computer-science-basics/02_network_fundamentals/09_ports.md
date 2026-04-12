@@ -79,14 +79,12 @@ Examples:
 - Connected to a remote service using a non-standard port  
 
 ### Tasks Performed:
-- Accessed an external IP address (8.8.8.8) using a custom port (1234)  
-- Retrieved a flag by successfully connecting to the service  
+- Accessed an external IP address (8.8.8.8) using a custom port (1234)   
 
-### Key Observations:
+### Key Insight:
 - Services can run on non-standard ports  
-- Accessing these services requires specifying the port number manually   
-
-💡 Network communication depends on both IP address and port number   
+- Accessing them requires specifying the port number manually  
+- Network communication depends on both IP address and port number  
 
 ## 🛠️ Practical Skills Developed
 - Understanding how services communicate using ports  

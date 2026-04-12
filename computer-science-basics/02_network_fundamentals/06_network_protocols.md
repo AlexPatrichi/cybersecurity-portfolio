@@ -173,7 +173,7 @@ Continuing the process:
 
 ⚠️ Useful for detecting ARP spoofing attacks and identifying unknown devices   
 
-## 🧪 TryHackMe Lab Example
+## 🧪 TryHackMe Lab Example (ICMP / Ping)
 - Used the ping command to test network connectivity using ICMP protocol  
 
 ### Tasks Performed:
@@ -181,13 +181,10 @@ Continuing the process:
 - Observed successful responses with low latency  
 - Sent ICMP requests to a public IP address (8.8.8.8) to test external connectivity  
 
-### Key Observations:
-- Local IP addresses (private) are used within internal networks  
-- Public IP addresses allow communication over the internet  
-- Successful replies confirmed that packets were transmitted and received correctly  
-
-💡 Ping is a simple but powerful tool used to test connectivity and measure network latency  
-💡 This demonstrates how network connectivity can be verified and helps identify potential network issues or blocking mechanisms  
+### Key Insight:
+- ICMP can be used to verify connectivity between devices  
+- Successful replies confirm that packets are transmitted and received correctly  
+- Ping is a simple but powerful tool used to test connectivity and identify problems   
 
 ## 🛠️ Practical Skills Developed
 - Tested connectivity using ping  
@@ -204,7 +201,7 @@ Continuing the process:
 
 ## 🔐 Security Relevance
 - Protocols define how data moves across networks  
-- Attackers exploit protocol weaknesses (e.g. UDP flooding, ICMP abuse)  
+- Attackers exploit protocol weaknesses (UDP flooding, ICMP abuse)  
 - Monitoring tools help detect abnormal behaviour  
 - Understanding protocols is essential for traffic analysis  
 

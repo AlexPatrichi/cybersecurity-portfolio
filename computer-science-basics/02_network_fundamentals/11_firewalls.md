@@ -43,7 +43,7 @@ Focus Area: Firewalls
   - If a device sends a bad packet will not get blocket entirely
   - This firewall is considered simple and fast, but less aware of context 
 
-## 🧪 TryHackMe Lab Example
+## 🧪 TryHackMe Lab Example (Firewall Rules)
 - Configured firewall rules to control network traffic based on port and destination  
 
 ### Tasks Performed:
@@ -51,13 +51,11 @@ Focus Area: Firewalls
 - Created a firewall rule to block traffic on port 80 (HTTP)  
 - Applied the rule to prevent malicious packets from reaching the server  
 
-### Key Observations:
-- Port 80 is commonly used for HTTP traffic  
-- Blocking a specific port can stop certain types of attacks  
-- Firewall rules apply to all traffic matching the criteria, not just malicious packets  
-
-💡 Firewalls filter traffic based on rules such as IP address, port, and protocol  
-💡 This demonstrates how network security controls can be used to prevent unauthorised or harmful traffic from reaching systems  
+### Key Insight:
+- This demonstrates how network security controls can be used to prevent unauthorised or harmful traffic from reaching systems  
+- Firewalls filter traffic based on rules such as IP address, port, and protocol  
+- Blocking a specific port can prevent certain types of attacks  
+- Firewall rules apply to all matching traffic, not just malicious packets
 
 <div align="center">
   <strong>Firewall Rules</strong><br>
