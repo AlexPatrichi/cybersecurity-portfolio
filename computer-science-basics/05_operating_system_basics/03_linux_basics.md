@@ -18,7 +18,7 @@ Focus Area: Linux Basics
 - First released in 1991 by Linus Torvalds
 - Widely used in servers, cybersecurity, and cloud environments
 
-💡 Most cybersecurity tools and servers run on Linux 
+💡 Most cybersecurity tools and servers run on Linux   
 
 ### The Terminal
 - A text-based interface used to interact with the system
@@ -28,35 +28,35 @@ Focus Area: Linux Basics
     - Faster interaction
     - Access to advanced system functions
 
-💡 Many security tools and servers operate only through the terminal
+💡 Many security tools and servers operate only through the terminal  
 
 ### Core Linux Commands
 #### 📂 Navigation
 - `pwd` (Print Working Directory) →  shows the current directory
 
 - `ls` (List) → lists files and directories
-⚠️ `ls -l` command will print more details
-⚠️ `ls -al` command will print the hidden files in the directory 
-⚠️ These files starts with a . (dot) and are hidden by default
+⚠️ `ls -l` command will print more details  
+⚠️ `ls -al` command will print the hidden files in the directory   
+⚠️ These files starts with a . (dot) and are hidden by default  
 
 - `cd` (Change Directory) → changes the current directory
-⚠️ To go back one level use `cd ..` command
+⚠️ To go back one level use `cd ..` command  
 
 #### 📄 File Viewing
 - `cat` (Concatenate) → displays the contents of a file 
-⚠️ Originally meant to join files together
-⚠️ But in practice, you mainly use it to read files and display content quickly
+⚠️ Originally meant to join files together  
+⚠️ But in practice, you mainly use it to read files and display content quickly  
 
 #### 🔍 File Search
 - `find` (Find) → searches for files and directories
-⚠️ More powerful than it looks
-⚠️ Can search by: name, type, size, permissions
+⚠️ More powerful than it looks  
+⚠️ Can search by: name, type, size, permissions  
 
 #### ⚙️ System Information
 - `whoami` → shows the current user  
 - `uname` (Unix Name) → displays basic system information
 
-💡 These commands are essential for navigating and interacting with the Linux file system
+💡 These commands are essential for navigating and interacting with the Linux file system  
 
 ### Key Directories in Linux
 - `~` (Home Directory) → shortcut that represents the current user’s home directory
@@ -66,8 +66,8 @@ Focus Area: Linux Basics
 - `/var` → Logs and variable data
 - `/tmp` → Temporary files
 
-💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations
-💡 Understanding these directories is important for system navigation and investigation
+💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations  
+💡 Understanding these directories is important for system navigation and investigation  
 
 ### Cybersecurity 
 - Working in cybersecurity requires understanding the environment you are operating in, including the Linux version and available system resources
@@ -76,13 +76,13 @@ Focus Area: Linux Basics
     - `whoami` - prints the current username
 
 - "What system are you on?" 
-    - `uname -a` - to get details about the operating system, kernel version, and architecture
-⚠️ `uname` shows basic system information, while `uname -a` provides detailed system and kernel information
+    - `uname -a` - to get details about the operating system, kernel version, and architecture  
+⚠️ `uname` shows basic system information, while `uname -a` provides detailed system and kernel information    
 
 - "Check disk and storage info" 
-    - `df -h` - disk usage in human-readable format
-💡 `-h` means "human-readable" and makes output easier to read (GB instead of bytes)
-💡 It is a good habit to check disk usage before running tools or analyzing logs
+    - `df -h` - disk usage in human-readable format  
+💡 `-h` means "human-readable" and makes output easier to read (GB instead of bytes)    
+💡 It is a good habit to check disk usage before running tools or analyzing logs    
 
 - "Read a system information file"
     - Linux stores configuration and information files in `/etc` directory
@@ -95,7 +95,7 @@ Focus Area: Linux Basics
 - The shell interprets commands and interacts with the OS
 - Commands can be combined and automated using scripts
 
-💡 CLI is essential for system administration and cybersecurity tasks
+💡 CLI is essential for system administration and cybersecurity tasks  
 
 ### Linux CLI Commands
 | Category                     | Command | Description                          |
