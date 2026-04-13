@@ -150,6 +150,6 @@ Focus Area: Operating Systems
 💡 Many cyber attacks target weaknesses in OS design or misconfiguration
 
 ## 📌 Lessons Learned
-⚠️ The OS is not just software, it is the control center of the entire system
-⚠️ System security depends heavily on proper OS configuration and isolation  
-⚠️ Understanding OS internals and CLI usage is essential for cybersecurity roles
+⚠️ The OS is not just software, it is the control center of the entire system   
+⚠️ System security depends heavily on proper OS configuration and isolation   
+⚠️ Understanding OS internals and CLI usage is essential for cybersecurity roles  

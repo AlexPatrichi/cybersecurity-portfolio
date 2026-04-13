@@ -171,7 +171,7 @@ Focus Area: Windows Basics
 💡 Many attacks rely on misconfiguration or lack of user awareness
 
 ## 📌 Lessons Learned
-⚠️ Windows provides both usability and security, but requires proper configuration
-⚠️ Keeping the OS and applications up-to-date is an important part of maintaining a secure and stable system
-⚠️ Built-in tools are essential for monitoring and managing system activity
-⚠️ Understanding normal system behaviour is key to identifying potential threats
+⚠️ Windows provides both usability and security, but requires proper configuration   
+⚠️ Keeping the OS and applications up-to-date is an important part of maintaining a secure and stable system   
+⚠️ Built-in tools are essential for monitoring and managing system activity   
+⚠️ Understanding normal system behaviour is key to identifying potential threats  

@@ -136,6 +136,6 @@ Focus Area: Linux Basics
 💡 Many penetration testing and SOC tools are Linux-based
 
 ## 📌 Lessons Learned
-⚠️ Linux is widely used in cybersecurity, making CLI skills essential
-⚠️ Understanding the file system is key for navigation and investigation
-⚠️ Simple commands can reveal important system information
+⚠️ Linux is widely used in cybersecurity, making CLI skills essential  
+⚠️ Understanding the file system is key for navigation and investigation  
+⚠️ Simple commands can reveal important system information  
