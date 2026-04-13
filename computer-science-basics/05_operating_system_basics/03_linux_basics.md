@@ -34,21 +34,21 @@ Focus Area: Linux Basics
 #### 📂 Navigation
 - `pwd` (Print Working Directory) →  shows the current directory
 
-- `ls` (List) → lists files and directories
+- `ls` (List) → lists files and directories  
 ⚠️ `ls -l` command will print more details  
 ⚠️ `ls -al` command will print the hidden files in the directory   
 ⚠️ These files starts with a . (dot) and are hidden by default  
 
-- `cd` (Change Directory) → changes the current directory
+- `cd` (Change Directory) → changes the current directory  
 ⚠️ To go back one level use `cd ..` command  
 
 #### 📄 File Viewing
-- `cat` (Concatenate) → displays the contents of a file 
+- `cat` (Concatenate) → displays the contents of a file  
 ⚠️ Originally meant to join files together  
 ⚠️ But in practice, you mainly use it to read files and display content quickly  
 
 #### 🔍 File Search
-- `find` (Find) → searches for files and directories
+- `find` (Find) → searches for files and directories  
 ⚠️ More powerful than it looks  
 ⚠️ Can search by: name, type, size, permissions  
 
