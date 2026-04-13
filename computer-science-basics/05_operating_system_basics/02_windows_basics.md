@@ -123,6 +123,29 @@ Focus Area: Windows Basics
 
 💡 PowerShell is more powerful and commonly used in both system administration and cyber operations
 
+### How to Navigate Through the Windows File System
+- Step 1: "Where am I?"
+    - `cd` → shows the current directory  
+
+- Step 2: "What's around me?"
+    - `dir` → lists contents of the current directory  
+    ⚠️ `dir /a` → lists all files, including hidden files  
+
+- Step 3: "Moving around the file system"
+    - `cd <folder name>` → move into a specific folder  
+    ⚠️ `cd ..` → move back one level  
+
+- Step 4: "Finding a file on the disk"
+    - `dir /s <file name>` → searches for a file in all subfolders  
+    ⚠️ `/s` tells Windows to search recursively  
+
+- Step 5: "Navigate to the file location"
+    - `cd <path>` → move to the folder containing the file  
+    - `dir` → confirm the file is present  
+
+- Step 6: "Read the file"
+    - `type <filename>` → display the file contents  
+
 ### Windows CLI (Command Prompt / PowerShell)
 | Category                     | Command      | Description                  |
 |------------------------------|--------------|------------------------------|
@@ -147,6 +170,30 @@ Focus Area: Windows Basics
 
 💡 CLI tools are widely used in system administration and incident response to investigate systems and identify suspicious activity   
 💡 Many security tools and attack techniques rely heavily on command-line interaction  
+
+### 🧪 Gathering System Information on Windows (Cybersecurity Context) 
+- When working on a system, you first need to gather basic information to understand the environment.
+
+#### Step 1: Identify the Current User
+- `whoami` → displays the current logged-in user  
+💡 This is important because different users have different permissions and access levels  
+
+#### Step 2: Identify the System Name
+- `hostname` → shows the name of the computer  
+💡 In a large network environment, this helps identify and track the machine  
+
+#### Step 3: Check System Information
+- `systeminfo` → displays detailed information about the operating system, hardware, and configuration  
+💡 Useful for identifying OS version, installed updates, and system architecture  
+
+#### Step 4: Check Network Configuration
+- `ipconfig` → displays network details such as IP address, subnet mask, and default gateway  
+💡 Helps understand how the system is connected to the network  
+
+### 🧠 Why This Matters
+- These commands are used during initial system investigation  
+- They provide quick visibility into the system’s identity, configuration, and network setup  
+💡 This is often the first step in troubleshooting, incident response, and security analysis  
 
 ## 🛠️ Practical Skills Developed
 - Navigating and managing the Windows environment

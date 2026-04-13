@@ -69,7 +69,7 @@ Focus Area: Linux Basics
 💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations  
 💡 Understanding these directories is important for system navigation and investigation  
 
-### System Information Gathering (Cybersecurity Context)
+### 🧪 Gathering System Information on Lynux (Cybersecurity Context)
 - Working in cybersecurity requires understanding the environment you are operating in, including the Linux version and available system resources
 - "Who are you logged in as?" 
     - `whoami` - prints the current username
