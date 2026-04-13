@@ -33,8 +33,8 @@ Focus Area: Windows Basics
     - **Desktop:** The main workspace for files, folders, and shortcuts 
     - **Taskbar:** Control menu that provides access to applications, system tools, settings, and notifications
 
-💡 These two features help users navigate, launch programs, and manage open applications efficiently
-💡 Desktop icons are shortcuts to frequently used applications, not the actual programs
+💡 These two features help users navigate, launch programs, and manage open applications efficiently  
+💡 Desktop icons are shortcuts to frequently used applications, not the actual programs  
 
 ### Built-in Tools and Applications
 - Windows includes essential tools by default:
@@ -80,8 +80,8 @@ Focus Area: Windows Basics
     - Settings (Apps & Features)
     - Built-in uninstallers
 
-💡 Installing software from trusted sources reduces security risks
-💡 Knowing how to install, update and remove applications is a core skill for everyday use
+💡 Installing software from trusted sources reduces security risks  
+💡 Knowing how to install, update and remove applications is a core skill for everyday use  
 
 ### Task Manager 
 - Built-in tool for monitoring system activity in real-time protection
@@ -145,8 +145,8 @@ Focus Area: Windows Basics
 - Commonly used in remote access (servers without GUI)  
 - Provides direct visibility into system processes, users, and network configuration  
 
-💡 CLI tools are widely used in system administration and incident response to investigate systems and identify suspicious activity  
-💡 Many security tools and attack techniques rely heavily on command-line interaction
+💡 CLI tools are widely used in system administration and incident response to investigate systems and identify suspicious activity   
+💡 Many security tools and attack techniques rely heavily on command-line interaction  
 
 ## 🛠️ Practical Skills Developed
 - Navigating and managing the Windows environment
