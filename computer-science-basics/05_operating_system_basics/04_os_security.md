@@ -65,8 +65,8 @@ Focus Area: Operating System Security
 - `cat` → read file contents
 - `history` → view command history
 
-💡 This demonstrates how weak passwords can lead to system compromise
-💡 Privilege escalation allows attackers to gain full control over a system
+💡 This demonstrates how weak passwords can lead to system compromise  
+💡 Privilege escalation allows attackers to gain full control over a system  
 
 ## 🛠️ Practical Skills Developed
 - Understanding core OS security principles
@@ -90,7 +90,7 @@ Focus Area: Operating System Security
 💡 Many successful attacks rely on simple weaknesses rather than complex exploits
 
 ## 📌 Lessons Learned
-⚠️ Weak passwords are one of the biggest security risks
-⚠️ Proper permissions are essential to protect sensitive data
-⚠️ Understanding system behaviour helps detect attacks early
-⚠️ Basic commands can be used for both administration and exploitation
+⚠️ Weak passwords are one of the biggest security risks  
+⚠️ Proper permissions are essential to protect sensitive data  
+⚠️ Understanding system behaviour helps detect attacks early  
+⚠️ Basic commands can be used for both administration and exploitation  
