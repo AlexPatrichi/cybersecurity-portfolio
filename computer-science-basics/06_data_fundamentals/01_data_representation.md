@@ -13,16 +13,16 @@ Focus Area: Data Representation
 ## 🧠 Core Concepts Learned
 ## Data Representation
 - All data in computers (text, images, audio) is stored and processed as binary (0s and 1s).    
-- Different systems are used to represent and interpret this binary data in meaningful ways. 
+- Different number systems are used to represent and interpret binary data in a human-readable way
 
-### Bit and Byte (Fundamental)
+### 🔹 Bit and Byte (Fundamental)
 - Bit = 1 binary value (0 or 1)    
 - Byte (Octet) = 8 bits   
 - 1 byte can represent 256 values (0–255)    
 
 💡 Used to measure memory, files, and network data  
 
-### Numeric Representation 
+### 🔢 Numeric Representation 
 - Decimal (Base-10) → Human system (0–9)
 - Binary (Base-2) → Computer system (0,1)
 - Hexadecimal (Base-16) → Compact and human-readable representation of binary (0–9, A–F)
@@ -47,7 +47,7 @@ Focus Area: Data Representation
 | 14 | 1110 | E |
 | 15 | 1111 | F |
 
-### Number Transformations  
+### 🔄 Number Transformations  
 **Decimal → Binary**   
 Convert 10 (decimal)   
 
@@ -79,7 +79,7 @@ Convert 2F
 Hexadecimal is base-16, which means each position represents a power of 16.  
 (2 x 16¹) + (F x 16⁰) = 32 + F(15) = 47 (decimal)   
 
-### Representing Colors    
+### 🎨 Representing Colors    
 **Basic RGB (8-Color System)**
 - Computers represent colors using RGB system (Red, Green, Blue).
 - Uses 3 bits total (1 bit per channel: Red, Green, Blue).

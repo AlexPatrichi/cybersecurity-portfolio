@@ -26,7 +26,7 @@ Unicode (Universal Standard)<br>
 UTF Encodings (UTF-8, UTF-16, UTF-32)
 </p>  
 
-### ASCII (American Standard Code for Information Interchange)
+### 🔤 ASCII (American Standard Code for Information Interchange)
 - Is an early character encoding (1963) that uses 7 bits to represent numbers 0-127 for English only letters, digits, punctuation, and some control characters. 
 - Acts as a small dictionary between text and numeric codes, allowing computer systems to store text in a standardised way.
 
@@ -69,7 +69,7 @@ O = 79 → 01001111
 
 </div>
 
-### Unicode Standard
+### 🌐 Unicode Standard
 - A universal standard for representing all characters from all languages.
 - Includes letters from all languages, symbols and emojis.
 - Supports over 100,000 characters, including letters, symbols, and emojis.
