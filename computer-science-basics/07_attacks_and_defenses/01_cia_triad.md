@@ -78,8 +78,7 @@ Security professionals often ask:
 - Classified each incident based on the CIA Triad  
 
 <div align="center">
-  <strong>Hands-on Scenario</strong><br><br>
-  <img src="../../images/cia-triad-lab.png" width="400"/>
+  <img src="../../images/cia-triad-lab.png" width="600"/>
 </div>  
 
 👉 This reinforces how the CIA Triad is used in real-world decision-making   
