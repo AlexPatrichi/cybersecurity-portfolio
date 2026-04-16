@@ -22,7 +22,7 @@ Security professionals often ask:
 - Was data altered or tampered with? → (Integrity)  
 - Were systems or services unavailable? → (Availability)  
 
----
+...
 
 ### Confidentiality
 - Ensures that sensitive data is only accessible to authorised users  
@@ -37,7 +37,7 @@ Security professionals often ask:
 - Encryption  
 - Access control (authentication & authorisation)  
 
----
+...
 
 ### Integrity
 - Ensures that data remains accurate and unmodified  
@@ -53,7 +53,7 @@ Security professionals often ask:
 - File integrity monitoring  
 - Access controls  
 
----
+...
 
 ### Availability
 - Ensures that systems and data are accessible when needed  
