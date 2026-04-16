@@ -51,6 +51,26 @@ Focus Area: Cookies
   <img src="../../images/set-cookie.png" width="700"/>
 </div>
 
+## 🧪 Practical Application  
+- After learning how cookies are used for tracking and session management, I made a practical change by switching from Google Chrome to Mozilla Firefox.  
+
+### Reasoning:
+- Firefox provides stronger privacy protection by default  
+- Better control over cookies and site permissions  
+- Built-in tracking protection that blocks third-party cookies and trackers  
+
+### Actions Taken:
+- Switched primary browser to Firefox  
+- Enabled enhanced tracking protection  
+- Configured settings to block third-party cookies  
+
+### Security Impact:
+- Reduced exposure to tracking cookies and behavioural profiling  
+- Limited data collection by third-party services  
+- Improved control over stored browser data and sessions  
+
+💡 Understanding how cookies work led me to take practical steps to improve my privacy and security.
+
 ## 🛠️ Practical Skills Developed
 - Identifying cookies in browser developer tools  
 - Understanding how cookies are sent and received via HTTP headers  
