@@ -13,8 +13,7 @@ Focus Area: The CIA Triad
 
 ## The CIA Triad
 - The CIA Triad is a fundamental model used in cybersecurity to evaluate and protect systems  
-- It represents three key security principles:  
-  **Confidentiality, Integrity, and Availability**  
+- It represents three key security principles: **Confidentiality, Integrity, and Availability**  
 
 💡 It is not just theory — it is a **decision-making framework** used to analyse security incidents   
 
@@ -22,6 +21,8 @@ Security professionals often ask:
 - Was sensitive data exposed? → (Confidentiality)  
 - Was data altered or tampered with? → (Integrity)  
 - Were systems or services unavailable? → (Availability)  
+
+---
 
 ### Confidentiality
 - Ensures that sensitive data is only accessible to authorised users  
@@ -36,6 +37,8 @@ Security professionals often ask:
 - Encryption  
 - Access control (authentication & authorisation)  
 
+---
+
 ### Integrity
 - Ensures that data remains accurate and unmodified  
 - Prevents unauthorised changes to information  
@@ -49,6 +52,8 @@ Security professionals often ask:
 - Hashing  
 - File integrity monitoring  
 - Access controls  
+
+---
 
 ### Availability
 - Ensures that systems and data are accessible when needed  
