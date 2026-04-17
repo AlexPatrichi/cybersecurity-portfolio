@@ -1,4 +1,4 @@
-# Attacks and Defenses - TryHackMe and Solent University Cybersecurity Coursework 
+# Security Fundamentals - TryHackMe and Solent University Cybersecurity Coursework 
 
 Platform: TryHackMe  
 Skill Level: Beginner / Foundation  
