@@ -41,7 +41,7 @@ Focus Area: Cryptography Fundamentals
 - Ciphertext + Algorithm + Key → Plaintext  
 
 ### 🧪 Plaintext versus Ciphertext Tryhackme Example: 
-- Alice wants to send: **HELLO**
+- Alice wants to send: **HELLO**   
 💡 That's the plaintext—the readable message
 
 - Alice uses an algorithm and a secret key to scramble it: **KHOOR**  
@@ -95,20 +95,20 @@ Focus Area: Cryptography Fundamentals
 - The Caesar cipher shifts each letter in your message by a fixed number of positions in the alphabet 
 - That fixed number is your **key**
 
-Example Key of 3: 
-Encrypt HELLO → KHOOR    
-    H → K
-    E → H
-    L → O
-    L → O
-    O → R
+Example Key of 3:   
+Encrypt HELLO → KHOOR      
+    H → K  
+    E → H  
+    L → O  
+    L → O  
+    O → R  
 
-To decrypt KHOOR, shifts each letter backwards by 3:
-    K → H
-    H → E
-    O → L
-    O → L
-    R → O
+To decrypt KHOOR, shifts each letter backwards by 3:  
+    K → H  
+    H → E  
+    O → L  
+    O → L  
+    R → O  
 
 💡 The algorithm is public, but security comes from keeping the key secret
 💡 Used for learning only — not secure in real-world systems  

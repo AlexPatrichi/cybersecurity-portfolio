@@ -41,7 +41,7 @@ Focus Area: Encryption (Symmetric vs Asymmetric)
 👉 This demonstrates how keys control the encryption process  
 
 <div align="center">
-  <img src="../../images/caesar-cipher-lab.png" width="500"/>
+  <img src="../../images/caesar-cipher-lab.png" width="400"/>
 </div> 
 
 ---
@@ -88,7 +88,7 @@ Focus Area: Encryption (Symmetric vs Asymmetric)
 💡 This process ensures the browser connects to the legitimate website and prevents man-in-the-middle attacks
 
 <div align="center">
-  <img src="../../images/http-certificate.png" width="500"/>
+  <img src="../../images/http-certificate.png" width="400"/>
 </div> 
 
 ## 🛠️ Practical Skills Developed
