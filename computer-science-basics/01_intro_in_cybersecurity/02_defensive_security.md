@@ -5,7 +5,7 @@ Skill Level: Beginner / Foundation
 Focus Area: Defensive Security (Blue Team)
 
 ## 🎯 Objective 
-Develop an understanding of defensive security, including:
+Develop a foundational understanding of defensive security, including:
 - How organisations detect and respond to threats
 - The role of SOC teams and monitoring systems
 - Incident response and investigation processes
@@ -14,6 +14,61 @@ Develop an understanding of defensive security, including:
 ## 🧠 Core Concepts Learned   
 
 ## 🔵 Defensive Security 
+- Defensive security focuses on protecting systems by preventing, detecting, and responding to threats
+- The goal is to minimise risk and ensure systems remain secure and operational
+
+### Core Defenisive Security Terms
+- Blue Team
+    - A group of cybersecurity professionals responsible for defending systems and responding to threats
+- Client Infrastructure
+    - The systems, networks, servers, and applications that belong to an organisation and require protection
+- Visibility
+    - The ability to monitor and observe activity across systems to detect potential threats
+- Threat
+    - A potential source of harm, such as attackers or malware
+- Prevention
+    - Measures used to stop attacks before they occur (firewalls, patching, antivirus)
+- Detection
+    - Identifying suspicious or malicious activity through monitoring and analysis
+- Mitigation
+    - Actions taken to reduce or stop the impact of an attack
+- Risk
+    - The likelihood and potential impact of a threat affecting an organisation
+
+### Understanding The Environment
+- Defenders focus on protecting their organisation’s infrastructure, not the entire internet (includes endpoints, servers, applications, and networks)
+- Effective defence starts with understanding what assets exist and gaining visibility over them  
+
+💡 Without visibility, threats cannot be detected  
+
+### Core Defensive Security Functions
+- Prevention
+    - Implementing security controls such as firewalls, antivirus software, and regular patching
+- Detection
+    - Monitoring logs, alerts, and system activity for suspicious behaviour
+- Mitigation
+    - Limiting damage during an incident (isolating affected systems, blocking traffic, or disabling compromised accounts)
+- Analysis
+    - Investigating how an attack happened and what was affected
+- Response & Improvement
+    - Recovering systems and strengthening defenses to prevent future incidents 
+
+### Defending the Environment
+- The defender’s role is to understand what assets exist, how they function, and how they could be misused, then apply controls to reduce risk.
+- Attackers rarely target a single system. They compromise one asset and pivot across the environment, escalating access until they reach their objective.
+
+### Key Defender Principles
+- Threat Anticipation
+    - Ask “What if?” and consider how systems could be attacked
+    - Imagine realistic paths an attacker may take to achieve their goal
+- Attack Awareness
+    - Understand common attack patterns and frameworks
+- Risk Prioritisation
+    - Focus on protecting high-value assets first
+- Continuous Adaptation
+    - Defense is not a one-time set up
+    - Security must evolve as threats and techniques change
+
 ### **Security Operations Center (SOC)**
 - A central team responsible for monitoring and responding to threats
 - Operates 24/7 in many organisations
@@ -54,17 +109,15 @@ Develop an understanding of defensive security, including:
 - Defensive roles are the most common entry point into cybersecurity
 - SOC Analyst is the fastest realistic route into the industry 
 
-## 🛠️ Practical Skills Developed    
-- Observed how SOC analysts monitor alerts and logs
-- Understood basic SIEM concepts and alert workflows
-- Analysed simulated incidents in lab environments
-- Learned how defensive teams respond to threats step-by-step
-- Practised identifying suspicious activity patterns
+## 🛠️ Practical Skills Developed
+- Gained exposure to SOC workflows and monitoring concepts  
+- Understood the role of SIEM in detecting and analysing events  
+- Recognised basic patterns of suspicious activity in simulated scenarios  
+- Reviewed career options and real-world applications  
 
 ## 🧰 Tools Used 
 - TryHackMe platform 
 - Solent University Cybersecurity Coursework 
-- Browser developer tools
 - Lab virtual machines (sandboxed environments)    
 
 ## 🔐 Security Relevance
@@ -73,9 +126,10 @@ Develop an understanding of defensive security, including:
 - Critical for maintaining business continuity and data protection
 
 ## 📌 Lessons Learned 
-⚠️ Defensive roles (SOC, malware analysis, threat intel) require strong monitoring and analytical skills   
-⚠️ Most real-world work is monitoring, analysing, and responding — not hacking  
-⚠️ Small anomalies can indicate major security incidents   
-⚠️ Speed and accuracy are critical in incident response  
-⚠️ Strong fundamentals (networking, logs, systems) matter more than flashy tools  
+⚠️ Defensive roles (SOC, malware analysis, threat intel) require strong monitoring and analytical skills    
+⚠️ Most real-world work is monitoring, analysing, and responding — not hacking    
+⚠️ Small anomalies can indicate major security incidents     
+⚠️ Speed and accuracy are critical in incident response   
+⚠️ Strong fundamentals (networking, logs, systems) matter more than flashy tools    
+⚠️ Defensive and offensive skills complement each other    
   

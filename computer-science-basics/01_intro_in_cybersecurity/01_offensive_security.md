@@ -18,10 +18,86 @@ Gain a foundational understanding of offensive security, including:
 ## 🧠 Core Concepts Learned   
 
 ## 🔴 Offensive Security  
-### **Ethical Hacking**
+### Ethical Hacking
 - Simulating attacks in a controlled and authorised environment
 - Focus on identifying and exploiting vulnerabilities before malicious actors do
 - Must follow strict legal frameworks (permission-based testing only)
+
+### Core Offensive Security Terms
+- Red Teaming
+    - A structured and authorised attack simulation that mimics real-world adversaries to evaluate the effectiveness of an organisation’s defenses.
+- Penetration Testing (Pentest)
+    - A controlled security assessment where authorised testers identify and attempt to exploit vulnerabilities to assess real-world risk.
+- Vulnerability
+    - A weakness or misconfiguration in a system, application, or process that could be exploited by an attacker.
+- Exploit
+    - A method or technique used to take advantage of a vulnerability to gain unauthorised access or perform unintended actions.
+- Scope
+    - The defined boundaries of an engagement, specifying what systems, applications, and actions are permitted — and what is strictly off-limits.
+
+### Ethical Hacking and Permission
+- Although these terms are sometimes used interchangeably, they all operate under one critical principle: **explicit permission**
+- Ethical hackers are explicitly allowed to test systems within a defined scope, making this work intentional and safe
+- Activities are carefully controlled to avoid damage or disruption
+- All actions must align with agreed rules of engagement
+
+⚠️ In real-world scenarios, organisations hire security professionals to simulate attacks against their own systems. The goal is not to cause harm, but to:
+
+- Identify weaknesses before malicious actors do
+- Test the effectiveness of existing security controls
+- Improve the organisation’s overall security posture
+
+### 🧪 TryHackMe Lab Example - Enumeration
+- Assessed a simulated web application `http://www.onlineshop.thm/` to identify exposed or hidden pages
+
+**Actions Performed:**
+- Manually tested common endpoints (/sitemap, /mail, /admin, /login, /register) by appending them to the URL
+- Identified valid pages based on HTTP responses (200 OK vs 404 Not Found)
+- Used Gobuster to automate directory and file discovery
+
+**Command Used:**  
+`gobuster dir --url http://www.onlineshop.thm/ -w /usr/share/wordlists/dirbuster/directory-list.txt`  
+
+**Key Finding:**  
+- Discovered that the /login page was publicly accessible, indicating a potential access control weakness 
+
+**Key Insight:** 
+- Hidden or unlinked pages can still be accessed if not properly secured
+- Automated tools significantly speed up the discovery of exposed resources
+
+💡 This lab demonstrates how attackers enumerate web applications to uncover sensitive or unintended functionality
+
+### Exploiting Weaknesses 
+- Individual weaknesses may appear low risk on their own  
+- When combined, they can lead to serious security issues  
+
+**Example from this lab:**
+- Discovered exposed `/login` page (enumeration)  
+- Identified weak credentials (authentication weakness)  
+- Combined → successful unauthorised access  
+
+💡 This demonstrates how attackers link small weaknesses together to achieve a larger impact
+
+### 🧪 TryHackMe Lab Example – Credential Attack
+- Tested authentication security of the web application `http://www.onlineshop.thm/login`  
+
+**Actions Performed:**  
+- Attempted login using common credentials (username: admin)
+- Manually tested a short password list (123456, password, qwerty)
+- Successfully identified valid credentials
+- Used Hydra to automate password testing **(dictionary attack)**
+
+**Command Used:**  
+`hydra -l admin -P passlist.txt www.onlineshop.thm http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V`
+
+**Key Finding:**  
+- Weak password allowed successful login as admin, demonstrating poor authentication security  
+  
+**Key Insight:**   
+- Applications without proper protections are vulnerable to brute-force attacks
+- Automated tools can test hundreds or thousands of credentials rapidly
+
+💡 This lab demonstrates how attackers exploit weak credentials to gain unauthorised access to systems
 
 ### **Attack Lifecycle** 
 - Reconnaissance: Gathering information about the target
@@ -55,13 +131,12 @@ Gain a foundational understanding of offensive security, including:
 
 ## 🛠️ Practical Skills Developed    
 - Completed the Introduction to Cyber Security room step by step on TryHackMe  
-- Exploited simple vulnerabilities in controlled scenarios
+- Identified exposed endpoints through enumeration techniques
 - Reviewed career options and real-world applications    
 
 ## 🧰 Tools Used 
 - TryHackMe platform 
 - Solent University Cybersecurity Coursework 
-- Browser developer tools
 - Lab virtual machines (sandboxed environments for ethical hacking)    
 
 ## 🔐 Security Relevance
