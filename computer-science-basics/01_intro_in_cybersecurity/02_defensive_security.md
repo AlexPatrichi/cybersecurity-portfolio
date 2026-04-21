@@ -17,7 +17,7 @@ Develop a foundational understanding of defensive security, including:
 - Defensive security focuses on protecting systems by preventing, detecting, and responding to threats
 - The goal is to minimise risk and ensure systems remain secure and operational
 
-### Core Defenisive Security Terms
+### Core Defensive Security Terms
 - Blue Team
     - A group of cybersecurity professionals responsible for defending systems and responding to threats
 - Client Infrastructure
@@ -36,7 +36,7 @@ Develop a foundational understanding of defensive security, including:
     - The likelihood and potential impact of a threat affecting an organisation
 
 ### Understanding The Environment
-- Defenders focus on protecting their organisation’s infrastructure, not the entire internet (includes endpoints, servers, applications, and networks)
+- Defenders focus on protecting their organisation’s infrastructure (includes endpoints, servers, applications, and networks)
 - Effective defence starts with understanding what assets exist and gaining visibility over them  
 
 💡 Without visibility, threats cannot be detected  
@@ -66,13 +66,13 @@ Develop a foundational understanding of defensive security, including:
 - Risk Prioritisation
     - Focus on protecting high-value assets first
 - Continuous Adaptation
-    - Defense is not a one-time set up
+    - Defense is not a one-time setup
     - Security must evolve as threats and techniques change
 
 ### **Security Operations Center (SOC)**
 - A central team responsible for monitoring and responding to threats
 - Operates 24/7 in many organisations
-- Uses tools like SIEM to analyse logs and detect suspicious activity
+- Uses tools like SIEM to analyse logs and detect suspicious activity and anomalies
 
 ### **Threat Detection & Monitoring**
 - Continuous monitoring of systems, networks, and logs
