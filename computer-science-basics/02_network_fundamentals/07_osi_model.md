@@ -175,7 +175,7 @@ Focus Area: The OSI Model
 - Essential for roles such as SOC Analyst and Network Security Engineer  
 
 ## 📌 Lessons Learned  
-⚠️ The OSI Model simplifies complex network communication into manageable layers  
-⚠️ Each layer has distinct responsibilities but works together as a system  
-⚠️ It provides a structured way to understand how data flows across networks 
-⚠️ Security vulnerabilities can occur at each stage 
+⚠️ The OSI Model simplifies complex network communication into manageable layers    
+⚠️ Each layer has distinct responsibilities but works together as a system   
+⚠️ It provides a structured way to understand how data flows across networks     
+⚠️ Security vulnerabilities can occur at each stage   
