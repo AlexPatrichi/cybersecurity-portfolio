@@ -17,7 +17,7 @@ Develop a foundational understanding of defensive security, including:
 - Defensive security focuses on protecting systems by preventing, detecting, and responding to threats
 - The goal is to minimise risk and ensure systems remain secure and operational
 
-### Core Defensive Security Terms
+## Core Defensive Security Terms
 - Blue Team
     - A group of cybersecurity professionals responsible for defending systems and responding to threats
 - Client Infrastructure
@@ -35,13 +35,13 @@ Develop a foundational understanding of defensive security, including:
 - Risk
     - The likelihood and potential impact of a threat affecting an organisation
 
-### Understanding The Environment
+## Understanding The Environment
 - Defenders focus on protecting their organisation’s infrastructure (includes endpoints, servers, applications, and networks)
 - Effective defence starts with understanding what assets exist and gaining visibility over them  
 
 💡 Without visibility, threats cannot be detected  
 
-### Core Defensive Security Functions
+## Core Defensive Security Functions
 - Prevention
     - Implementing security controls such as firewalls, antivirus software, and regular patching
 - Detection
@@ -53,11 +53,11 @@ Develop a foundational understanding of defensive security, including:
 - Response & Improvement
     - Recovering systems and strengthening defenses to prevent future incidents 
 
-### Defending the Environment
+## Defending the Environment
 - The defender’s role is to understand what assets exist, how they function, and how they could be misused, then apply controls to reduce risk.
 - Attackers rarely target a single system. They compromise one asset and pivot across the environment, escalating access until they reach their objective.
 
-### Key Defender Principles
+## Key Defender Principles
 - Threat Anticipation
     - Ask “What if?” and consider how systems could be attacked
     - Imagine realistic paths an attacker may take to achieve their goal
@@ -69,7 +69,7 @@ Develop a foundational understanding of defensive security, including:
     - Defense is not a one-time setup
     - Security must evolve as threats and techniques change
 
-### Areas Of Defensive Security
+## Areas Of Defensive Security
 ### **Security Operations Center (SOC)**
 - A central team responsible for monitoring and responding to threats
 - Operates 24/7 in many organisations
@@ -153,7 +153,7 @@ Develop a foundational understanding of defensive security, including:
 - Encrypts a victim’s files, making them inaccessible
 - Attackers demand payment (ransom) in exchange for the decryption key
 
-### **Malware Analysis**
+#### **Malware Analysis**
 The process of studying malware to understand its behaviour, purpose, and impact.
 
 1. Static Analysis
@@ -166,7 +166,7 @@ The process of studying malware to understand its behaviour, purpose, and impact
 
 💡 Malware analysis helps security teams understand threats, improve detection, and develop effective mitigation strategies
 
-### Defensive Workflow Connection
+## Defensive Workflow Connection
 - Threat Intelligence helps anticipate threats
 - SOC detects suspicious activity in real time
 - Incident Response contains and mitigates attacks
@@ -174,7 +174,7 @@ The process of studying malware to understand its behaviour, purpose, and impact
 
 💡 Together, these functions form a complete defensive security lifecycle within an organisation
 
-### 🧪 TryHackMe Lab Example – SOC Alert Investigation
+## 🧪 TryHackMe Lab Example – SOC Alert Investigation
 - Analysed security alerts as a SOC analyst in a simulated banking environment using a SIEM dashboard to monitor system and network activity.
 
 **Actions Performed:** 
