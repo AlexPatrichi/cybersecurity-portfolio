@@ -69,28 +69,139 @@ Develop a foundational understanding of defensive security, including:
     - Defense is not a one-time setup
     - Security must evolve as threats and techniques change
 
+### Areas Of Defensive Security
 ### **Security Operations Center (SOC)**
 - A central team responsible for monitoring and responding to threats
 - Operates 24/7 in many organisations
 - Uses tools like SIEM to analyse logs and detect suspicious activity and anomalies
+- Leverages **threat intelligence** to recognise attack patterns and anticipate emerging threats
 
-### **Threat Detection & Monitoring**
-- Continuous monitoring of systems, networks, and logs
-- Identifying unusual behaviour (anomalies)
-- Alert triaging and prioritisation
+💡 The SOC acts as the organisation’s defensive layer, focusing on early detection and rapid response to minimise impact
+
+#### **Threat Intelligence**
+- The process of collecting, processing, and analysing information about potential or active threats
+- Helps organisations understand attacker behaviour, motives, and likely targets
+- The purpose would be to achieve a threat-informed defence
+- Threat intelligence relies on data that is collected, processed, and analysed to produce actionable insights
+- Data is gathered from:
+    - Internal sources (logs, system activity)
+    - External sources (forums, threat feeds)
+- Enables identification of attacker Tactics, Techniques, and Procedures (TTPs)
+- Supports proactive defence by predicting and mitigating potential attacks
+
+💡 Threat intelligence helps organisations move from reactive security to a proactive, intelligence-driven defence strategy
+
+---
 
 ### **Incident Response (IR)**
-- Identifying, analysing, and responding to security incidents
-- Steps include:
-    - Detection
-    - Containment
-    - Eradication
-    - Recovery
+- Identifying, analysing, and responding to security incidents 
+- Incidents can range from critical breaches to less severe issues such as misconfigurations, intrusion attempts, or policy violations
 
-### **Digital Forensics & Malware Analysis**
-- Investigating attacks after they occur
-- Understanding how malware behaves
-- Collecting and analysing evidence
+#### **Incident Response Lifecycle**
+- The four major phases of the incident response process are:
+
+1. Preparation
+- Requires trained teams, tools, and procedures
+- Implement preventative measures to reduce the likelihood of incidents
+
+2. Detection and Analysis
+- Monitor systems to detect suspicious activity
+- Analyse incidents to determine scope, impact, and severity
+
+3. Containment, Eradication, and Recovery
+- Containment: Limit the spread of the incident
+- Eradication: Remove the root cause (malware, vulnerability)
+- Recovery: Restore systems to normal operation
+
+4. Post-Incident Activity
+- Document the incident and actions taken
+- Identify lessons learned and share to prevent similar future incidents
+
+💡 Incident Response ensures organisations can detect, contain, and recover from attacks quickly, minimising damage and strengthening future security
+
+--- 
+
+### **Digital Forensics**
+- Digital forensics is the application of scientific methods to investigate and analyse digital evidence after a security incident
+- In defensive security, digital forensics focuses on:
+    - Investigating security incidents
+    - Identifying attacker activity and methods
+    - Collecting and preserving evidence for analysis
+
+#### Key Areas of Analysis
+1. Disk Forensics
+- Analyses a digital forensic image (low-level copy) of storage devices
+- Reveals installed programs, created files, deleted data, and hidden artefacts
+2. Memory Forensics
+- Examines system memory (RAM) 
+- Useful if the attacker runs their malicious program in memory without saving it to the disk
+3. System Logs
+- Records of system activity (logins, processes, errors)
+- Helps reconstruct events and identify suspicious behaviour
+4. Network Logs
+- Captures network traffic and communication between systems
+- Helps detect intrusions, data exfiltration, and attacker activity
+
+---
+
+### **Malware**
+- Malware refers to malicious software (programs and instructions) designed to disrupt, damage, or gain unauthorised access to systems
+
+#### **Malware Types**
+1. Virus
+- Malicious code that attaches itself to legitimate programs
+- Designed to spread between systems and can alter, overwrite, or delete files
+- Impact ranges from system slowdown to complete failure
+2. Trojan Horse
+- Disguised as legitimate software but contains hidden malicious functionality
+- Often used to gain unauthorised access or control over a system
+3. Ransomware
+- Encrypts a victim’s files, making them inaccessible
+- Attackers demand payment (ransom) in exchange for the decryption key
+
+### **Malware Analysis**
+The process of studying malware to understand its behaviour, purpose, and impact.
+
+1. Static Analysis
+- Examines malware without running it
+- Involves analysing code, structure, and signatures
+- Often requires knowledge of low-level programming  
+2. Dynamic Analysis
+- Runs malware in a controlled environment (sandbox)
+- Observes behaviour such as file changes, network activity, and system impact
+
+💡 Malware analysis helps security teams understand threats, improve detection, and develop effective mitigation strategies
+
+---
+
+### Defensive Workflow Connection
+- Threat Intelligence helps anticipate threats
+- SOC detects suspicious activity in real time
+- Incident Response contains and mitigates attacks
+- Digital Forensics investigates and provides evidence
+
+💡 Together, these functions form a complete defensive security lifecycle within an organisation
+
+---
+
+### 🧪 TryHackMe Lab Example – SOC Alert Investigation
+- Analysed security alerts as a SOC analyst in a simulated banking environment using a SIEM dashboard to monitor system and network activity.
+
+**Actions Performed:** 
+- Investigated multiple alerts flagged by the SIEM system (not all alerts are malicious)
+- Analysed login activity, including repeated failed login attempts
+- Reviewed connections from unknown IP addresses
+- Differentiated between normal behaviour and potential security threats
+
+**Key Finding:**  
+- Not all alerts indicate malicious activity — some are false positives or normal user behaviour
+- Suspicious patterns (repeated failed logins, unknown IP access) require further investigation before classification
+
+**Key Insight:** 
+- SOC analysts must apply critical thinking to determine whether alerts are genuine threats
+- SIEM tools assist with detection, but human analysis is essential for accurate decision-making
+
+💡 This lab demonstrates how security analysts investigate alerts, identify potential threats, and distinguish between benign and malicious activity
 
 ## 💼 Career Path – Defensive Security
 **Common Roles**

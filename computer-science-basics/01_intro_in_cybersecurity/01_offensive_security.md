@@ -53,7 +53,7 @@ Gain a foundational understanding of offensive security, including:
 **Actions Performed:**
 - Manually tested common endpoints (/sitemap, /mail, /admin, /login, /register) by appending them to the URL
 - Identified valid pages based on HTTP responses (200 OK vs 404 Not Found)
-- Used Gobuster to automate directory and file discovery
+- Used **Gobuster** to automate directory and file discovery
 
 **Command Used:**  
 `gobuster dir --url http://www.onlineshop.thm/ -w /usr/share/wordlists/dirbuster/directory-list.txt`  
@@ -67,16 +67,30 @@ Gain a foundational understanding of offensive security, including:
 
 💡 This lab demonstrates how attackers enumerate web applications to uncover sensitive or unintended functionality
 
-### Exploiting Weaknesses 
-- Individual weaknesses may appear low risk on their own  
-- When combined, they can lead to serious security issues  
+### 🔍 Enumeration
+- The process of systematically discovering and listing information about a target
+- Commonly used to identify hidden pages, services, or endpoints
+- Often performed using automated tools like **Gobuster**
 
-**Example from this lab:**
-- Discovered exposed `/login` page (enumeration)  
-- Identified weak credentials (authentication weakness)  
-- Combined → successful unauthorised access  
+### 🧪 TryHackMe Lab Example - Directory Enumeration
+- Enumerated a simulated banking web application `http://fakebank.thm/` to identify hidden or unsecured functionality
 
-💡 This demonstrates how attackers link small weaknesses together to achieve a larger impact
+**Actions Performed:**
+- Used command-line tool **Gobuster** to brute-force FakeBank's website to find hidden directories and pages
+- Analysed HTTP response codes to identify valid pages (Status: 200)
+- Investigated discovered endpoints manually via browser
+
+**Command Used:**  
+`gobuster dir -u http://fakebank.thm -w wordlist.txt`
+
+**Key Finding:**  
+- Discovered an exposed `/bank-transfer` page that allowed direct money transfers between accounts without authentication
+
+**Key Insight:**
+- Sensitive functionality should never be accessible without proper authentication and authorization
+- Automated enumeration tools can quickly uncover critical vulnerabilities that are not visible through normal navigation
+
+💡 This lab demonstrates how attackers use directory brute-forcing to uncover hidden application features and identify security misconfigurations
 
 ### 🧪 TryHackMe Lab Example – Credential Attack
 - Tested authentication security of the web application `http://www.onlineshop.thm/login`  
@@ -145,7 +159,7 @@ Gain a foundational understanding of offensive security, including:
 - Improves overall system resilience through proactive testing
 - Provides insight into real attack techniques used in the wild
 - Awareness of SOC and DFIR tasks prepares for real-world security operations  
-- Learning career paths helps focus your learning trajectory and skill development    
+- Learning career paths helps focus your learning trajectory and skill development  
 
 ## 📌 Lessons Learned 
 ⚠️ Thinking like an attacker improves defensive skills massively  
