@@ -91,8 +91,6 @@ Develop a foundational understanding of defensive security, including:
 
 💡 Threat intelligence helps organisations move from reactive security to a proactive, intelligence-driven defence strategy
 
----
-
 ### **Incident Response (IR)**
 - Identifying, analysing, and responding to security incidents 
 - Incidents can range from critical breaches to less severe issues such as misconfigurations, intrusion attempts, or policy violations
@@ -117,9 +115,7 @@ Develop a foundational understanding of defensive security, including:
 - Document the incident and actions taken
 - Identify lessons learned and share to prevent similar future incidents
 
-💡 Incident Response ensures organisations can detect, contain, and recover from attacks quickly, minimising damage and strengthening future security
-
---- 
+💡 Incident Response ensures organisations can detect, contain, and recover from attacks quickly, minimising damage and strengthening future security 
 
 ### **Digital Forensics**
 - Digital forensics is the application of scientific methods to investigate and analyse digital evidence after a security incident
@@ -141,8 +137,6 @@ Develop a foundational understanding of defensive security, including:
 4. Network Logs
 - Captures network traffic and communication between systems
 - Helps detect intrusions, data exfiltration, and attacker activity
-
----
 
 ### **Malware**
 - Malware refers to malicious software (programs and instructions) designed to disrupt, damage, or gain unauthorised access to systems
@@ -172,8 +166,6 @@ The process of studying malware to understand its behaviour, purpose, and impact
 
 💡 Malware analysis helps security teams understand threats, improve detection, and develop effective mitigation strategies
 
----
-
 ### Defensive Workflow Connection
 - Threat Intelligence helps anticipate threats
 - SOC detects suspicious activity in real time
@@ -181,8 +173,6 @@ The process of studying malware to understand its behaviour, purpose, and impact
 - Digital Forensics investigates and provides evidence
 
 💡 Together, these functions form a complete defensive security lifecycle within an organisation
-
----
 
 ### 🧪 TryHackMe Lab Example – SOC Alert Investigation
 - Analysed security alerts as a SOC analyst in a simulated banking environment using a SIEM dashboard to monitor system and network activity.
