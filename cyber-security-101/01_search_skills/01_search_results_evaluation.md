@@ -40,7 +40,7 @@ Focus Area: Search Results Evaluation
 ## 🧰 Tools Used 
 - TryHackMe platform 
 - Solent University Cybersecurity Coursework 
-- Web browsers (research and validation)
+- Mozilla Firefox (research and validation)  
 
 ## 🔐 Security Relevance
 - Prevents reliance on inaccurate or misleading threat intelligence
