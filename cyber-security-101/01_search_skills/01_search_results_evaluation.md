@@ -48,6 +48,6 @@ Focus Area: Search Results Evaluation
 - Improves the quality of incident investigations
 
 ## 📌 Lessons Learned 
-⚠️ Not all information found online is reliable — always verify before trusting it 
-⚠️ Effective search skills help identify outdated tools and detect misleading claims 
+⚠️ Not all information found online is reliable — always verify before trusting it   
+⚠️ Effective search skills help identify outdated tools and detect misleading claims   
   

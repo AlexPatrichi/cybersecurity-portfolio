@@ -35,8 +35,8 @@ Focus Area: Search Engines
 - Searches for specific files (PDF, DOC, PPT, etc.) instead of web pages
 - Example: filetype:pdf cyber security 
 
-💡 These operators improve accuracy and reduce irrelevant results
-💡 Most search engines treat multiple words as AND by default 
+💡 These operators improve accuracy and reduce irrelevant results  
+💡 Most search engines treat multiple words as AND by default  
 
 ### Common Search Engines
 - Google – Most widely used, powerful indexing and search operators  
