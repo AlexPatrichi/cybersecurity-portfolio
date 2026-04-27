@@ -5,22 +5,22 @@ Skill Level: Beginner / Foundation
 Focus Area: Linux Basics
 
 ## 🎯 Objective
-- Understand what Linux is and why it is widely used
-- Learn how to interact with Linux through the terminal
-- Explore basic navigation, file handling, and system information commands
-- Recognise why Linux skills are important in cybersecurity
+- Understand what Linux is
+- Learn how users interact with Linux systems
+- Recognise basic file system structure
+- Perform simple navigation using the terminal
 
 ## 🧠 Core Concepts Learned
 
 ## Linux Fundamentals
-### Short History
 - Linux is an open-source operating system based on Unix principles
 - First released in 1991 by Linus Torvalds
 - Widely used in servers, cybersecurity, and cloud environments
 
+💡Linux powers a large portion of the internet and modern infrastructure  
 💡 Most cybersecurity tools and servers run on Linux   
 
-### The Terminal
+## The Terminal
 - A text-based interface used to interact with the system
 - Users type commands instead of using graphical elements (GUI)
 - Provides:
@@ -28,48 +28,47 @@ Focus Area: Linux Basics
     - Faster interaction
     - Access to advanced system functions
 
-💡 Many security tools and servers operate only through the terminal  
+💡 Many systems (especially servers) are managed only through the terminal
 
-### Core Linux Commands
-#### 📂 Navigation
+## Core Linux Commands
+### 📂 Moving Around the System
 - `pwd` (Print Working Directory) →  shows the current directory
+- `ls` (List) → lists files and directories 
+- `cd` (Change Directory) → changes the current directory 
 
-- `ls` (List) → lists files and directories  
-⚠️ `ls -l` command will print more details  
-⚠️ `ls -al` command will print the hidden files in the directory   
-⚠️ These files starts with a . (dot) and are hidden by default  
+⚠️ To go back one level use `cd ..` command   
+💡 These commands allow you to move through the system  
 
-- `cd` (Change Directory) → changes the current directory  
-⚠️ To go back one level use `cd ..` command  
-
-#### 📄 File Viewing
+### 📄 Viewing Files
 - `cat` (Concatenate) → displays the contents of a file  
-⚠️ Originally meant to join files together  
-⚠️ But in practice, you mainly use it to read files and display content quickly  
 
-#### 🔍 File Search
+⚠️ Originally meant to join files together   
+⚠️ But in practice, you mainly use it to read files and display content quickly   
+
+### 🔍 File Search
 - `find` (Find) → searches for files and directories  
+
 ⚠️ More powerful than it looks  
 ⚠️ Can search by: name, type, size, permissions  
 
-#### ⚙️ System Information
+### ⚙️ System Information
 - `whoami` → shows the current user  
 - `uname` (Unix Name) → displays basic system information
 
 💡 These commands are essential for navigating and interacting with the Linux file system  
 
-### Key Directories in Linux
+## Key Directories in Linux
 - `~` (Home Directory) → shortcut that represents the current user’s home directory
 - `/` → Root directory (top level)
 - `/home` → User directories
 - `/etc` → Configuration files
 - `/var` → Logs and variable data
 - `/tmp` → Temporary files
+💡 Linux uses a structured hierarchy to organise files  
+💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations   
+💡 Understanding these directories is important for system navigation and investigation   
 
-💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations  
-💡 Understanding these directories is important for system navigation and investigation  
-
-### 🧪 Gathering System Information on Lynux (Cybersecurity Context)
+## 🧪 Gathering System Information on Lynux (Cybersecurity Context)
 - Working in cybersecurity requires understanding the environment you are operating in, including the Linux version and available system resources
 - "Who are you logged in as?" 
     - `whoami` - prints the current username
@@ -89,35 +88,15 @@ Focus Area: Linux Basics
     - `cat /etc/os-release` command shows Linux distribution details that are more detailed  than `uname`
 
 ## Command Line Interface (CLI)  
-### Linux CLI Concepts
 - Commands are executed by a shell (Bash)
 - The shell interprets commands and interacts with the OS
-- Commands can be combined and automated using scripts
 
-💡 CLI is essential for system administration and cybersecurity tasks  
-
-### Linux CLI Commands
-| Category                     | Command | Description                          |
-|------------------------------|---------|--------------------------------------|
-| Navigation & File Inspection | cd      | Change directory                     |
-| Navigation & File Inspection | ls      | List files and directories           |
-| Navigation & File Inspection | pwd     | Show current directory               |
-| Navigation & File Inspection | cat     | Display file contents                |
-| Navigation & File Inspection | find    | Search for files and directories     |
-| System Investigation         | whoami  | Display current user                 |
-| System Investigation         | uname   | System/kernel information            |
-| System Investigation         | df -h   | Disk usage (human-readable)          |
-| File Operations              | cp      | Copy files                           |
-| File Operations              | mv      | Move/rename files                    |
-| File Operations              | rm      | Remove files                         |
-| File Operations              | touch   | Create files                         |
-
+💡 The CLI is a core way to interact with Linux systems  
 
 ## 🛠️ Practical Skills Developed
-- Navigating a Linux system using the terminal
-- Understanding basic file system structure
-- Using commands to gather system information
-- Performing basic file operations
+- Navigating directories using basic commands
+- Understanding Linux structure
+- Interacting with the system through the terminal
 
 ## 🧰 Tools Used
 - Solent University Cybersecurity Coursework
@@ -127,14 +106,13 @@ Focus Area: Linux Basics
 
 ## 🔐 Security Relevance
 - Linux is widely used in servers and cybersecurity environments
-- Understanding Linux helps:
-    - Navigate target systems
-    - Analyse logs and configurations
-    - Use security tools effectively
+- Basic knowledge helps:
+    - Understand how systems are structured
+    - Prepare for advanced security tools
 
 💡 Many penetration testing and SOC tools are Linux-based
 
 ## 📌 Lessons Learned
-⚠️ Linux is widely used in cybersecurity, making CLI skills essential  
-⚠️ Understanding the file system is key for navigation and investigation  
-⚠️ Simple commands can reveal important system information  
+⚠️ Linux is a fundamental skill in IT and cybersecurity  
+⚠️ The terminal is the primary way to control Linux systems  
+⚠️ Understanding structure comes before advanced usage  
