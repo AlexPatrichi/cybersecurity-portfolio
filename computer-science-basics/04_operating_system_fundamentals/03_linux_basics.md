@@ -57,35 +57,13 @@ Focus Area: Linux Basics
 
 💡 These commands are essential for navigating and interacting with the Linux file system  
 
-## Key Directories in Linux
-- `~` (Home Directory) → shortcut that represents the current user’s home directory
-- `/` → Root directory (top level)
-- `/home` → User directories
-- `/etc` → Configuration files
-- `/var` → Logs and variable data
-- `/tmp` → Temporary files
-💡 Linux uses a structured hierarchy to organise files  
-💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations   
-💡 Understanding these directories is important for system navigation and investigation   
+📂 Important Directories (Security Context)
+- `/home` → user files
+- `/etc` → configuration files
+- `/var` → logs (VERY important)
+- `/tmp` → temporary files (often abused)  
 
-## 🧪 Gathering System Information on Lynux (Cybersecurity Context)
-- Working in cybersecurity requires understanding the environment you are operating in, including the Linux version and available system resources
-- "Who are you logged in as?" 
-    - `whoami` - prints the current username
-
-- "What system are you on?" 
-    - `uname -a` - to get details about the operating system, kernel version, and architecture  
-⚠️ `uname` shows basic system information, while `uname -a` provides detailed system and kernel information    
-
-- "Check disk and storage info" 
-    - `df -h` - disk usage in human-readable format  
-💡 `-h` means "human-readable" and makes output easier to read (GB instead of bytes)    
-💡 It is a good habit to check disk usage before running tools or analyzing logs    
-
-- "Read a system information file"
-    - Linux stores configuration and information files in `/etc` directory
-    - This file exists on most Linux systems
-    - `cat /etc/os-release` command shows Linux distribution details that are more detailed  than `uname`
+💡 Attackers and analysts both check these locations first
 
 ## Command Line Interface (CLI)  
 - Commands are executed by a shell (Bash)
