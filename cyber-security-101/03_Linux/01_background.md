@@ -61,7 +61,7 @@ Focus Area: Linux Background
 
 💡 Focus on long-term stability and performance
 
-### System Enumeration (Core Cybersecurity Skill)
+### 🧪 System Enumeration (Core Cybersecurity Skill)
 - When you access a Linux system, the first step is **enumeration**  
 💡 Gathering information about the system  
 - Working in cybersecurity requires understanding the environment you are operating in, including the Linux version and available system resources
@@ -83,7 +83,7 @@ Focus Area: Linux Background
     - This file exists on most Linux systems
     - `cat /etc/os-release` command shows Linux distribution details that are more detailed  than `uname`
 
-## Key Directories in Linux
+### Key Directories in Linux
 - `~` (Home Directory) → shortcut that represents the current user’s home directory
 - `/` → Root directory (top level)
 - `/home` → User directories
@@ -95,7 +95,10 @@ Focus Area: Linux Background
 💡 Understanding these directories is important for system navigation and investigation 
 
 ## 🛠️ Practical Skills Developed
-
+- Performing basic system enumeration
+- Identifying user context and system details
+- Locating important files and directories
+- Understanding how attackers gather information
 
 ## 🧰 Tools Used
 - Solent University Cybersecurity Coursework
@@ -103,7 +106,15 @@ Focus Area: Linux Background
 - Linux (terminal environment)
 
 ## 🔐 Security Relevance
+- Enumeration is the first step in:
+    - Penetration testing
+    - Incident response
+    - System analysis
 
+💡 Small commands can reveal critical system weaknesses
 
 ## 📌 Lessons Learned
-Linux is not a single OS — it comes in different distributions (distros)
+⚠️ Enumeration is the first step in any cybersecurity task  
+⚠️ Linux systems expose valuable information through simple commands  
+⚠️ Understanding the system is more important than memorising commands  
+⚠️ Linux is not a single OS — it comes in different distributions (distros)  
