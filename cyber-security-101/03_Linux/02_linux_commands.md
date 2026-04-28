@@ -51,10 +51,9 @@ Focus Area: Linux Commands
 ⚠️ Can search by: name, type, size, permissions  
 ⚠️ Works well with the wildcard (*) 
 
-- `grep` → searches through a file for specific values
-⚠️ Commonly used for analysing logs and filtering important data
-⚠️ `grep -R` (recursively) search for a variable across all files in the current directory and its subfolders
-
+- `grep` → searches through a file for specific values  
+⚠️ Commonly used for analysing logs and filtering important data  
+⚠️ `grep -R` (recursively) search for a variable across all files in the current directory and its subfolders  
 
 ### ⚙️ System Information
 - `whoami` → shows the current user  
@@ -62,15 +61,15 @@ Focus Area: Linux Commands
 - `df -h` → disk usage in human-readable format
 
 ### 🧾 Output
-- `echo` → Output any text that we provide
-⚠️ Strings with spaces should be enclosed withing double quotes
+- `echo` → Output any text that we provide  
+⚠️ Strings with spaces should be enclosed withing double quotes  
 
 ### 📁 File Operations
 - `cp` → Copy files                           
 - `mv` → Move/rename files                
 - `rm` → Remove files                         
 - `touch` → Create files     
-- `wc` → Counts lines, words, and characters in a file or number of entries 
+- `wc` → Counts lines, words, and characters in a file or number of entries   
 ⚠️ `wc -l file.txt` counts lines
 
 💡 These commands are essential for navigating and interacting with the Linux file system  
@@ -80,6 +79,7 @@ Focus Area: Linux Commands
 - Used `echo` to display custom messages and understand command syntax
 - Used `ls`, `cd`, `pwd` and `cat` to interact with the filesystem
 - Used `find` and `grep` to locate and analyse specific data
+
 <div align="center">
   <img src="../../images/linux-commands.png" alt="Ubuntu Terminal" width="400"/>
 </div>
