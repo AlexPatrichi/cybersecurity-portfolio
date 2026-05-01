@@ -20,7 +20,7 @@ They can be used to:
 - Redirect command output
 - Append output to existing files
 
-### `&` Operator
+### "&" Operator
 - Runs a command in the background
 - Allows the terminal to stay available while the command continues running
 
@@ -28,13 +28,13 @@ They can be used to:
 
 💡 This is useful when running a command that may take a long time
 
-### `&&` Operator
+### "&&" Operator
 - Make a list of commands to run
 - Runs the second command only if the first command succeeds
 
 **Example:** `mkdir test && cd test`  
 
-### `>` Operator
+### ">" Operator
 - Known as an **output redirector**
 - Redirects command output into a file
 - Creates the file if it does not exist
@@ -44,8 +44,8 @@ They can be used to:
 
 ⚠️ This operator can overwrite existing file content
 
-### `>>` Operator
-- This operator adds the output at the bottom of the file
+### ">>" Operator
+- Adds command output to the end of a file
 - Does not overwrite existing content
 
 **Example:** `echo "Second line" >> message.txt`  
@@ -73,6 +73,6 @@ They can be used to:
 
 ## 📌 Lessons Learned
 ⚠️ `>` overwrites file content, while `>>` adds new content to the end of the file  
-⚠️ `&&` is safer than simply running commands one after another because the next command only runs if the previous one succeeds
+⚠️ `&&` ensures the next command only runs if the previous one succeeds
 
 💡 Shell operators make Linux commands more powerful by allowing automation, redirection, and better workflow control.
