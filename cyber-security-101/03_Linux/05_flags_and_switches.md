@@ -44,7 +44,7 @@ Focus Area: Flags and Switches
 
 >**Example**  
 >- `ls --help`  
->💡 `--help` is a quick way to learn how a command works  
+💡 `--help` is a quick way to learn how a command works  
 
 ### The Man Page (Manual)
 - A great source of information for Linux system commands and applications   
@@ -52,7 +52,7 @@ Focus Area: Flags and Switches
 
 >**Example** 
 >- `man ls`   
->💡 `man` is one of the most useful learning tools in Linux
+💡 `man` is one of the most useful learning tools in Linux
 
 ## 🛠️ Practical Skills Developed
 - Using command-line options effectively
