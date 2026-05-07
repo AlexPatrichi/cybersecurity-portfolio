@@ -20,8 +20,8 @@ Focus Area: Flags and Switches
 💡 Flags make Linux commands more powerful and flexible
 
 **Example** 
-- `ls` command → performs its default behaviour
-- Adding `-a` as an argument (short for `--all`) displays more files and folders, including hidden ones
+    - `ls` command → performs its default behaviour
+    - Adding `-a` as an argument (short for `--all`) displays more files and folders, including hidden ones
 
 - Flags and switches can often be combined
 **Example**
