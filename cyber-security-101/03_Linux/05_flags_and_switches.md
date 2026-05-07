@@ -23,11 +23,12 @@ Focus Area: Flags and Switches
     - `ls` command → performs its default behaviour  
     - Adding `-a` as an argument (short for `--all`) displays more files and folders, including hidden ones
 
-- Flags and switches can often be combined
+- Flags and switches can often be combined  
+
 **Example**
-- `ls -la`
-    - `-l` → long listing format
-    - `-a` → show hidden files
+    - `ls -la`
+        - `-l` → long listing format
+        - `-a` → show hidden files
 
 ## Short vs Long Options
 | Short Option | Long Option | Purpose        |
