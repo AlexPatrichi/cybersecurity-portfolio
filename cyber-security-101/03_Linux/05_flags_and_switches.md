@@ -11,23 +11,23 @@ Focus Area: Flags and Switches
 
 ## 🧠 Core Concepts Learned 
 ## Linux Flags and Switches
-Flags and switches are additional **options** added to commands  
-They modify how a command behaves  
-Usually written after the command using:  
--  `-` for short options  
-- `--` for long options  
+- Flags and switches are additional **options** added to commands  
+- They modify how a command behaves  
+- Usually written after the command using:  
+    -  `-` for short options  
+    - `--` for long options  
 
 💡 Flags make Linux commands more powerful and flexible   
 
-**Example**    
-- `ls` command → performs its default behaviour  
-- Adding `-a` as an argument (short for `--all`) displays more files and folders, including hidden ones  
+>**Example**    
+>- `ls` command → performs its default behaviour  
+>- Adding `-a` as an argument (short for `--all`) displays more files and folders, including >hidden ones  
 
-Flags and switches can often be combined      
-**Example**     
-- `ls -la`  
-    - `-l` → long listing format  
-    - `-a` → show hidden files  
+- Flags and switches can often be combined      
+>**Example**     
+>- `ls -la`  
+>    - `-l` → long listing format  
+>    - `-a` → show hidden files  
 
 ## Short vs Long Options
 | Short Option | Long Option | Purpose        |
@@ -38,21 +38,21 @@ Flags and switches can often be combined
 
 ## How to Find Command Options
 ### The `--help` Option   
-The `--help` option:  
-- prints a list with all the possible options that the command accepts
-- provides a brief description and usage examples 
+- The `--help` option:  
+    - prints a list with all the possible options that the command accepts
+    - provides a brief description and usage examples 
 
-**Example**  
-- `ls --help`  
-💡 `--help` is a quick way to learn how a command works  
+>**Example**  
+>- `ls --help`  
+>💡 `--help` is a quick way to learn how a command works  
 
 ### The Man Page (Manual)
-A great source of information for Linux system commands and applications   
-Contains detailed documentation about: Syntax, Options, Usage Examples, Behaviour of Commands   
+- A great source of information for Linux system commands and applications   
+-Contains detailed documentation about: Syntax, Options, Usage Examples, Behaviour of Commands   
 
-**Example** 
-- `man ls`   
-💡 `man` is one of the most useful learning tools in Linux
+>**Example** 
+>- `man ls`   
+>💡 `man` is one of the most useful learning tools in Linux
 
 ## 🛠️ Practical Skills Developed
 - Using command-line options effectively
