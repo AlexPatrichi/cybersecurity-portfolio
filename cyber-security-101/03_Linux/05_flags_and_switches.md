@@ -25,10 +25,10 @@ Focus Area: Flags and Switches
 
 - Flags and switches can often be combined  
 
-**Example**
-    - `ls -la`
-        - `-l` → long listing format
-        - `-a` → show hidden files
+**Example**  
+    - `ls -la`  
+        - `-l` → long listing format  
+        - `-a` → show hidden files  
 
 ## Short vs Long Options
 | Short Option | Long Option | Purpose        |
