@@ -65,10 +65,12 @@ Focus Area: Linux Commands
 ⚠️ Strings with spaces should be enclosed withing double quotes  
 
 ### 📁 File Operations
-- `cp` → Copy files                           
-- `mv` → Move/rename files                
-- `rm` → Remove files                         
-- `touch` → Create files     
+- `touch` → Create files  
+- `mkdir` (make directory) → Create a folder 
+- `cp` (copy) → Copy a file or folder                           
+- `mv` (move) → Move/rename a file or a folder               
+- `rm` (remove) → Remove a file or folder  
+- `file` → Determine the type of a file                         
 - `wc` → Counts lines, words, and characters in a file or number of entries   
 ⚠️ `wc -l file.txt` counts lines
 
