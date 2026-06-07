@@ -1,4 +1,4 @@
-# Linux - TryHackMe and Solent University Cybersecurity Coursework 
+# Linux - TryHackMe 
 
 Platform: TryHackMe  
 Skill Level: Beginner / Foundation  
@@ -60,7 +60,6 @@ They can be used to:
 - Added output to existing files without deleting previous content  
 
 ## 🧰 Tools Used
-- Solent University Cybersecurity Coursework
 - TryHackMe platform
 - Linux (terminal environment)
 - Bash shell

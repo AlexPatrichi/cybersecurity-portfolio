@@ -1,4 +1,4 @@
-# Linux - TryHackMe and Solent University Cybersecurity Coursework 
+# Linux - TryHackMe 
 
 Platform: TryHackMe  
 Skill Level: Beginner / Foundation  
@@ -94,7 +94,6 @@ Focus Area: Linux Commands
 - Retrieved system and user information from a Linux environment  
 
 ## 🧰 Tools Used
-- Solent University Cybersecurity Coursework
 - TryHackMe platform
 - Linux (terminal environment)
 - Bash shell

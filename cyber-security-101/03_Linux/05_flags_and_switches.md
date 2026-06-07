@@ -1,4 +1,4 @@
-# Linux - TryHackMe and Solent University Cybersecurity Coursework 
+# Linux - TryHackMe  
 
 Platform: TryHackMe  
 Skill Level: Beginner / Foundation  
@@ -61,7 +61,6 @@ Focus Area: Flags and Switches
 - Understanding safe vs dangerous command options
 
 ## 🧰 Tools Used
-- Solent University Cybersecurity Coursework
 - TryHackMe platform
 - Linux (terminal environment)
 - Bash Shell

@@ -1,4 +1,4 @@
-# Linux - TryHackMe and Solent University Cybersecurity Coursework 
+# Linux - TryHackMe 
 
 Platform: TryHackMe  
 Skill Level: Beginner / Foundation  
@@ -42,7 +42,6 @@ Focus Area: Secure Shell (SSH)
 - Understood how secure remote access works
 
 ## 🧰 Tools Used
-- Solent University Cybersecurity Coursework
 - TryHackMe platform
 - Linux (terminal environment)
 - TryHackMe AttackBox
