@@ -18,7 +18,7 @@ Focus Area: Permissions 101
     - Group
     - Others
 
-### Permission Types
+## Permission Types
 - **Read (r)**
     - File: View contents.
     - Directory: List files within the directory.
@@ -29,11 +29,11 @@ Focus Area: Permissions 101
     - File: Run the file as a program or script.
     - Directory: Enter or access the directory.
 
-### Viewing Permissions
+## Viewing Permissions
 - Linux file permissions can be viewed using `ls -l` command.
 - The `-l` switch displays files and directories, providing information such as permissions, ownership, file size, and the date the file was last modified. 
 
-#### 🧪 TryHackMe Lab Example – Breaking Down the Output
+### 🧪 TryHackMe Lab Example – Breaking Down the Output
 **Actions Performed:** 
 - Used `ls -l` command to inspect file permissions.
 - Analysed the following output:  
@@ -62,7 +62,7 @@ Focus Area: Permissions 101
 **Key Insight:**  
 - Applying only the permissions required for a task helps reduce the attack surface of a system.
 
-### Changing Permissions
+## Changing Permissions
 - Linux permissions can be modified using either the numeric or symbolic method.
 - The numeric method converts symbolic permissions into numbers by adding predefined values together.
 
@@ -74,7 +74,7 @@ Focus Area: Permissions 101
 
 💡 Linux uses a binary system to represent permissions.  
 
-#### 🧪 TryHackMe Lab Example – Converting Symbolic Permissions to Numbers
+### 🧪 TryHackMe Lab Example – Converting Symbolic Permissions to Numbers
 **Actions Performed:** 
 1. Output: `-rwxr-xr-- 1 owner developers 1250 Jun 7 12:30 script.sh`
 2. Broke the permissions into three groups:
@@ -99,7 +99,7 @@ Equivalent command: `chmod 754 filename`
 💡 `chmod` (Change Mode) command is used to change the permissions of files and directories in Linux.    
 💡 Proper use of this command helps enforce the Principle of Least Privilege.    
 
-#### 🧪 TryHackMe Lab Example – Using Symbolic Permissions
+### 🧪 TryHackMe Lab Example – Using Symbolic Permissions
 - The symbolic method follows the structure:  
 `chmod [who][action][permission] filename`  
 `chmod u+x script.sh`  
@@ -140,7 +140,7 @@ Example:
 **Key Insight:**
 - Understanding the structure `chmod [who][action][permission]` makes it easier to manage permissions efficiently and reduces the risk of accidentally granting excessive access.
 
-### The Differences Between Users & Groups  
+## The Differences Between Users & Groups  
 👤 **User**
 - A user is an individual account on a Linux system.
 - Users can log in and perform actions based on the permissions assigned to them.  
@@ -150,7 +150,7 @@ Example:
 - Instead of assigning permissions to each user individually, permissions can be assigned to the group.
 - Groups simplify permission management by allowing multiple users to share the same access rights.
 
-#### Why Groups Are Important  
+### Why Groups Are Important  
 **Without groups:**  
 - Permissions would need to be managed separately for every user.
 - Administration becomes more time-consuming and prone to mistakes.
@@ -160,7 +160,7 @@ Example:
 - Users can collaborate securely on shared resources.
 - Organisations can better apply the Principle of Least Privilege.
 
-### Switching Between Users
+## Switching Between Users
 - The `su` (Substitute User) command is used to switch between user accounts.
 - This command requires: 
     - The user account you wish to switch to 
