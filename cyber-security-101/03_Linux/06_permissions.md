@@ -1,8 +1,8 @@
-# Search Skills – TryHackMe 
+# Linux – TryHackMe 
 
 Platform: TryHackMe    
 Skill Level: Beginner / Foundation  
-Focus Area: Permissions 101
+Focus Area: Permissions 
 
 ## 🎯 Objective 
 - Understand how Linux permissions control access to files and directories.
