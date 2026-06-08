@@ -11,7 +11,7 @@ Focus Area: Linux Background
 - Recognise common Linux environments and distributions
 
 ## 🧠 Core Concepts Learned
-### Linux in Cybersecurity
+## Linux in Cybersecurity
 - Linux is the most common operating system in:
     - Servers
     - Cloud infrastructure
@@ -19,17 +19,17 @@ Focus Area: Linux Background
 
 💡 Most penetration testing and SOC environments rely on Linux systems 
 
-### Where Linux is Used
+## Where Linux is Used
 - Web servers (hosting websites)
 - Cloud platforms (AWS, Azure)
 - Embedded systems (IoT, traffic systems)
 - Enterprise infrastructure
 
-### Linux Distributions (Flavours)
+## Linux Distributions (Flavours)
 - Because Linux is open-source, it has many variants (called distributions) 
 - All distros share the same core, but differ in tools, interface, and purpose
 
-#### Common Linux Distributions and Their Uses
+### Common Linux Distributions and Their Uses
 1. Ubuntu
 - Beginner-friendly and widely used
 - Common in desktops, servers, and cloud environments
@@ -61,38 +61,27 @@ Focus Area: Linux Background
 
 💡 Focus on long-term stability and performance
 
-### 🧪 System Enumeration (Core Cybersecurity Skill)
+## 🧪 System Enumeration (Core Cybersecurity Skill)
 - When you access a Linux system, the first step is **enumeration**  
 💡 Gathering information about the system  
 - Working in cybersecurity requires understanding the environment you are operating in, including the Linux version and available system resources
 
-#### "Who are you logged in as?" 
+####"Who are you logged in as?" 
     - `whoami` - prints the current username
 
-#### "What system are you on?" 
+### "What system are you on?" 
     - `uname -a` - to get details about the operating system, kernel version, and architecture  
 ⚠️ `uname` shows basic system information, while `uname -a` provides detailed system and kernel information    
 
-#### "Check disk and storage info" 
+### "Check disk and storage info" 
     - `df -h` - disk usage in human-readable format  
 💡 `-h` means "human-readable" and makes output easier to read (GB instead of bytes)    
 💡 It is a good habit to check disk usage before running tools or analyzing logs    
 
-#### "Read a system information file"
+### "Read a system information file"
     - Linux stores configuration and information files in `/etc` directory
     - This file exists on most Linux systems
-    - `cat /etc/os-release` command shows Linux distribution details that are more detailed  than `uname`
-
-### Key Directories in Linux
-- `~` (Home Directory) → shortcut that represents the current user’s home directory
-- `/` → Root directory (top level)
-- `/home` → User directories
-- `/etc` → Configuration files
-- `/var` → Logs and variable data
-- `/tmp` → Temporary files  
-💡 Linux uses a structured hierarchy to organise files  
-💡 Many logs and sensitive configuration files are stored in these directories, making them important during security investigations   
-💡 Understanding these directories is important for system navigation and investigation 
+    - `cat /etc/os-release` command shows Linux distribution details that are more detailed  than `uname` 
 
 ## 🛠️ Practical Skills Developed
 - Performing basic system enumeration
