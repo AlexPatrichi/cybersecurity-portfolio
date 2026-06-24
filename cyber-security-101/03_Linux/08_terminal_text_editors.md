@@ -34,16 +34,16 @@ Focus Area: Terminal Text Editors
     - Finding out what line number you are on
 
 - Useful shortcuts:
-| Shortcut    | Action      |
-| ----------  | ----------- |
-| Ctrl(^) + O | Save file   |
-| Ctrl(^) + X | Exit editor |
-| Ctrl(^) + K | Cut line    |
-| Ctrl(^) + U | Paste line  |
-| Ctrl(^) + R | Read file   |
-| Ctrl(^) + \ | Replace     |
-| Ctrl(^) + _ | Go to line  |
-| Ctrl(^) + W | Where is    |
+| Shortcut    | Action      |  
+| ----------  | ----------- |  
+| Ctrl(^) + O | Save file   |  
+| Ctrl(^) + X | Exit editor |  
+| Ctrl(^) + K | Cut line    |  
+| Ctrl(^) + U | Paste line  |  
+| Ctrl(^) + R | Read file   |  
+| Ctrl(^) + \ | Replace     |  
+| Ctrl(^) + _ | Go to line  |  
+| Ctrl(^) + W | Where is    |  
 
 ### `vim`
 - A powerful and widely used text editor.
@@ -51,14 +51,14 @@ Focus Area: Terminal Text Editors
 - Open a file: `vim example.txt`
 
 - Basic commands:
-| Command | Action              |
-| ------- | ------------------- |
-| i       | Enter insert mode   |
-| Esc     | Exit insert mode    |
-| :w      | Save                |
-| :q      | Quit                |
-| :wq     | Save and quit       |
-| :q!     | Quit without saving |
+| Command | Action              |  
+| ------- | ------------------- |  
+| i       | Enter insert mode   |    
+| Esc     | Exit insert mode    |  
+| :w      | Save                |  
+| :q      | Quit                |  
+| :wq     | Save and quit       |  
+| :q!     | Quit without saving |  
 
 - VIM's benefits:
     - Customisable - users can modify settings, key mappings, plugins, and appearance to suit their workflow.
