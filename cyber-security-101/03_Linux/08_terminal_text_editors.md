@@ -33,7 +33,7 @@ Focus Area: Terminal Text Editors
     - Jumping to a line number
     - Finding out what line number you are on
 
-- Useful shortcuts:
+- Useful shortcuts:  
 `Ctrl + O` → Save file    
 `Ctrl + X` → Exit editor    
 `Ctrl + K` → Cut line     
@@ -49,7 +49,7 @@ Focus Area: Terminal Text Editors
 - Vim is more advanced but is extremely efficient once mastered.
 - Open a file: `vim example.txt`
 
-- Basic commands:
+- Basic commands:  
 `i` → Enter insert mode  
 `Esc` → Exit insert mode  
 `:w` → Save   
