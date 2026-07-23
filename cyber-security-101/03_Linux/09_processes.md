@@ -45,6 +45,7 @@ Focus Area: Processes 101
 - Linux uses service managers such as `systemd` to automatically start services during boot.
 - Services can be managed using the `systemctl command`.
 - Examples:
+    - `systemctl`[option][service]
     - `systemctl start nginx`
     - `systemctl stop nginx`
     - `systemctl enable nginx`
