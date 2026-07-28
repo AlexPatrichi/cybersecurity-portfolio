@@ -20,6 +20,7 @@ Focus Area: Maintaining your System - Package Management
     - Metadata (version, author, etc.)
 
 - Package management systems make installing, updating, and removing software simple without manually downloading individual files.
+- **Dependencies** are additional packages or libraries that a program requires to function correctly. APT automatically downloads and installs them when needed.
 
 ## Software Repositories
 - A repository (repo) is an online collection of software packages maintained by an operating system vendor or software developer.
@@ -29,8 +30,12 @@ Focus Area: Maintaining your System - Package Management
     - Automatic updates
     - Dependency management
     - Improved security through package verification
-- Ubuntu uses repositories listed in: `/etc/apt/sources.list`
-- Additional repositories are usually stored as separate files inside: `/etc/apt/sources.list.d/`
+
+- Official Ubuntu repositories are maintained by Ubuntu, while third-party repositories are maintained by external developers or organisations. 
+- Ubuntu uses repositories listed in: 
+    - `/etc/apt/sources.list`
+- Additional repositories are usually stored as separate files inside: 
+    - `/etc/apt/sources.list.d/`
 - Keeping third-party repositories in separate files makes them easier to manage or remove later.
 
 ## APT (Advanced Package Tool)
@@ -49,6 +54,8 @@ Focus Area: Maintaining your System - Package Management
     - `sudo apt remove <package>` - Removes the specified package but usually keeps its configuration files.             
     - `sudo apt purge <package>` - Completely removes the package, including its configuration files.                   
     - `sudo apt autoremove` - Removes unused packages that were installed as dependencies but are no longer needed. 
+    - `apt search <package>` - Searches the configured repositories for packages matching the given name.
+    - `apt show <package>` - Displays detailed information about a package before installing it.
 
 ## Adding Third-Party Repositories
 - Not every application exists in Ubuntu's official repositories.
@@ -65,8 +72,7 @@ Focus Area: Maintaining your System - Package Management
     - Verifies the repository's identity
     - Ensures packages haven't been modified
     - Protects against tampered or malicious software
-- Example: 
-`wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -`
+- Older tutorials (including some TryHackMe rooms) use `apt-key`, while modern Ubuntu versions use `/etc/apt/keyrings/`. Both verify package authenticity, but the keyring method is the current best practice.
 
 ## Updating Package Lists
 - Whenever a new repository is added or removed, APT must refresh its package database.
