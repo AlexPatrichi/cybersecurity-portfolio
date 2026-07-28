@@ -2,7 +2,7 @@
 
 Platform: TryHackMe    
 Skill Level: Beginner / Foundation  
-Focus Area: Maintaining your System: Automation
+Focus Area: Maintaining your System - Automation
 
 ## 🎯 Objective 
 - Understand what task automation is in Linux.
