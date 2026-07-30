@@ -16,13 +16,13 @@ Focus Area: Windows Editions & Overview
 - Microsoft has continually improved Windows by introducing stronger security features, better hardware compatibility, and enhanced usability with each new release.
 
 ## Evolution of Windows
-- **Windows** - **1985** - Microsoft's first graphical operating system, built on top of MS-DOS.
-- **Windows XP** - **2001** – One of the most successful and longest-supported Windows versions.
-- **Windows Vista** - **2007** – Introduced major design and security changes but suffered from performance and compatibility issues.
-- **Windows 7** - **2009** – A stable and widely adopted successor to Vista, especially in enterprise environments.
-- **Windows 8 / 8.1** - **2012 / 2013** – Introduced a redesigned interface that received mixed reactions.
-- **Windows 10** - **2015** – Unified many features from previous versions and became the standard desktop operating system for several years.
-- **Windows 11** - **2021** – The current desktop operating system, featuring modern security improvements and a refreshed user interface.
+- **Windows** (**1985**) - Microsoft's first graphical operating system, built on top of MS-DOS.
+- **Windows XP** (**2001**) – One of the most successful and longest-supported Windows versions.
+- **Windows Vista** (**2007**) – Introduced major design and security changes but suffered from performance and compatibility issues.
+- **Windows 7** (**2009**) – A stable and widely adopted successor to Vista, especially in enterprise environments.
+- **Windows 8 / 8.1** (**2012 / 2013**) – Introduced a redesigned interface that received mixed reactions.
+- **Windows 10** (**2015**) – Unified many features from previous versions and became the standard desktop operating system for several years.
+- **Windows 11** (**2021**) – The current desktop operating system, featuring modern security improvements and a refreshed user interface.
 
 ## Windows Editions
 - Windows 11 is available in two main desktop editions:
