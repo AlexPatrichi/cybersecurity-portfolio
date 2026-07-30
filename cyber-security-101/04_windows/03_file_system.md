@@ -10,29 +10,19 @@ Focus Area: Windows File Systems
 - Explore key NTFS features, including permissions and Alternate Data Streams (ADS).
 
 ## 🧠 Core Concepts Learned
-## ## What is a File System?
+## What is a File System?
 A **file system** defines how an operating system stores, organizes, and retrieves data on a storage device such as a hard drive, SSD, or USB flash drive.  
 
----
-
 ## Evolution of Windows File Systems
-Windows has used several file systems over the years, each improving on the limitations of its predecessor.    
+Windows has used several file systems over the years, each improving on the limitations of its predecessor.
 
-**FAT (File Allocation Table)** was the original family of file systems used by Windows and DOS.  
-**HPFS (High Performance File System)** 
-**NTFS (New Technology File System)** was later introduced to provide better security, reliability, and support for modern storage devices.  
+- **FAT (File Allocation Table)** was the original family of file systems used by DOS and early versions of Windows.
+- **FAT16** (1984) was one of the earliest FAT versions. It was simple and widely compatible but limited in file size, partition size, and security.
+- **HPFS (High Performance File System)** (1989) was developed for IBM's OS/2 operating system to improve performance and overcome some of FAT's limitations.
+- **NTFS (New Technology File System)** (1993) introduced advanced features such as permissions, journaling, encryption, and support for larger files and volumes.
+- **FAT32** (1996) improved on FAT16 by supporting larger partitions, but individual files are still limited to **4 GB**. It remains widely used on USB flash drives and SD cards due to its excellent compatibility.
 
-
-| File System | Introduced | Notes |
-|-------------|:----------:|-------|
-| **FAT16** | 1984 | Simple and widely compatible but limited in file size and security. |
-| **FAT32** | 1996 | Improved FAT16 by supporting larger partitions, but individual files are still limited to **4 GB**. Commonly found on USB drives and SD cards. |
-| **HPFS** | 1989 | Designed for IBM OS/2 with improved performance over FAT but eventually replaced. |
-| **NTFS** | 1993 | Modern Windows file system offering security, reliability, and advanced features. |
-
-Today, **NTFS (New Technology File System)** is the default file system used by modern Windows installations.
-
----
+Today, **NTFS** is the default file system used by modern Windows installations.
 
 ## Why NTFS?
 NTFS was designed to overcome many limitations of FAT-based file systems.  
@@ -76,8 +66,6 @@ To view a file or folder's permissions:
 3. Open the **Security** tab.
 4. Select a user or group to view their assigned permissions.
 
----
-
 ## Alternate Data Streams (ADS)
 **Alternate Data Streams (ADS)** are a feature unique to NTFS.  
 
@@ -90,9 +78,7 @@ Normally, a file contains a single data stream (`$DATA`), but NTFS allows additi
 ### Security Implications
 Because Windows File Explorer does not display ADS by default, attackers have abused ADS to hide malicious data or malware.
 
-However, ADS also has legitimate uses. For example, Windows records whether a file was downloaded from the Internet by storing information in an alternate data stream.
-
----
+However, ADS also has legitimate uses. For example, Windows records whether a file was downloaded from the Internet by storing information in an alternate data stream.  
 
 ## FAT vs NTFS
 
