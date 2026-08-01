@@ -71,6 +71,8 @@ This console contains:
 ## 🧰 Tools Used
 - TryHackMe platform
 - Windows Settings
+- Run dialog (`Win + R`)
+- Local Users and Groups (`lusrmgr.msc`)
 
 ## 🔐 Security Relevance
 - Applying the **principle of least privilege** helps reduce security risks by giving users only the permissions they require.
