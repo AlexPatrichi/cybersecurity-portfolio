@@ -1,8 +1,8 @@
 # 🧪 Windows Performance Optimization
 
-Platform: Windows 11  
-Lab Type: Real-World System Maintenance  
-Difficulty: Beginner / Intermediate
+Platform: Windows 11    
+Lab Type: Real-World System Maintenance    
+Difficulty: Beginner / Intermediate  
 
 ## 🎯 Objective
 - Investigate the performance of a Windows laptop experiencing high memory usage and optimize the operating system by identifying unnecessary processes, startup applications, and installed software.
