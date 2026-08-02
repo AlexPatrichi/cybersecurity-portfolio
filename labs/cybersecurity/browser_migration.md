@@ -1,8 +1,8 @@
 # 🧪 Browser Migration: Google Chrome to Mozilla Firefox
 
-Platform: Windows 11
-Lab Type: Software Evaluation
-Difficulty: Beginner
+Platform: Windows 11  
+Lab Type: Software Evaluation  
+Difficulty: Beginner  
 
 ## 🎯 Objective
 - Evluate the default web browser and migrate to a browser better suited for privacy, development, and cybersecurity learning while creating a consistent browsing experience across desktop and mobile devices.
