@@ -21,7 +21,7 @@ Focus Area: System Configuration (MSConfig)
 - Win + R → msconfig
 
 ## MSConfig Tabs
-### General
+### → General
 - Controls what Windows loads during startup.
 
 **Startup Modes**  
@@ -31,7 +31,7 @@ Focus Area: System Configuration (MSConfig)
 
 > Useful when isolating startup issues.
 
-### Boot
+### → Boot
 - Configures how Windows starts.
 
 Common options include:  
@@ -42,13 +42,13 @@ Common options include:
 
 > This tab is commonly used during troubleshooting.
 
-### Services
+### → Services
 - Displays all installed Windows services (running or stopped).
 - A service is a background application that runs without user interaction.
 
 > Useful for troubleshooting by temporarily disabling third-party services.
 
-### Startup
+### → Startup
 - The Startup tab behaves differently depending on the Windows version.
 #### 1. Windows 10 / Windows 11
 - MSConfig no longer manages startup applications.
@@ -66,7 +66,7 @@ shell:startup
 
 > Startup folders are commonly checked during security investigations because malware often adds itself here to achieve persistence after reboot.
 
-### Tools
+### → Tools
 - Provides quick access to various Windows administrative utilities.
 
 Each tool includes:
@@ -77,7 +77,7 @@ Each tool includes:
 - Additional configuration settings which you can use to control the performance behavior and system recovery.
 - Open View advanced system settings from the Start Menu.
 
-### Virtual Memory (Page File)
+### → Virtual Memory (Page File)
 - When physical RAM becomes full, Windows uses a **page file** stored on disk as additional memory.
 - This is called Virtual Memory.  
 
@@ -88,7 +88,7 @@ The page file helps:
 
 > Note: Virtual memory is much slower than RAM because it uses the storage drive.
 
-### Startup and Recovery
+### → Startup and Recovery
 - These settings control how Windows behaves after a critical system failure.
 
 Located under:
