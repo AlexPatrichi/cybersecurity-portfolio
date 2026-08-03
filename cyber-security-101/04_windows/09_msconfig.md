@@ -1,8 +1,8 @@
 Windows – TryHackMe
 
-Platform: TryHackMe
-Skill Level: Beginner / Foundation
-Focus Area: System Configuration (MSConfig)
+Platform: TryHackMe  
+Skill Level: Beginner / Foundation  
+Focus Area: System Configuration (MSConfig)  
 
 ## 🎯 Objective
 - Understand the purpose of the System Configuration (MSConfig).
@@ -20,8 +20,6 @@ Focus Area: System Configuration (MSConfig)
 - Start Menu → System Configuration
 - Win + R → msconfig
 
----
-
 ## MSConfig Tabs
 ### General
 - Controls what Windows loads during startup.
@@ -36,11 +34,11 @@ Focus Area: System Configuration (MSConfig)
 ### Boot
 - Configures how Windows starts.
 
-Common options include:
-    - Safe Boot
-    - Boot Timeout
-    - Default Operating System
-    - Advanced Boot Options
+Common options include:  
+- Safe Boot
+- Boot Timeout
+- Default Operating System
+- Advanced Boot Options
 
 > This tab is commonly used during troubleshooting.
 
@@ -52,11 +50,11 @@ Common options include:
 
 ### Startup
 - The Startup tab behaves differently depending on the Windows version.
-1. Windows 10 / Windows 11
+#### 1. Windows 10 / Windows 11
 - MSConfig no longer manages startup applications.
 - Instead, Microsoft redirects to **Task Manager → Startup Apps**
 
-2. Windows Server
+#### 2. Windows Server
 - Startup programs are typically found in the Startup folder.
 - This folder contains shortcuts or executables that automatically run when the user signs in.
 
@@ -66,7 +64,7 @@ Win + R
 shell:startup
 ```
 
->Startup folders are commonly checked during security investigations because malware often adds itself here to achieve persistence after reboot.
+> Startup folders are commonly checked during security investigations because malware often adds itself here to achieve persistence after reboot.
 
 ### Tools
 - Provides quick access to various Windows administrative utilities.
@@ -74,8 +72,6 @@ shell:startup
 Each tool includes:
 - A short description
 - The command used to launch it
-
----
 
 ## Advanced System Settings
 - Additional configuration settings which you can use to control the performance behavior and system recovery.
@@ -111,7 +107,7 @@ Advanced → Startup and Recovery → Settings
     - Complete Memory Dump
     - None
 
-- Each type saves a different amount of system information, balancing diagnostic detail against storage usage.
+> Each type saves a different amount of system information, balancing diagnostic detail against storage usage.
 
 ## 🛠️ Practical Skills Developed
 - Launching and navigating MSConfig.
