@@ -40,6 +40,17 @@ This indicates that:
 - The application requires administrator privileges.
 - Launching it will trigger a UAC prompt.
 
+## UAC Settings
+UAC can be configured to control when Windows prompts for permission before system-level changes.
+
+There are four security levels:
+- **Always notify** *(Most Secure)* – Prompts whenever apps or users attempt to make system changes. The desktop is dimmed (Secure Desktop).
+- **Notify for apps (Default)** – Prompts only when applications try to make changes. Changes made through Windows Settings do not trigger a prompt.
+- **Notify without dimming** – Same as the default level, but the desktop does not switch to the Secure Desktop.
+- **Never notify** *(Least Secure – Not Recommended)* – Disables UAC prompts entirely, allowing system changes without notification.
+
+> **Note:** Lowering or disabling UAC reduces Windows' protection against unauthorized or malicious system changes.
+
 ## 🛠️ Practical Skills Developed
 - Recognized applications that require elevated privileges.
 - Identified the UAC shield icon.
