@@ -13,6 +13,13 @@ Focus Area: Resource Monitor (`resmon`)
 
 ## 🧠 Core Concepts Learned
 ## What is Resource Monitor?
+**Resource Monitor (`resmon`)** is a Windows utility that provides detailed, real-time information about how system resources are being used.
+
+## Task Manager vs Resource Monitor
+- Task Manager → Quick overview of running applications and resource usage.
+- Resource Monitor → Detailed analysis of CPU, memory, disk, and network activity, including which processes are responsible.
+
+## Resource Categories
 Resource Monitor is divided into four primary sections:
 
 ### → CPU
@@ -56,10 +63,6 @@ Useful for identifying applications communicating over the network.
 One of **Resource Monitor's** most useful features is its ability to filter information by selecting a specific process.
 
 When a process is selected, the CPU, Memory, Disk, and Network tabs display only the resources associated with that process, making troubleshooting much easier.
-
-## Task Manager vs Resource Monitor
-- Task Manager → Quick overview of running applications and resource usage.
-- Resource Monitor → Detailed analysis of CPU, memory, disk, and network activity, including which processes are responsible.
 
 ## 🛠️ Practical Skills Developed
 - Opened Resource Monitor (`resmon`).
