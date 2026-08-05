@@ -9,7 +9,6 @@ Focus Area: Resource Monitor (`resmon`)
 - Learn how to monitor CPU, memory, disk, and network activity in real time.
 - Identify processes that are consuming system resources.
 - Understand how Resource Monitor assists with troubleshooting and performance analysis.
- 
 
 ## 🧠 Core Concepts Learned
 ## What is Resource Monitor?
