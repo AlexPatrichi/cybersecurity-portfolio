@@ -157,7 +157,6 @@ Firefox was identified as the primary memory consumer, followed by Visual Studio
 ---
 
 ### Figure 2 – Task Manager (Performance)
-
 Shows the overall memory usage before optimization.
 
 <div align="center">
@@ -186,4 +185,11 @@ Identifies the installed memory module used to purchase a compatible upgrade.
 
 ### Future Evidence
 
-The following screenshots will be added after completing the hardware upgrade.
+### Figure 5 – Task Manager (Memory After Upgrade)
+Shows the memory configuration after the RAM upgrade.
+
+The system now detects **16 GB DDR4 at 2667 MT/s**, with **both memory slots populated**. Memory usage during normal operation is approximately **54%**, providing significantly more available memory for multitasking compared with the original 8 GB configuration.
+
+<div align="center">
+  <img src="../../images/Task Manager (Memory After Upgrade).png" alt="Task Manager (Performance)" width="400"/>
+</div>
