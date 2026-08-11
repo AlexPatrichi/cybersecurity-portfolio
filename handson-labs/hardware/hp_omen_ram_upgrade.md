@@ -98,8 +98,16 @@ Shows the specifications of the original SK Hynix memory module used to identify
 </div>
 
 ---
+### Figure 3 – RAM Installation
 
-### Figure 3 – Task Manager (Memory After Upgrade)
+Shows the second 8 GB DDR4 SODIMM installed in the available memory slot.
+<div align="center">
+  <img src="../../images/Omen full optimization.jpeg" alt="Task Manager (Processes)" width="400"/>
+</div>
+
+---
+
+### Figure 4 – Task Manager (Memory After Upgrade)
 
 Shows 16 GB of installed memory running at approximately 2667 MT/s, with 2 of 2 memory slots used.
 
@@ -109,7 +117,7 @@ Shows 16 GB of installed memory running at approximately 2667 MT/s, with 2 of 2 
 
 ---
 
-### Figure 4 – HWiNFO (Dual-Channel Verification)
+### Figure 5 – HWiNFO (Dual-Channel Verification)
 
 Confirms that the upgraded 16 GB DDR4-2666 memory configuration is operating in dual-channel mode.
 
