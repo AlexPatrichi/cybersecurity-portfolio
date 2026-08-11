@@ -34,7 +34,6 @@ Difficulty: Beginner / Intermediate
 - Startup Apps
 
 ## 🔍 Initial Assessment
-
 During normal daily usage, the laptop felt slower than expected while multitasking.
 
 Symptoms included:
