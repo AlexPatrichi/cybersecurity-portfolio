@@ -1,5 +1,5 @@
 # 🧪 RAM Upgrade
-Lab Type: Real-World System Maintenance
+Lab Type: Real-World System Maintenance  
 Difficulty: Beginner / Intermediate
 
 ## 🎯 Objective

@@ -164,8 +164,6 @@ Identifies the installed memory module used to purchase a compatible upgrade.
 
 ---
 
-### Future Evidence
-
 ### Figure 5 – Task Manager (Memory After Upgrade)
 Shows the memory configuration after the RAM upgrade.
 
