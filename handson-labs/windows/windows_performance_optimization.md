@@ -1,11 +1,11 @@
-# 🧪 Windows Performance Optimization
-
-Platform: Windows 11    
+# 🧪 Windows Performance Optimization 
 Lab Type: Real-World System Maintenance    
 Difficulty: Beginner / Intermediate  
 
 ## 🎯 Objective
-- Investigate the performance of a Windows laptop experiencing high memory usage and optimize the operating system by identifying unnecessary processes, startup applications, and installed software.
+- Investigate performance issues during normal Windows use.
+- Identify unnecessary background processes, startup applications, and installed software.
+- Reduce unnecessary resource usage and identify potential hardware limitations.
 
 ## 🖥️ Environment
 **Device**
@@ -24,14 +24,6 @@ Difficulty: Beginner / Intermediate
 **Memory**
 - 8 GB DDR4 2666 MHz
 - Single Channel
-
-## 🧰 Tools Used
-- Task Manager
-- CPUID CPU-Z
-- System Information (msinfo32)
-- Windows Settings
-- Control Panel
-- Startup Apps
 
 ## 🔍 Initial Assessment
 During normal daily usage, the laptop felt slower than expected while multitasking.
@@ -54,7 +46,6 @@ Available memory averaged around **1 GB**, indicating that the system was approa
 
 ## 📋 Investigation
 ### Running Processes
-
 Task Manager identified several applications consuming memory.
 
 Largest consumers included:
@@ -101,18 +92,16 @@ Memory analysis using CPUID CPU-Z confirmed:
 | Manufacturer | SK Hynix |
 | Part Number | HMA81GS6CJR8N-VK |
 
-One memory slot remained available.
+One memory slot remained available. This indicated that the system could also benefit from a future memory upgrade.
 
-## 🛠️ Planned Improvements
+## 🛠️ Optimization
 ### Software
-
 - Disable unnecessary startup applications.
 - Remove unused software.
 - Replace Bitdefender with Microsoft Defender.
 - Reduce background resource usage.
 
 ### Hardware
-
 Upgrade memory:
 **Before**
 
@@ -124,20 +113,13 @@ Upgrade memory:
 - 16 GB DDR4
 - Dual Channel
 
-Future maintenance:
-- Clean cooling fans and heatsink.
-- Replace factory thermal paste using Arctic MX-7.
-
-## ✅ Expected Results
-
-Following software optimization and hardware upgrades, the expected improvements include:
-
-- Faster boot time
-- Reduced idle memory usage
-- Improved multitasking
-- Better application responsiveness
-- Lower operating temperatures
-- Improved sustained CPU performance
+## 🧰 Tools Used
+- Task Manager
+- CPUID CPU-Z
+- System Information (msinfo32)
+- Windows Settings
+- Control Panel
+- Startup Apps
 
 ## 💡 Lessons Learned
 - Task Manager is an essential troubleshooting tool for identifying performance bottlenecks.
