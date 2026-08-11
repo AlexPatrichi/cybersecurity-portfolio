@@ -68,13 +68,13 @@ HWiNFO was used to verify that the two memory modules were operating in dual-cha
 
 The laptop remained stable during normal use and gaming after the upgrade.
 
-🧰 Tools Used
+## 🧰 Tools Used
 - Screwdriver set
 - CPUID CPU-Z
 - Windows Task Manager
 - HWiNFO
 
-💡 Lessons Learned
+## 💡 Lessons Learned
 - Checking the existing RAM specifications before purchasing an upgrade helps ensure memory compatibility.
 - Laptop memory modules should be matched by important characteristics such as DDR generation, form factor, capacity, and supported speed.
 - Adding a second compatible module increased the available memory from 8 GB to 16 GB and enabled dual-channel operation.
