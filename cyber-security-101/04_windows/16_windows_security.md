@@ -25,10 +25,9 @@ From here, you can:
 - Check for security intelligence updates.
 
 Virus & Threat Protection is divided into:
-A. **Current threats**
+**A. Current threats**
 #### Scan Options
 Microsoft Defender provides different types of scans:
-
 - **Quick scan** – Checks locations where threats are commonly found.
 - **Full scan** – Checks all files and running programs on the system.
 - **Custom scan** – Allows you to choose specific files or folders to scan.
@@ -37,7 +36,7 @@ Microsoft Defender provides different types of scans:
 - **Quarantined threats** – Suspicious or malicious files that have been isolated and prevented from running.
 - **Allowed threats** – Detected threats that the user has manually allowed to run.
 
-B. **Virus & threat protection settings**
+**B. Virus & threat protection settings**
 #### Protection Settings
 - **Real-time protection** – Continuously monitors the system and stops malware from installing or running.
 - **Cloud-delivered protection** – Uses Microsoft's latest threat information to help detect new threats faster.
@@ -55,9 +54,12 @@ Updates can also be checked manually from **Virus & threat protection updates**.
 **Microsoft Defender Firewall** controls network traffic entering and leaving the computer.
 
 It helps prevent unauthorized network connections and provides different settings for:
-- Domain networks
-- Private networks
-- Public networks
+- **Domain** - Used when the computer is connected to an organization's domain.
+  - Example: A work computer connected to the company's network.
+- **Private** - Used for trusted networks.
+  - Example: Your home Wi-Fi network.
+- **Public** - Used for untrusted public networks and normally has stricter security settings.
+  - Example: Wi-Fi at a coffee shop, hotel, or airport.
 
 ### 3. App & Browser Control
 Helps protect the system from potentially malicious applications, files, websites, and downloads.
@@ -68,6 +70,20 @@ It includes features such as **Microsoft Defender SmartScreen**, which can warn 
 Provides information about security features built into the computer's hardware.
 
 These features can provide additional protection against attacks and unauthorized changes to the system.
+
+#### Core isolation
+- Uses virtualization-based security to isolate important parts of Windows from the rest of the system.
+
+- **Memory Integrity** – Helps prevent malicious or untrusted code from accessing high-security processes.
+
+#### Trusted Platform Module (TPM)
+A **TPM** is a security component that securely stores sensitive information such as encryption keys.
+
+It is commonly used by Windows for features such as:
+- **BitLocker** drive encryption.
+- **Windows Hello** authentication.
+
+💡 Think of the TPM as a **secure vault for cryptographic keys**.
 
 ### 5. Account Protection
 Provides information about the security of Windows user accounts and sign-in options.
