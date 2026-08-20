@@ -102,8 +102,8 @@ Domain A ←→ Domain B
 - Understanding the AD structure helps identify how access can extend across a large organization.
 
 ## 📌 Lessons Learned
-💡 **Tree = Related domains with a shared namespace.**
-💡 **Forest = One or more Active Directory trees.**
-💡 **A forest is the highest-level logical structure in Active Directory.**
-💡 **Trust = Allows authentication between domains.**
-💡 Active Directory can organize large environments using domains, trees, forests, and trusts. 
+💡 **Tree = Related domains with a shared namespace.**  
+💡 **Forest = One or more Active Directory trees.**  
+💡 **A forest is the highest-level logical structure in Active Directory.**  
+💡 **Trust = Allows authentication between domains.**  
+💡 **Active Directory can organize large environments using domains, trees, forests, and trusts.**     

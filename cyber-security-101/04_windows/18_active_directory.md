@@ -108,7 +108,6 @@ For example, an administrator could:
 These settings are managed using **Group Policy Objects (GPOs)**.
 
 For example:
-
 ```text
 GPO
 "Disable Control Panel"

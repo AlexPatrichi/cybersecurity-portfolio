@@ -24,7 +24,7 @@ From here, you can:
 - Manage antivirus settings.
 - Check for security intelligence updates.
 
-Virus & Threat Protection is divided into:
+Virus & Threat Protection is divided into:  
 **A. Current threats**
 #### Scan Options
 Microsoft Defender provides different types of scans:
