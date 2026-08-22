@@ -54,20 +54,20 @@ Information includes:
 → `cls` - Clears the Command Prompt screen.
 
 ## SHUTDOWN AND RESTART COMMANDS
-→ `shutdown /s` - Shuts down the computer.
-→ `shutdown /r` - Restarts the computer.
-→ `shutdown /a` - Cancels a pending shutdown or restart. (`/a` stands for abort.)
+→ `shutdown /s` - Shuts down the computer.  
+→ `shutdown /r` - Restarts the computer.  
+→ `shutdown /a` - Cancels a pending shutdown or restart. (`/a` stands for abort.)  
 
 ## NETWORK CONFIGURATION
 The command line provides several tools for viewing network configuration and troubleshooting connectivity problems.  
 
-→ `ipconfig` - Displays basic network configuration.
+→ `ipconfig` - Displays basic network configuration.  
 Information includes:
 - IP address
 - Subnet mask
 - Default gateway
 
-→ `ipconfig /all` - For more detailed information.
+→ `ipconfig /all` - For more detailed information.  
 This can also display:
 - Physical (MAC) address
 - DNS servers
@@ -75,9 +75,9 @@ This can also display:
 - DHCP lease information
 
 ## NETWORK TROUBLESHOOTING
-→ `ping` - Tests whether another host can be reached over the network.
+→ `ping` - Tests whether another host can be reached over the network.  
 
-Sends **ICMP Echo Request packets** to the target and waits for replies.
+Sends **ICMP Echo Request packets** to the target and waits for replies.  
 It can help determine:
 - Whether the target is reachable
 - Approximate response time
@@ -90,7 +90,7 @@ It can help determine:
 - Discovers intermediate routers by sending packets with increasing Time-To-Live (TTL) values.  
 - Each router decreases the TTL by 1, and when it reaches 0, that router responds, allowing tracert to identify each hop along the path.
 
-💡 TTL = a limit on how many routers (hops) a packet can pass through.
+💡 TTL = a limit on how many routers (hops) a packet can pass through.   
 💡 Useful for identifying where network connectivity or routing problems occur.
 
 ## MORE NETWORK COMMANDS
@@ -98,7 +98,7 @@ It can help determine:
 
 → `netstat`- Displays active network connections and listening ports.
 
-A particularly useful option is: `netstat -ano`
+A particularly useful option is: `netstat -ano`  
 Where:
 - a – Displays all connections and listening ports.
 - n – Displays addresses and ports numerically.
@@ -133,23 +133,23 @@ Command Prompt can be used to navigate directories and manage files without usin
 ### Working with Files
 → `type` - Displays the contents of a text file directly in the terminal.
 
-→ `more command` - Displays long text output one screen at a time.
+→ `more command` - Displays long text output one screen at a time.  
 Controls:
 - `Spacebar` – Move to the next page.
 - `Enter` – Move forward one line.
 
 We can use the command more in two ways:
 - Display text files: `more file.txt`
-- Pipe long output to view it page by page: `some_command | more`
+- Pipe long output to view it page by page: `some_command | more`  
 
-💡 The pipe (|) sends the output of one command into another command.
+💡 The pipe `|` sends the output of one command into another command.
 
 → `copy` - Copies files from one location to another.
 
-→ `move` - Moves a file to another location.
+→ `move` - Moves a file to another location.  
 💡 It can also be used to rename files.
 
-→ `del` / `erase` - Deletes files.
+→ `del` / `erase` - Deletes files.  
 💡 Both commands perform the same basic function.
 
 ### Wildcards
@@ -164,11 +164,11 @@ For example:
 ## TASK AND PROCESS MANAGEMENT
 Windows provides command-line tools for viewing and managing running processes and achieves a similar functionality as task manager.
 
-→ `tasklist` - Displays currently running processes.
+→ `tasklist` - Displays currently running processes.  
 💡 The output can be very long, some filtering will be required `tasklist /?`  
 
-For example, if we want to search for tasks related to `notepad.exe`: `tasklist /FI "imagename eq notepad.exe`  
-💡 /FI is used to set the filter image name equals notepad.exe
+For example, if we want to search for tasks related to `notepad.exe`: `tasklist /FI "imagename eq notepad.exe`    
+💡 /FI is used to set the filter image name equals notepad.exe  
 
 Where:
 - `/FI` – Applies a filter.
@@ -209,7 +209,7 @@ Many cybersecurity tools and Windows administration techniques rely heavily on c
 
 ## 📌 Lessons Learned  
 💡 The Windows CLI can perform many administrative tasks faster than navigating through graphical menus.  
-💡 Built-in help such as command /? is useful when you forget the syntax or available options for a command.  
+💡 Built-in help such as `command /?` is useful when you forget the syntax or available options for a command.  
 💡 Networking commands such as ipconfig, ping, tracert, nslookup, and netstat provide different pieces of information when troubleshooting a network.  
 💡 Commands such as tasklist and taskkill allow processes to be investigated and managed directly from the terminal.  
-💡 Pipes (|), filters, and wildcards (*) make command-line tools much more powerful by allowing commands to work together and process larger amounts of information.  
+💡 Pipes `|`, filters, and wildcards `*` make command-line tools much more powerful by allowing commands to work together and process larger amounts of information.  
