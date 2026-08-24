@@ -90,7 +90,8 @@ Powershell commands are known as `cmdlets`(pronounced `command-lets`).
 
 ### Basic Syntax 
 Cmdlets follow a consistent **Verb-Noun** naming convention.  
-The **Verb** describes the action, and the **Noun** specifies the object on which action is performed.  
+The **Verb** describes the action, and the **Noun** specifies the object on which action is performed.    
+  
 Examples: 
 - **Get-Content** → Retrieves (gets) the content of a file and displays it in the console.
 - **Set-Location** → Changes (sets) the current working directory.
@@ -109,45 +110,46 @@ It can also search by verb:
 `Get-Command -Verb Remove` → Displays commands that use the `Remove` verb.  
 
 → `Get-Help`
-Displays information about how to use a command.
-Example: `Get-Help Get-Process`
+Displays information about how to use a command.  
+Example: `Get-Help Get-Process`  
 
 It can show information such as:
 - Command description
 - Syntax
 - Parameters
-- Examples
+- Examples  
+  
 Example: 
 - `Get-Help Get-Process -Examples` → Displays examples of how `Get-Process` can be used.
 - `Get-Help Get-Process -Full` → Displays more detailed help.
 
-→ `Get-Member`
-Displays the properties and methods of an object.
+→ `Get-Member`  
+Displays the properties and methods of an object.   
 Example: `Get-Process | Get-Member` → This shows the properties and methods available on the objects returned by `Get-Process`.
 
 💡 The pipe `|` passes the objects produced by `Get-Process` to `Get-Member`.  
 
-💡Mental Model
-`Get-Command` → What commands can I use?
-`Get-Help`    → How do I use a command?
-`Get-Member`  → What does this object contain?
+💡Mental Model  
+`Get-Command` → What commands can I use?  
+`Get-Help`    → How do I use a command?  
+`Get-Member`  → What does this object contain?  
  
 ## WORKING WITH THE FILE SYSTEM
 PowerShell provides several cmdlets for **navigating the file system and managing files and directories.**
 
-→ `Get-ChildItem`
-Lists the files and directories in a specified location.   
-It is similar to `dir` in Command Prompt and `ls` in Unix/Linux Systems.  
-Example: `Get-ChildItem -Path C:\Users -Recurse`  
+→ `Get-ChildItem`  
+Lists the files and directories in a specified location.     
+It is similar to `dir` in Command Prompt and `ls` in Unix/Linux Systems.    
+Example: `Get-ChildItem -Path C:\Users -Recurse`    
 
 Useful parameters: 
 - **-Path** → Specifies the location to explore.
 - **-Recurse** → Also searches through all subdirectories.
 - **-Force** → Includes hidden items.
 
-→ `Set-Location`
-Changes the current working directory, similar to the `cd` in Command Prompt.
-Example: `Set-Location -Path C:\Users`  
+→ `Set-Location`  
+Changes the current working directory, similar to the `cd` in Command Prompt.  
+Example: `Set-Location -Path C:\Users`    
 
 💡 PowerShell also supports `cd` as an alias for `Set-Location`.
 
@@ -156,30 +158,30 @@ Creates a new item, such as a file or directory.
 Create a **file**: `New-Item -Path notes.txt -ItemType File`    
 Create a **directory**: `New-Item -Path C:\Test -ItemType Directory`    
 
-→ `Remove-Item`
-Removes files and directories.  
-Example: `Remove-Item -Path notes.txt`  
+→ `Remove-Item`  
+Removes files and directories.    
+Example: `Remove-Item -Path notes.txt`    
 
 To remove a directory and everything inside it:  
-`Remove-Item -Path C:\Test -Recurse`  
+`Remove-Item -Path C:\Test -Recurse`   
 ⚠️ Be careful when using `-Recurse`, as it can remove all files and subdirectories within the specified directory.
 
-→ `Copy-Item` 
-Copies files or directories to another location.
-Example: `Copy-Item -Path notes.txt -Destination C:\Backup`
+→ `Copy-Item`   
+Copies files or directories to another location.  
+Example: `Copy-Item -Path notes.txt -Destination C:\Backup`  
 
 For directories and their contents:
 `Copy-Item -Path C:\Test -Destination C:\Backup -Recurse`
 
-→ `Move-Item`
-Moves a file or directory to another location.
-Example: `Move-Item -Path notes.txt -Destination C:\Backup`
+→ `Move-Item`  
+Moves a file or directory to another location.  
+Example: `Move-Item -Path notes.txt -Destination C:\Backup`  
 
-💡 `Move-Item` can also be used to **rename an item** by moving it to a new name in the same directory.
+💡 `Move-Item` can also be used to **rename an item** by moving it to a new name in the same directory.  
 
-→ `Get-Content`
-Read and display the contents of a file.
-Example: `Get-Content -Path notes.txt`
+→ `Get-Content`  
+Read and display the contents of a file.  
+Example: `Get-Content -Path notes.txt`  
 
 ## PIPING, FILTERING, AND SORTING DATA
 ### Pipeline `|`
@@ -193,7 +195,7 @@ Example: `Get-Process | Get-Member`
 ### Where-Object → Which objects do I want?
 Filters objects based on specified conditions.
 
-Example: `Get-Process | Where-Object {$_.CPU -gt 10}` 
+Example: `Get-Process | Where-Object {$_.CPU -gt 10}`   
 💡 Displays processes that have used more than 10 seconds of total CPU time.
 
 Here:
@@ -221,7 +223,7 @@ Example: `Get-Process | Where-Object {$_.Name -like "power*"}`
 ### Select-Object → Which properties do I want?
 Used to select specific **properties** from objects.  
 
-Example: `Get-Process | Select-Object Name, Id, CPU`   
+Example: `Get-Process | Select-Object Name, Id, CPU`     
 💡 Instead of displaying every available property, this displays only: Name, Id, CPU.  
 
 ### Sort-Object → In what order do I want them?  
@@ -235,31 +237,31 @@ To reverse the order: `Get-Process | Sort-Object CPU -Descending`
 ### Select-String → What text am I looking for?
 **Searches** for text patterns within strings and files.
 
-Example: `Select-String -Path logfile.txt -Pattern "error"`
+Example: `Select-String -Path logfile.txt -Pattern "error"`   
 💡 Searches `logfile.txt` for lines containing error.
 
 It can also be used in a pipeline: `Get-Content logfile.txt | Select-String "error"`
 
 ### Why PowerShell pipelines are useful
 Example:
- `Get-Process | Where-Object {$_.CPU -gt 10} | Sort-Object CPU -Descending | Select-Object Name, CPU`
+ `Get-Process | Where-Object {$_.CPU -gt 10} | Sort-Object CPU -Descending | Select-Object Name, CPU`  
 
-The data flows through several stages:
-`Get-Process`
-     ↓
-Gets all running processes
-     ↓
-`Where-Object`
-     ↓
-Filters processes with more than 10 seconds of CPU time
-     ↓
-`Sort-Object`
-     ↓
-Sorts them by CPU time from highest to lowest
-     ↓
-`Select-Object`
-     ↓
-Displays only the Name and CPU properties
+The data flows through several stages:  
+`Get-Process`  
+     ↓  
+Gets all running processes  
+     ↓  
+`Where-Object`  
+     ↓  
+Filters processes with more than 10 seconds of CPU time  
+     ↓  
+`Sort-Object`  
+     ↓  
+Sorts them by CPU time from highest to lowest  
+     ↓  
+`Select-Object`  
+     ↓  
+Displays only the Name and CPU properties  
 
 ## SYSTEM AND NETWORK INFORMATION
 PowerShell provides several `cmdlets` for retrieving information about the **system, users, and network configuration.**
