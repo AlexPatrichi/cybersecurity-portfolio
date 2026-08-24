@@ -247,21 +247,31 @@ Example:
  `Get-Process | Where-Object {$_.CPU -gt 10} | Sort-Object CPU -Descending | Select-Object Name, CPU`  
 
 The data flows through several stages:  
-`Get-Process`  
-     ↓  
-Gets all running processes  
-     ↓  
-`Where-Object`  
-     ↓  
-Filters processes with more than 10 seconds of CPU time  
-     ↓  
-`Sort-Object`  
-     ↓  
-Sorts them by CPU time from highest to lowest  
-     ↓  
-`Select-Object`  
-     ↓  
-Displays only the Name and CPU properties  
+                   `Get-Process`
+                       │
+                       ▼
+              Gets all running processes
+                       │
+                       ▼
+                  `Where-Object`
+                       │
+                       ▼
+        Filters processes with more than
+            10 seconds of CPU time
+                       │
+                       ▼
+                   `Sort-Object`
+                       │
+                       ▼
+           Sorts them by CPU time from
+               highest to lowest
+                       │
+                       ▼
+                  `Select-Object`
+                       │
+                       ▼
+           Displays only the Name and
+                CPU properties
 
 ## SYSTEM AND NETWORK INFORMATION
 PowerShell provides several `cmdlets` for retrieving information about the **system, users, and network configuration.**
