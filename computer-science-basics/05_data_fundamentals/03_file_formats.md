@@ -26,7 +26,8 @@ Different file formats are designed for different types of data and purposes, su
 **Software** needs to understand the rules of a particular file format in order to correctly interpret the data stored within it.
 
 File Format Interpretation
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 Raw bytes  
     ↓  
 File format defines the structure  
@@ -34,15 +35,19 @@ File format defines the structure
 Software interprets the structure  
     ↓  
 Text / Image / Audio / Video / Documents / Archives 
-```   
+</pre>
+</div>   
 
 ### FILE EXTENSIONS
 A file extension represents the suffix at the end of a filename, usually separated by a period (.). It indicates the **expected file format** and can help the operating system determine which application should open the file.
 
- ```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 document.pdf  
         └── .pdf = File extension  
-```
+</pre>
+</div>
+
 **Common examples include:**  
 - `notes.txt`       → Plain text
 - `photo.jpg`       → JPEG image
@@ -52,9 +57,11 @@ document.pdf
 
 A file extension **does not define or guarantee the actual format of the data inside the file.**
 
- ```text 
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 photo.jpg → rename → photo.txt  
-```
+</pre>
+</div>
 
 Changing `.jpg` to `.txt` changes only the filename. It does not modify or convert the data stored inside the file.
 
@@ -67,13 +74,15 @@ A **file signature**, also known as a **magic number**, is a sequence of bytes c
 Unlike a file extension, the signature is part of the **file's actual contents**.
 
 Example: PNG File
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 image.png
 ↓
 89 50 4E 47 0D 0A 1A 0A
 ↓
 PNG File Signature
-```
+</pre>
+</div>
 
 The bytes `50 4E 47` represent the ASCII characters `PNG`, making the signature particularly easy to recognise.
 
@@ -97,10 +106,12 @@ Although all files are ultimately made of bytes, they can be interpreted differe
 A **text file **stores data as characters using a **character encoding**, such as ASCII or UTF-8.
 
 Example: Text stored using UTF-8
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 H    e    l    l    o      ← Text    
 48   65   6C   6C   6F     ← Hexadecimal
-```
+</pre>
+</div>
 
 💡 A **text editor** interprets these bytes as characters, allowing us to see `Hello`.
 
@@ -126,7 +137,8 @@ A **binary file** contains data structured for software to interpret rather than
 - `.zip` → Archive used to package and often compress files
 
 Example: Simplified structure of a PNG file
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 PNG
 │
 ├── File signature
@@ -134,7 +146,8 @@ PNG
 ├── Colour information
 ├── Compressed image data
 └── Metadata
-```
+</pre>
+</div>
 
 Software that understands `PNG` format knows how to interpret these bytes and display them as an image.  
 
@@ -193,14 +206,16 @@ Compression **reduces the amount of data needed**, while archiving **combines on
 A **container** is a file format that can hold different types of media together, such as **video, audio, subtitles, and metadata.**
 
 Example: MP4 Container
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 video.mp4
 │
 ├── 🎬 Video
 ├── 🎵 Audio
 ├── 💬 Subtitles
 └── 📝 Metadata
-```
+</pre>
+</div>
 
 **Common container formats include:**
 - `.mp4` → Widely used for video and streaming
@@ -222,14 +237,16 @@ The word codec comes from: `CO`der + `DEC`oder = `CODEC`
 - `MP3` → Widely used audio codec
 
 Example: Inside an MP4 Container
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 video.mp4  
 │   
 ├── 🎬 Video → H.264 codec  
 ├── 🎵 Audio → AAC codec  
 ├── 💬 Subtitles  
 └── 📝 Metadata  
-```
+</pre>
+</div>
 
 💡 **The file extension usually identifies the container, but it does not necessarily tell us which codecs are used inside.**
 
@@ -237,18 +254,20 @@ video.mp4
 Metadata is additional information stored about a file that helps describe its contents, properties, and origin.
 
 For example, an image may contain more than just the pixels you see:
-```text
+<div align="center">
+<pre style="display: inline-block; text-align: left;">
 photo.jpg
 │
 ├── 🖼️ Image data
 │
 └── 📝 Metadata
-      ├── Date and time
-      ├── Camera/device information
-      ├── Image dimensions
-      ├── Camera settings
-      └── GPS location (if recorded)
-```
+    ├── Date and time
+    ├── Camera/device information
+    ├── Image dimensions
+    ├── Camera settings
+    └── GPS location (if recorded)
+</pre>
+</div>
 
 💡 Metadata is additional information that describes or provides context about the file.
 
