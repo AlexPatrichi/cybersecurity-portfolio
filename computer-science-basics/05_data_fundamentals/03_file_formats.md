@@ -26,8 +26,8 @@ Different file formats are designed for different types of data and purposes, su
 **Software** needs to understand the rules of a particular file format in order to correctly interpret the data stored within it.
 
 File Format Interpretation
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 Raw bytes  
     ↓  
 File format defines the structure  
@@ -35,22 +35,16 @@ File format defines the structure
 Software interprets the structure  
     ↓  
 Text / Image / Audio / Video / Documents / Archives 
-</pre>
-</div>   
+</pre></td></tr></table>  
 
 ### FILE EXTENSIONS
 A file extension represents the suffix at the end of a filename, usually separated by a period (.). It indicates the **expected file format** and can help the operating system determine which application should open the file.
 
 <table align="center">
-<tr>
-<td>
-<pre>
+<tr><td><pre>
 document.pdf  
         └── .pdf = File extension  
-</pre>
-</td>
-</tr>
-</table>
+</pre></td></tr></table>
 
 **Common examples include:**  
 - `notes.txt`       → Plain text
@@ -61,11 +55,10 @@ document.pdf
 
 A file extension **does not define or guarantee the actual format of the data inside the file.**
 
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 photo.jpg → rename → photo.txt  
-</pre>
-</div>
+</pre></td></tr></table>
 
 Changing `.jpg` to `.txt` changes only the filename. It does not modify or convert the data stored inside the file.
 
@@ -78,15 +71,14 @@ A **file signature**, also known as a **magic number**, is a sequence of bytes c
 Unlike a file extension, the signature is part of the **file's actual contents**.
 
 Example: PNG File
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 image.png
 ↓
 89 50 4E 47 0D 0A 1A 0A
 ↓
 PNG File Signature
-</pre>
-</div>
+</pre></td></tr></table>
 
 The bytes `50 4E 47` represent the ASCII characters `PNG`, making the signature particularly easy to recognise.
 
@@ -110,12 +102,11 @@ Although all files are ultimately made of bytes, they can be interpreted differe
 A **text file **stores data as characters using a **character encoding**, such as ASCII or UTF-8.
 
 Example: Text stored using UTF-8
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 H    e    l    l    o      ← Text    
 48   65   6C   6C   6F     ← Hexadecimal
-</pre>
-</div>
+</pre></td></tr></table>
 
 💡 A **text editor** interprets these bytes as characters, allowing us to see `Hello`.
 
@@ -141,8 +132,8 @@ A **binary file** contains data structured for software to interpret rather than
 - `.zip` → Archive used to package and often compress files
 
 Example: Simplified structure of a PNG file
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 PNG
 │
 ├── File signature
@@ -150,8 +141,7 @@ PNG
 ├── Colour information
 ├── Compressed image data
 └── Metadata
-</pre>
-</div>
+</pre></td></tr></table>
 
 Software that understands `PNG` format knows how to interpret these bytes and display them as an image.  
 
@@ -173,9 +163,10 @@ There are two main types of compression:
 1. **Lossless Compression**
 Lossless compression reduces file size **without permanently losing any data**. When the file is decompressed, the original data can be restored.
 
-<p align="center">
+<table align="center">
+<tr><td><pre>
 Original Data → LOSSLESS COMPRESSION → Smaller File → DECOMPRESSION → Original Data
-</p>
+</pre></td></tr></table>
 
 **Common examples:**
 - `PNG` → Lossless image compression
@@ -185,9 +176,10 @@ Original Data → LOSSLESS COMPRESSION → Smaller File → DECOMPRESSION → Or
 2. **Lossy Compression**
 Lossy compression reduces file size by **permanently removing some data**, usually information considered less important or noticeable.
 
-<p align="center">
+<table align="center">
+<tr><td><pre>
 Original Data → LOSSY COMPRESSION → Some Data Removed/Lost → Smaller File
-</p>
+</pre></td></tr></table>
 
 **Common examples:**
 - `JPEG` → Lossy image compression
@@ -210,16 +202,15 @@ Compression **reduces the amount of data needed**, while archiving **combines on
 A **container** is a file format that can hold different types of media together, such as **video, audio, subtitles, and metadata.**
 
 Example: MP4 Container
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 video.mp4
 │
 ├── 🎬 Video
 ├── 🎵 Audio
 ├── 💬 Subtitles
 └── 📝 Metadata
-</pre>
-</div>
+</pre></td></tr></table>
 
 **Common container formats include:**
 - `.mp4` → Widely used for video and streaming
@@ -241,16 +232,15 @@ The word codec comes from: `CO`der + `DEC`oder = `CODEC`
 - `MP3` → Widely used audio codec
 
 Example: Inside an MP4 Container
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 video.mp4  
 │   
 ├── 🎬 Video → H.264 codec  
 ├── 🎵 Audio → AAC codec  
 ├── 💬 Subtitles  
 └── 📝 Metadata  
-</pre>
-</div>
+</pre></td></tr></table>
 
 💡 **The file extension usually identifies the container, but it does not necessarily tell us which codecs are used inside.**
 
@@ -258,8 +248,8 @@ video.mp4
 Metadata is additional information stored about a file that helps describe its contents, properties, and origin.
 
 For example, an image may contain more than just the pixels you see:
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr><td><pre>
 photo.jpg
 │
 ├── 🖼️ Image data
@@ -270,8 +260,7 @@ photo.jpg
     ├── Image dimensions
     ├── Camera settings
     └── GPS location (if recorded)
-</pre>
-</div>
+</pre></td></tr></table>
 
 💡 Metadata is additional information that describes or provides context about the file.
 
