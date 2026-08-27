@@ -265,15 +265,12 @@ photo.jpg
 💡 Metadata is additional information that describes or provides context about the file.
 
 Metadata isn't limited to photographs:
-<table align="center">
-<tr><td><pre>
 | File type     | Metadata may include                        |
 | ------------- | ------------------------------------------- |
 | **Documents** | Author, creation date, modification date    |
 | **Audio**     | Artist, album, title, genre                 |
 | **Video**     | Duration, resolution, codecs, creation date |
 | **Images**    | Device, date, dimensions, GPS information   |
-</pre></td></tr></table>
 
 🔐 **Privacy and Security**
 Metadata can reveal **information that is not visible in the file's main content**, such as the creator, device used, creation date, or GPS location.  
@@ -284,44 +281,34 @@ This information may expose sensitive details unintentionally when a file is sha
 ### COMMON FILE FORMATS
 #### 🖼️ Images
 Image formats store digital visual information. Different formats are designed for different needs such as **quality, file size, transparency, animation, and scalability.**
-<table align="center">
-<tr><td><pre>
 | Format   | Main characteristic             | Common use            |
 | -------- | ------------------------------- | --------------------- |
 | **JPEG** | Lossy compression, small files  | Photos                |
 | **PNG**  | Lossless, supports transparency | Graphics, Screenshots |
 | **GIF**  | Supports simple animation       | Short animations      |
 | **SVG**  | Vector-based and scalable       | Logos, Icons          |
-</pre></td></tr></table>
 
 #### 🎵 Audio
 Audio formats store digital sound. They differ mainly in **quality, compression, and file size.**
-<table align="center">
-<tr><td><pre>
 | Format   | Main characteristic                           | Common use               |
 | -------- | --------------------------------------------- | ------------------------ |
 | **WAV**  | Often uncompressed, High quality, Large files | Recording, Audio editing |
 | **MP3**  | Lossy compression, Small files                | Music, General audio     |
 | **FLAC** | Lossless compression, High quality            | Music archiving          |  
-</pre></td></tr></table>
 
 #### 🎬 Video
 Video files can contain **video, audio, subtitles, and metadata**. MP4, MKV, and WebM are commonly used as container formats.
-<table align="center">
-<tr><td><pre>
 | Format   | Main characteristic                         | Common use                 |
 | -------- | ------------------------------------------- | -------------------------- |
 | **MP4**  | Widely supported, Efficient                 | Streaming, General video   |
 | **MKV**  | Supports multiple audio and subtitle tracks | Movies, High-quality video |
 | **WebM** | Designed for web-based media                | Online video               |
-</pre></td></tr></table>
+
 
 💡 **MP4, MKV and WebM are containers**. The actual video and audio inside them may use different codecs.
 
 #### 📄 Documents and Data
 These formats are used to store **text, structured data, and documents**.
-<table align="center">
-<tr><td><pre>
 | Format   | Main characteristic                | Common use             |
 | -------- | ---------------------------------- | ---------------------- |
 | **TXT**  | Plain text                         | Notes, Simple text     |
@@ -329,19 +316,16 @@ These formats are used to store **text, structured data, and documents**.
 | **JSON** | Structured, Human-readable data    | APIs, Applications     |
 | **PDF**  | Preserves document layout          | Reports, Documents     |
 | **DOCX** | Editable formatted document        | Word processing        |
-</pre></td></tr></table>
 
 #### 📦 Archives
 Archive formats are used to **package multiple files together**, often with compression.
-<table align="center">
-<tr><td><pre>
 | Format   | Main characteristic      | Common use                    |
 | -------- | ------------------------ | ----------------------------- |
 | **ZIP**  | Archive with compression | Sharing and compressing files |
 | **RAR**  | Archive with compression | Compressed file collections   |
 | **TAR**  | Combines multiple files  | Linux/Unix archives           |
 | **GZIP** | Compresses data          | Compression on Linux/Unix     |
-</pre></td></tr></table>
+
 
 💡 **TAR vs GZIP**: TAR combines files into one archive, while GZIP compresses them. A `.tar.gz` file uses both — TAR first, then GZIP.
 
