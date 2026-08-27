@@ -28,12 +28,12 @@ Different file formats are designed for different types of data and purposes, su
 File Format Interpretation
 <table align="center">
 <tr><td><pre>
-               Raw bytes  
-                  ↓  
-      File format defines the structure  
-                  ↓  
-      Software interprets the structure  
-                  ↓  
+                 Raw bytes  
+                     ↓  
+       File format defines the structure  
+                     ↓  
+       Software interprets the structure  
+                     ↓  
 Text / Image / Audio / Video / Documents / Archives 
 </pre></td></tr></table>  
 
