@@ -41,12 +41,16 @@ Text / Image / Audio / Video / Documents / Archives
 ### FILE EXTENSIONS
 A file extension represents the suffix at the end of a filename, usually separated by a period (.). It indicates the **expected file format** and can help the operating system determine which application should open the file.
 
-<div align="center">
-<pre style="display: inline-block; text-align: left;">
+<table align="center">
+<tr>
+<td>
+<pre>
 document.pdf  
         └── .pdf = File extension  
 </pre>
-</div>
+</td>
+</tr>
+</table>
 
 **Common examples include:**  
 - `notes.txt`       → Plain text
