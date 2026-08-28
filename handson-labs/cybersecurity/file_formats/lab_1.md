@@ -1,5 +1,5 @@
 # 🧪 Lab 1: File Extensions vs Actual File Type
-Lab Type: File Analysis / Cybersecurity Fundamentals
+Lab Type: File Analysis / Cybersecurity Fundamentals   
 Difficulty: Beginner
 
 ## 🎯 Objective
@@ -16,10 +16,10 @@ I started by creating a text file called `evidence.txt` in Notepad and added the
 "This is evidence for my file format investigation."
 </pre> </td></tr> </table>
 
-I then checked the file's properties in Windows.  
+I then checked the **file's properties** in Windows.  
 
 The file was identified as a **Text Document**, opened with **Notepad**, and had a size of **50 bytes**. 
- 
+
 At this point, everything matched as expected: the file contained plain text and had a `.txt` extension.
 
 📸 **Figure 1** — Original `evidence.txt` file and its properties
@@ -34,12 +34,12 @@ Next, I renamed the file:
 evidence.txt → evidence.jpg
 </pre> </td></tr> </table>
 
-Windows warned me that changing the extension could make the file unusable.
+Windows warned me that changing the extension could make the file unusable.  
 After accepting the warning, I checked the properties again.
 
 Windows now identified the file as a **JPG File** and changed the default application from **Notepad** to **Photos**.
 
-The file size also remained **50 bytes**. 
+The file size also remained **50 bytes**.   
 This suggested that changing the extension had not altered the file's contents, but further inspection was needed to confirm this.
 
 📸 **Figure 2** — `evidence.jpg` after changing the extension
