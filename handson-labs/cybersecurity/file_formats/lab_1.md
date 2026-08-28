@@ -24,7 +24,7 @@ At this point, everything matched as expected: the file contained plain text and
 
 📸 **Figure 1** — Original `evidence.txt` file and its properties
 <div align="center">
-  <img src="/../../../images/Original Text File.png" alt="Original Text file" width="400"/>
+  <img src="../../../images/Original Text File.png" alt="Original Text file" width="400"/>
 </div>
 
 ### Task 2 - Change the File Extension 
@@ -44,7 +44,7 @@ This suggested that changing the extension had not altered the file's contents, 
 
 📸 **Figure 2** — `evidence.jpg` after changing the extension
 <div align="center">
-  <img src="/../../../images/File Extension Change.png" alt="File Extension Change" width="400"/>
+  <img src="../../../images/File Extension Change.png" alt="File Extension Change" width="400"/>
 </div>
 
 ### Task 3 — Trying to Open the Renamed File
@@ -60,7 +60,7 @@ The next step was to look at the file's actual contents instead of relying on it
 
 📸 **Figure 3** — Windows Photo Viewer Error
 <div align="center">
-  <img src="/../../../images/Windows Photo Viewer Error.png" alt="Photos Error When Opening the Renamed File" width="400"/>
+  <img src="../../../images/Windows Photo Viewer Error.png" alt="Photos Error When Opening the Renamed File" width="400"/>
 </div>
 
 ### Task 4 — Inspecting the File in Hexadecimal
@@ -96,7 +96,7 @@ This confirmed that changing `.txt` to `.jpg` had changed how Windows treated th
 
 📸 **Figure 4** — PowerShell Format-Hex showing the original text inside `evidence.jpg`
 <div align="center">
-  <img src="/../../../images/Powershell Evidence.png" alt="Powershell Evidence" width="400"/>
+  <img src="../../../images/Powershell Evidence.png" alt="Powershell Evidence" width="400"/>
 </div>
 
 ## 🧰 Tools Used
