@@ -15,7 +15,7 @@ I began by opening PowerShell inside the `evidence` directory and used `Get-Chil
 
 <div align="center">
   <img src="../../../images/lab03-evidence-files.png"
-       alt="PowerShell Get-ChildItem showing the TXT, JPG and CSV files used in the investigation"
+       alt="PowerShell Get-ChildItem showing the TXT, JPEG and CSV files used in the investigation"
        width="600"/>
 </div>
 
@@ -23,9 +23,6 @@ The directory contained genuine JPEG, TXT and CSV files.
 These files would then be examined individually without relying only on their extensions.
 
 ### 📸 Figure 2 — Inspect the text file as raw bytes
-The hexadecimal byte values corresponded directly to the characters stored in the text file.   
-For example, `54 68 69 73` represented `This`, while `20` represented a **space**.
-
 <table align="center"><tr> <td><pre>
 Format-Hex .\message.txt
 </pre> </td></tr> </table>
@@ -35,6 +32,9 @@ Format-Hex .\message.txt
  T  h  i  s     i  s     r  e  a  d  a  b  l  e     t  e  x  t  .
 </pre> </td></tr> </table>
 
+The hexadecimal byte values corresponded directly to the characters stored in the text file.   
+For example, `54 68 69 73` represented `This`, while `20` represented a space.
+
 <div align="center">
   <img src="../../../images/lab03-text-file-hex.png"
        alt="Text file displayed as raw bytes using PowerShell Format-Hex"
@@ -42,15 +42,15 @@ Format-Hex .\message.txt
 </div>
 
 ### 📸 Figure 3 — Inspect the CSV file as raw bytes
+<table align="center"><tr> <td><pre>
+Format-Hex .\users.csv
+</pre> </td></tr> </table>
+
 The CSV file also contained readable text when inspected at byte level. 
 Although the file used a `.csv` extension rather than `.txt`, the character representation still showed the stored values, including the column names, usernames, roles and statuses.
 
 The commas were also stored as individual characters. 
 This showed that the CSV file was structured text, with commas being used to separate each value.
-
-<table align="center"><tr> <td><pre>
-Format-Hex .\users.csv
-</pre> </td></tr> </table>
 
 <table align="center"><tr> <td><pre>
 0D = Carriage Return (CR)
