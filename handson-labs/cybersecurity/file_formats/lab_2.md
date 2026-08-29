@@ -10,7 +10,7 @@ Difficulty: Beginner
 - Understand how file signatures can assist when analysing suspicious files.
 
 ## 🔬 Investigation
-### 📸 Figure 1 — Get-ChildItem
+### 📸 Figure 1 — Evidence Files
 I began by opening PowerShell inside the `evidence` directory and used `Get-ChildItem` to confirm the files prepared for the investigation.  
 
 <div align="center">
